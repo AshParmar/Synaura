@@ -1,0 +1,11 @@
+{
+  "image": "test1.jpg",
+  "disease": "Edema",
+  "confidence": 0.9739308953285217,
+  "interval": [
+    0.968717074394226,
+    0.9791447162628174
+  ],
+  "region": "bilateral lung fields (diffuse opacities)",
+  "report": "Radiology Report\n\n**Findings:**\nDiffuse bilateral opacities are observed in the lung fields, consistent with pulmonary edema. The appearance is suggestive of a \"bat-wing\" pattern.\n\n**Interpretation:**\nHigh likelihood of pulmonary edema, characterized by fluid accumulation in the lung interstitium and alveolar spaces.\n\n**Recommendation:**\nFurther evaluation and management of the underlying cause, such as heart failure, should be pursued to address the pulmonary edema.\n\n**Differential Diagnosis:**\nConsideration should be given to pneumonia or acute respiratory distress syndrome (ARDS) as potential differential diagnoses, although the clinical context and imaging findings are more suggestive of pulmonary edema."
+}

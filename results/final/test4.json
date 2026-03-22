@@ -1,0 +1,11 @@
+{
+  "image": "test4.jpg",
+  "disease": "Edema",
+  "confidence": 0.9208245873451233,
+  "interval": [
+    0.904989504814148,
+    0.9366596698760986
+  ],
+  "region": "bilateral lung fields (diffuse opacities)",
+  "report": "Radiology Report\n\n**Findings:**\nDiffuse bilateral opacities in the lung fields, consistent with pulmonary edema, are observed on the chest X-ray. The pattern is suggestive of a \"bat-wing\" distribution.\n\n**Interpretation:**\nHigh likelihood of pulmonary edema, as indicated by the diffuse bilateral opacities and the confidence interval of 0.904989504814148 - 0.9366596698760986.\n\n**Recommendation:**\nFurther evaluation and management of the patient should focus on addressing the underlying cause of pulmonary edema, which may include heart failure, lung injury, or infection.\n\n**Differential Diagnosis:**\nPulmonary edema may be considered in the differential diagnosis with pneumonia or acute respiratory distress syndrome (ARDS), given the similar radiographic findings."
+}

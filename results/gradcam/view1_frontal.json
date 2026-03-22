@@ -1,0 +1,10 @@
+{
+  "image": "view1_frontal.jpg",
+  "disease": "Cardiomegaly",
+  "confidence": 0.9725297689437866,
+  "interval": [
+    0.9670357227325439,
+    0.9780238151550293
+  ],
+  "region": "cardiac region (enlarged heart silhouette)"
+}

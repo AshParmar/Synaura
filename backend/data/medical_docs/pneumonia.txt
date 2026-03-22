@@ -1,0 +1,15 @@
+Pneumonia is a lung infection that appears on chest X-rays as areas of opacity or consolidation. 
+It is commonly observed in the lower lung zones.
+
+Radiological Findings:
+Pneumonia typically presents as patchy or homogeneous opacities, often localized in one region of the lung. 
+Airspace consolidation and infiltrates are common features.
+
+Symptoms:
+Patients with pneumonia may experience fever, cough, chest pain, and difficulty breathing.
+
+Treatment:
+Treatment usually involves antibiotics, rest, and supportive care. Severe cases may require hospitalization.
+
+Differential Diagnosis:
+Conditions such as pleural effusion, atelectasis, or pulmonary edema may show similar radiographic patterns.
