@@ -1,0 +1,10 @@
+{
+  "image": "test5.jpg",
+  "disease": "Consolidation",
+  "confidence": 0.703164279460907,
+  "interval": [
+    0.6437971353530884,
+    0.7625314235687256
+  ],
+  "region": "right lung lower zone"
+}

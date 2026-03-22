@@ -1,0 +1,11 @@
+{
+  "image": "test3.jpg",
+  "disease": "Pneumonia",
+  "confidence": 0.8123983144760132,
+  "interval": [
+    0.7748779773712158,
+    0.8499186515808106
+  ],
+  "region": "left lung lower zone",
+  "report": "Radiology Report\n\n**Findings:**\nA chest X-ray reveals patchy opacities in the left lung lower zone, consistent with pneumonia. The opacities are localized and appear to be homogeneous, suggestive of airspace consolidation.\n\n**Interpretation:**\nThe radiographic findings are highly suggestive of pneumonia, with a high likelihood of infection in the left lung lower zone.\n\n**Recommendation:**\nFurther evaluation and management should focus on treating the underlying infection with antibiotics and supportive care.\n\n**Differential Diagnosis:**\nWhile pleural effusion is a consideration in the differential diagnosis, the presence of patchy opacities and homogeneous consolidation in the left lung lower zone is more consistent with pneumonia."
+}

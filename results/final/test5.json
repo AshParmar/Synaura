@@ -1,0 +1,11 @@
+{
+  "image": "test5.jpg",
+  "disease": "Consolidation",
+  "confidence": 0.703164279460907,
+  "interval": [
+    0.6437971353530884,
+    0.7625314235687256
+  ],
+  "region": "right lung lower zone",
+  "report": "Radiology Report\n\n**Findings:**\nA homogeneous area of increased opacity is observed in the right lung lower zone, consistent with consolidation. Air bronchograms are visible within the dense region.\n\n**Interpretation:**\nThe findings are suggestive of consolidation, which is a filling of lung airspaces with fluid, pus, blood, or cells, leading to increased density on imaging. This is a moderate likelihood diagnosis based on the radiological findings.\n\n**Recommendation:**\nFurther clinical correlation is recommended to determine the underlying cause of consolidation, which may include pneumonia, lung infections, or inflammatory conditions.\n\n**Differential Diagnosis:**\nAtelectasis, pulmonary edema, or lung masses may present with similar radiographic patterns, but the current findings are most consistent with consolidation."
+}

@@ -1,0 +1,9 @@
+{
+  "image": "test3.jpg",
+  "disease": "Pneumonia",
+  "confidence": 0.8123983144760132,
+  "interval": [
+    0.7748779773712158,
+    0.8499186515808106
+  ]
+}

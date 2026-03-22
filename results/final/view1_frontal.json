@@ -1,0 +1,11 @@
+{
+  "image": "view1_frontal.jpg",
+  "disease": "Cardiomegaly",
+  "confidence": 0.9725297689437866,
+  "interval": [
+    0.9670357227325439,
+    0.9780238151550293
+  ],
+  "region": "cardiac region (enlarged heart silhouette)",
+  "report": "Radiology Report\n\n**Findings:**\nThe chest X-ray reveals an enlarged cardiac silhouette, indicating cardiomegaly. The cardiothoracic ratio is increased, consistent with heart enlargement.\n\n**Interpretation:**\nThe findings are consistent with cardiomegaly, a condition characterized by an enlarged heart. This is often associated with cardiovascular disease.\n\n**Recommendation:**\nFurther evaluation and management are necessary to identify and treat the underlying cause of cardiomegaly, such as hypertension or heart failure.\n\n**Differential Diagnosis:**\nConsideration should be given to distinguishing cardiomegaly from pericardial effusion and other conditions that may cause an enlarged cardiac silhouette."
+}
