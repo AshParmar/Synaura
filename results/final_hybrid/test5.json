@@ -1,0 +1,13 @@
+{
+  "image": "test5.jpg",
+  "disease": "Consolidation",
+  "confidence": 0.703164279460907,
+  "interval": [
+    0.6437971353530884,
+    0.7625314235687256
+  ],
+  "region": "right lung lower zone",
+  "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows consolidation in the right lung lower zone, with a focal pattern. The distribution is unilateral. The air bronchogram is present. Volume loss is absent.\n\nInterpretation:\nFindings are suggestive of consolidation. The focal pattern and presence of an air bronchogram are consistent with consolidation. In contrast, a diffuse pattern would be more suggestive of a cardiogenic cause, such as pulmonary edema.\n\nRecommendation:\nClinical correlation is recommended to determine the cause of the consolidation.\n\nDifferential Diagnosis:\n1. Tuberculosis - consolidation with possible calcifications is less likely due to the absence of calcifications on the chest X-ray.\n2. Silicoproteinosis - ground-glass and dense opacities are less likely due to the focal pattern of consolidation.\n3. Amyloidosis - focal or diffuse dense deposits are less likely due to the absence of dense deposits on the chest X-ray.\n4. Iodinated oil embolism - hyperdense embolic material in vessels/alveoli is less likely due to the absence of hyperdense material on the chest X-ray.",
+  "support_query": "**",
+  "differential_query": "**"
+}

@@ -10,7 +10,7 @@ from langchain_groq import ChatGroq
 
 from backend.classify.clasification import classify_image as predict_disease, model
 from backend.vision.gradcam import analyze_region, detect_region
-from backend.rag.retriever import retrieve_documents
+from backend.rag.retriever import retrieve_documents, retrieve_hybrid
 from backend.rag.report_generator import generate_report
 from backend.utils.preprocess import preprocess_image
 from backend.rag.query_generator import generate_query
@@ -86,8 +86,8 @@ async def analyze_xray(file: UploadFile = File(...)):
 
     print("Support Query:", q1)
     print("Differential Query:", q2)
-    docs_q1 = retrieve_documents(q1)
-    docs_q2 = retrieve_documents(q2)
+    docs_q1 = retrieve_hybrid(q1)
+    docs_q2 = retrieve_hybrid(q2)
 
     # combine and deduplicate if needed
 

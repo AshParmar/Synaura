@@ -2,8 +2,11 @@
 
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
+from backend.rag.hybrid_retriever import hybrid_retrieve, build_bm25_retriever
 
-
+# -------------------------
+# 1. Load vector DB
+# -------------------------
 def load_vector_db():
 
     embeddings = HuggingFaceEmbeddings(
@@ -19,10 +22,30 @@ def load_vector_db():
     return db
 
 
+# -------------------------
+# 2. Initialize retrievers (once)
+# -------------------------
+db = load_vector_db()
+
+# vector retriever
+vector_retriever = db.as_retriever(search_kwargs={"k": 5})
+
+# get all docs from FAISS (for BM25)
+documents = db.similarity_search("", k=1000)
+
+# BM25 retriever
+bm25_retriever = build_bm25_retriever(documents)
+
+
+# -------------------------
+# 3. Hybrid Retrieval
+# -------------------------
+def retrieve_hybrid(query):
+    return hybrid_retrieve(query, vector_retriever, bm25_retriever)
+
+
+# -------------------------
+# 4. Old Vector Retrieval (baseline)
+# -------------------------
 def retrieve_documents(query, k=10):
-
-    db = load_vector_db()
-
-    docs = db.similarity_search(query, k=k)
-
-    return docs
+    return db.similarity_search(query, k=k)

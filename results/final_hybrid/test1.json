@@ -1,0 +1,13 @@
+{
+  "image": "test1.jpg",
+  "disease": "Edema",
+  "confidence": 0.9739308953285217,
+  "interval": [
+    0.968717074394226,
+    0.9791447162628174
+  ],
+  "region": "bilateral lung fields (diffuse opacities)",
+  "report": "**Radiology Report**\n\n**Findings:**\nThe chest X-ray shows bilateral diffuse opacities, often described as a \"bat-wing\" pattern, in the bilateral lung fields. There is vascular congestion and fluid accumulation in the lower lung zones.\n\n**Interpretation:**\nFindings are strongly suggestive of pulmonary edema. The bilateral diffuse opacities and vascular congestion are consistent with the radiological features of pulmonary edema. In comparison, pneumonia is less likely as it typically presents with patchy or homogeneous opacities, often localized in one region of the lung.\n\n**Recommendation:**\nClinical correlation is recommended to determine the underlying cause of pulmonary edema. CT may be considered if the diagnosis is uncertain.\n\n**Differential Diagnosis:**\n\n1. **Pneumonia**: Less likely due to the diffuse bilateral pattern, which is more typical of pulmonary edema.\n2. **Acute Respiratory Distress Syndrome (ARDS)**: Possible, but the bilateral diffuse opacities and vascular congestion are more consistent with pulmonary edema.\n3. **Pleural Effusion**: Less likely as it typically presents with fluid accumulation in the pleural space, which is not evident in this case.\n4. **Atelectasis**: Less likely as it typically presents with volume loss, which is not evident in this case.",
+  "support_query": "Radiological features of pulmonary edema presenting as bilateral diffuse opacities in lower lung fields on chest X-ray, including Kerley B lines and perihilar vascular redistribution.",
+  "differential_query": "Differential diagnosis of bilateral diffuse lung opacities on chest X-ray including Acute Respiratory Distress Syndrome (ARDS), community-acquired pneumonia, and interstitial lung disease, characterized by similar opacities and vascular redistribution patterns."
+}

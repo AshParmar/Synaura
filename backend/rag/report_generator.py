@@ -28,51 +28,78 @@ def generate_report(disease, region, fuzzy_info, docs1, docs2):
     # -------------------------
     # 2. DER-aware prompt
     # -------------------------
+    confidence_mid = (fuzzy_info['lower'] + fuzzy_info['upper']) / 2
+
     prompt = f"""
-You are an expert radiologist.
+    You are an expert radiologist generating a CHEST X-RAY report.
 
-Generate a concise and clinically realistic radiology report.
+    AI INPUT:
+    - Predicted Disease: {disease}
+    - Region: {region}
+    - Confidence Interval: {fuzzy_info['lower']} - {fuzzy_info['upper']}
 
-AI System Output:
-- Predicted Disease: {disease}
-- Region: {region}
-- Confidence Interval: {fuzzy_info['lower']} - {fuzzy_info['upper']}
+CONFIDENCE RULE:
+- If confidence > 0.95 → use "strongly suggestive of"
+- If 0.85–0.95 → use "suggestive of"
+- If < 0.85 → use "possible" and expand differential
 
-Supporting Evidence:
+SUPPORT EVIDENCE:
 {support_context}
 
-Differential Evidence:
+DIFFERENTIAL EVIDENCE:
 {diff_context}
 
-IMPORTANT RULES:
-- Do not include Patient Information, Dates, or Notes, Dates in the report
-- Do NOT include placeholders like Patient ID, Date, or Notes
-- Prefer "suggestive of" instead of "consistent with" unless certainty is very high
-- In Interpretation, explicitly compare the predicted disease with at least one alternative condition
-- Focus ONLY on imaging findings and interpretation
-- Do NOT include patient information or general explanations
-- Do NOT assume details not supported by evidence
-- Avoid over-specific claims (e.g., cardiogenic vs non-cardiogenic unless clearly supported)
-- Use cautious language such as "suggestive of" or "consistent with"
-- Compare supporting and alternative conditions before concluding
-- Keep the report concise and clinically relevant
+-----------------------------------
+STEP 1: Extract Imaging Features
+-----------------------------------
+From the findings, identify ONLY these features:
 
-Output format:
+- Distribution: (bilateral / unilateral)
+- Pattern: (diffuse / focal)
+- Air bronchogram: (present / absent / not mentioned)
+- Volume loss: (present / absent / not mentioned)
+
+IMPORTANT:
+- Do NOT assume features not present
+- If unsure → mark "not mentioned"
+- DO NOT include STEP 1 or feature extraction in final output
+
+-----------------------------------
+STEP 2: Generate Report (STRICT)
+-----------------------------------
+
+STRICT RULES:
+- Assume modality is chest X-ray only
+- DO NOT include Patient ID, dates, or extra sections
+- DO NOT assume etiology (e.g., bacterial, cardiogenic)
+- Do NOT include the predicted disease in differential
+- Each condition must be clearly less likely or alternative
+- Use ONLY extracted features for reasoning
+- Avoid repetition
+- Keep concise (2–3 sentences per section)
+
+-----------------------------------
+OUTPUT FORMAT (DO NOT MODIFY)
+-----------------------------------
 
 Radiology Report
 
 Findings:
-...
+(Describe imaging findings and explicitly mention region and pattern)
 
 Interpretation:
-...
+- Start with: "Findings are [confidence-based phrase] of [disease]"
+- Use extracted features to justify diagnosis
+- Compare with ONE alternative using feature differences
 
 Recommendation:
-...
+- Recommend clinical correlation
+- Suggest CT ONLY if diagnosis is uncertain
 
 Differential Diagnosis:
-...
+- List 3–4 conditions
+- Rank from most likely → least likely
+- Each must include 1-line justification based ONLY on extracted features
 """
-
     response = llm.invoke([HumanMessage(content=prompt)])
     return response.content

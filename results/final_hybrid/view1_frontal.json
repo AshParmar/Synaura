@@ -1,0 +1,13 @@
+{
+  "image": "view1_frontal.jpg",
+  "disease": "Cardiomegaly",
+  "confidence": 0.9725297689437866,
+  "interval": [
+    0.9670357227325439,
+    0.9780238151550293
+  ],
+  "region": "cardiac region (enlarged heart silhouette)",
+  "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an enlarged cardiac silhouette with a cardiothoracic ratio (CTR) increased (>0.5 suggestive, >0.55 more specific) in the cardiac region, indicating cardiomegaly. The cardiac borders are widened, and the normal cardiac contour is lost. Chamber-specific signs include right atrial enlargement (right heart border bulge) and left ventricular enlargement (elongated left heart border).\n\nInterpretation:\nFindings are strongly suggestive of cardiomegaly. The increased CTR and widened cardiac borders are consistent with cardiomegaly, whereas the smooth, symmetric enlargement of heart borders and rapid increase in cardiac size on serial X-rays are more typical of pericardial effusion.\n\nRecommendation:\nClinical correlation is recommended to further evaluate the patient's symptoms and medical history.\n\nDifferential Diagnosis:\n1. **Pericardial effusion**: Smooth, symmetric enlargement of heart borders and rapid increase in cardiac size on serial X-rays are more typical of pericardial effusion.\n2. **Dilated cardiomyopathy**: Chamber-specific signs such as right atrial enlargement and left ventricular enlargement are more consistent with dilated cardiomyopathy.\n3. **Mediastinal mass**: Displacement of adjacent mediastinal structures and chamber-specific signs are less typical of a mediastinal mass.\n4. **Poor inspiratory effort**: False enlargement of the heart due to poor inspiratory effort is less likely given the chamber-specific signs and increased CTR.",
+  "support_query": "Radiological features of cardiomegaly on chest X-ray characterized by an enlarged cardiac silhouette, increased cardiothoracic ratio, and possible right atrial and ventricular enlargement.",
+  "differential_query": "Differential diagnosis of an enlarged cardiac silhouette on chest X-ray including pericardial effusion, cardiac tamponade, and constrictive pericarditis."
+}

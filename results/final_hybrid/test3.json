@@ -1,0 +1,13 @@
+{
+  "image": "test3.jpg",
+  "disease": "Pneumonia",
+  "confidence": 0.8123983144760132,
+  "interval": [
+    0.7748779773712158,
+    0.8499186515808106
+  ],
+  "region": "left lung lower zone",
+  "report": "**Radiology Report**\n\n**Findings:**\nThe chest X-ray shows consolidation in the left lung lower zone with patchy or confluent air-space opacities, ill-defined segmental consolidation, and possible air bronchograms. The distribution is unilateral, and the pattern is focal.\n\n**Interpretation:**\nFindings are suggestive of pneumonia. The consolidation in the left lung lower zone is consistent with pneumonia, which typically presents as patchy or homogeneous opacities, often localized in one region of the lung. The focal pattern and unilateral distribution support this diagnosis, distinguishing it from conditions like pulmonary edema, which would be bilateral and symmetric.\n\n**Recommendation:**\nClinical correlation is recommended to confirm the diagnosis and assess the patient's symptoms. A CT scan may be suggested if the diagnosis is uncertain or if complications are suspected.\n\n**Differential Diagnosis:**\n\n1. **Pulmonary edema**: Less likely due to the unilateral and focal distribution, which is not typical for pulmonary edema.\n2. **Atelectasis**: Less likely due to the presence of air bronchograms, which are not typically seen in atelectasis.\n3. **Lung abscess**: Less likely due to the lack of cavitation or abscess formation, which is a characteristic feature of lung abscess.\n4. **Pleural effusion**: Less likely due to the absence of blunting of the costophrenic angle, which is a characteristic feature of pleural effusion.",
+  "support_query": "**\nRadiological features of pneumonia presenting as consolidation and air bronchograms in the left lung lower zone on chest X-ray.\n\n**",
+  "differential_query": "**\nDifferential diagnosis of left lung lower zone consolidation and air bronchograms on chest X-ray including atelectasis, bronchiectasis, and lung abscess, excluding conditions with distinct radiological patterns."
+}
