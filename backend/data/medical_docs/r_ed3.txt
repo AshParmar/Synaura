@@ -1,0 +1,9 @@
+Study of High Resolution Computed Tomography Chest in The Evaluation of Pulmonary Edema (Shah et al., 2025) "Background: Pulmonary edema is a pathological state marked by the accumulation of fluid within the lung's extravascular compartments, leading to impaired gas exchange and potentially respiratory failure
+. It is a common pathology seen in usually bedridden patients
+. Two main causes of pulmonary edema include cardiogenic and non-cardiogenic
+. Radiologically, High resolution chest CT is gold standard for diagnosis, however Chest Xray and Lung Ultrasound can be used as an adjunct
+. Materials & Methods: A prospective analysis of 60 patients who presented with symptoms and signs of pulmonary edema had undergone High resolution computed tomography of the Chest for assessing pulmonary imaging features of acute pulmonary edema, its manifestations and complications
+. Results & Discussion: Out of 60 cases of pulmonary edema, the imaging findings were Ground glass opacities (91.7%), Interlobular septal thickening (100%), Air space consolidation (83.3%), Pleural effusion (76.7%), Cardiomegaly (30%), RV:LV ratio elevation (10 %), Pulmonary artery dilatation (21.7 %) and Atelectasis (61.7 %)
+. These cases show different spectrum of signs on HRCT
+. Conclusions: CT is the modality of choice for early diagnosis of pulmonary edema, assessment of its complications and serial follow ups for progression of complications
+."

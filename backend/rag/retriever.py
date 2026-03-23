@@ -19,7 +19,7 @@ def load_vector_db():
     return db
 
 
-def retrieve_documents(query, k=3):
+def retrieve_documents(query, k=10):
 
     db = load_vector_db()
 

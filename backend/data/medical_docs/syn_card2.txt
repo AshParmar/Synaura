@@ -1,0 +1,37 @@
+Title: Cardiomegaly with Pulmonary Congestion in Heart Failure
+
+Radiological Findings:
+- Enlarged cardiac silhouette
+- Pulmonary venous congestion:
+  - Prominent upper lobe vessels
+- Interstitial edema:
+  - Kerley B lines
+- Alveolar edema:
+  - Bilateral perihilar “bat-wing” opacities
+- Possible pleural effusions
+
+Causes:
+- Left-sided heart failure
+- Ischemic heart disease
+- Chronic hypertension
+- Valvular dysfunction
+
+Symptoms:
+- Shortness of breath
+- Orthopnea
+- Peripheral edema
+
+Diagnosis:
+- Chest X-ray showing cardiomegaly + pulmonary edema pattern
+- Echocardiography to assess cardiac function
+- Clinical signs of heart failure
+
+Clinical Importance:
+- Radiology helps assess severity of heart failure
+- Guides urgent treatment (diuretics, oxygen)
+- Monitoring response via serial imaging
+
+Differential Diagnosis:
+- Pulmonary edema without cardiomegaly (ARDS)
+- Bilateral pneumonia
+- Renal failure-related fluid overload

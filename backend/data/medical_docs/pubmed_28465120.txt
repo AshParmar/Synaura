@@ -1,0 +1,18 @@
+Title: Pulmonary Edema Monitoring Using Transpulmonary Thermodilution
+
+Pulmonary edema is the accumulation of fluid in lung tissue and alveolar spaces, often occurring as a perioperative complication that can significantly affect patient outcomes.
+
+Radiological Findings:
+On chest X-ray, pulmonary edema typically appears as bilateral diffuse opacities, commonly described as a "bat-wing" pattern. Additional findings may include vascular congestion and interstitial markings such as Kerley B lines.
+
+Causes:
+Pulmonary edema may arise from excessive fluid administration, cardiac dysfunction, or increased pulmonary capillary permeability due to inflammatory processes.
+
+Diagnosis:
+Chest radiography remains a key tool for identifying pulmonary edema. Additionally, transpulmonary thermodilution (TPTD) serves as an advanced bedside technique for quantitatively measuring extravascular lung water and detecting fluid accumulation before visible radiographic changes occur.
+
+Clinical Importance:
+TPTD provides valuable insights into fluid status and helps guide fluid therapy in perioperative and critically ill patients. It also assists in differentiating between hydrostatic (cardiogenic) and permeability-related pulmonary edema.
+
+Differential Diagnosis:
+Pulmonary edema may resemble pneumonia, acute respiratory distress syndrome (ARDS), or pleural effusion on imaging and must be carefully differentiated.

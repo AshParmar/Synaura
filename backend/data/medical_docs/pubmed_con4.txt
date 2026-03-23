@@ -1,0 +1,39 @@
+Title: Aspiration Pneumonia Presenting as Dependent Lung Consolidation
+
+Radiological Findings:
+- Consolidation in **dependent lung regions**:
+  - Lower lobes (upright patients)
+  - Posterior upper lobes or superior lower lobes (supine patients)
+- Patchy or confluent air-space opacities
+- Ill-defined segmental consolidation
+- Possible air bronchograms
+- In severe cases: cavitation or abscess formation
+
+Causes:
+- Aspiration of gastric contents or oropharyngeal secretions
+- Impaired swallowing or consciousness
+- Neurological disorders or sedation
+
+Symptoms:
+- Cough
+- Fever
+- Difficulty breathing
+- History of aspiration event (important clue)
+
+Diagnosis:
+- Chest X-ray showing consolidation in dependent areas
+- CT for detailed localization and complications
+- Clinical history of aspiration risk
+- Microbiological evaluation if severe
+
+Clinical Importance:
+- Common but often under-recognized cause of pneumonia
+- Location of consolidation is key diagnostic clue
+- Requires specific management (antibiotics + aspiration prevention)
+- Risk of complications like lung abscess if untreated
+
+Differential Diagnosis:
+- Lobar pneumonia (not dependent distribution)
+- Pulmonary edema (bilateral symmetric pattern)
+- Atelectasis (volume loss present)
+- Lung abscess (if cavitation dominates)

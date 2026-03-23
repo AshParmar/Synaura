@@ -1,0 +1,18 @@
+Title: Radiographic Differentiation of Cardiogenic and Non-Cardiogenic Pulmonary Edema
+
+Pulmonary edema, characterized by increased extravascular lung water, is a common and potentially life-threatening condition in critically ill patients. Identifying the underlying cause is essential for effective treatment.
+
+Radiological Findings:
+On chest X-ray, pulmonary edema presents with features such as bilateral opacities, vascular redistribution, and interstitial markings. Key radiographic indicators include the distribution of pulmonary blood flow, pattern of edema (central vs peripheral), and vascular pedicle width. Additional findings may include septal lines (Kerley lines), bronchial cuffing, pleural effusion, and air bronchograms.
+
+Causes:
+Pulmonary edema may result from cardiac failure (cardiogenic), fluid overload (overhydration), or increased pulmonary capillary permeability (non-cardiogenic causes such as inflammation or injury).
+
+Diagnosis:
+Chest radiography plays a crucial role in distinguishing between cardiogenic and non-cardiogenic pulmonary edema. Features such as enlarged cardiac silhouette, vascular redistribution, and pleural effusion suggest cardiogenic edema, while more diffuse patterns with normal heart size may indicate non-cardiogenic causes.
+
+Clinical Importance:
+Accurate differentiation of the underlying cause of pulmonary edema enables targeted treatment and improves patient outcomes. Misclassification may delay appropriate therapy and worsen prognosis.
+
+Differential Diagnosis:
+Pulmonary edema may resemble pneumonia, acute respiratory distress syndrome (ARDS), or interstitial lung disease, and careful evaluation of radiographic features is required for correct diagnosis.

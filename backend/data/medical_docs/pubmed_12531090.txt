@@ -1,0 +1,40 @@
+Title: Atelectasis on Chest X-ray: Collapse of Lung Parenchyma
+
+Radiological Findings:
+- Key feature: **Volume loss in lung**
+- Increased opacity in affected region (collapsed lung)
+- **Displacement of fissures** toward area of collapse
+- **Mediastinal shift toward affected side**
+- Elevation of hemidiaphragm
+- Crowding of ribs and vascular markings
+- Compensatory overinflation of adjacent lung
+- Linear or wedge-shaped opacity (depending on lobe)
+
+Causes:
+- Airway obstruction (e.g., mucus plug, tumor)
+- External compression (pleural effusion, mass, pneumothorax)
+- Increased alveolar surface tension (surfactant loss)
+
+Symptoms:
+- Dyspnea
+- Reduced breath sounds over affected area
+
+Diagnosis:
+- Chest X-ray (PA + lateral views essential)
+- Identification of volume loss + structural shifts
+- CT scan if cause is unclear or to detect obstruction
+- Clinical correlation with underlying condition
+
+Clinical Importance:
+- Indicates underlying pathology (not a primary disease)
+- Differentiation from consolidation is critical:
+  - Atelectasis → volume loss
+  - Consolidation → no volume loss
+- Early recognition allows reversible management
+- Untreated cases may lead to infection or hypoxia
+
+Differential Diagnosis:
+- Lobar pneumonia (no volume loss, air bronchograms)
+- Pleural effusion (mass effect, shifts away)
+- Lung mass (localized opacity without volume loss)
+- Pulmonary fibrosis (chronic volume loss with distortion)

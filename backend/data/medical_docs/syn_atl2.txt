@@ -1,0 +1,34 @@
+Title: Compressive Atelectasis due to Pleural Effusion
+
+Radiological Findings:
+- Adjacent lung collapse near pleural fluid
+- Curvilinear opacity along effusion margin
+- Reduced lung volume near compressed region
+- Effusion signs:
+  - Meniscus sign
+  - Blunted costophrenic angle
+- Mediastinal shift **away from effusion** (if large)
+
+Causes:
+- Pleural effusion
+- Pneumothorax (tension)
+- Intrathoracic mass
+
+Symptoms:
+- Dyspnea
+- Chest discomfort
+
+Diagnosis:
+- Chest X-ray showing effusion + adjacent collapse
+- Ultrasound to confirm fluid
+- CT for detailed assessment
+
+Clinical Importance:
+- Collapse is **secondary to external compression**
+- Treating underlying cause (e.g., draining effusion) reverses collapse
+- Important in ICU and emergency settings
+
+Differential Diagnosis:
+- Primary atelectasis (shift toward side)
+- Pneumonia (no compression pattern)
+- Lung collapse from obstruction

@@ -4,6 +4,7 @@ from fastapi import FastAPI, UploadFile, File
 import shutil
 import os
 import cv2
+from langchain_groq import ChatGroq
 
 # --- your modules ---
 
@@ -12,8 +13,15 @@ from backend.vision.gradcam import analyze_region, detect_region
 from backend.rag.retriever import retrieve_documents
 from backend.rag.report_generator import generate_report
 from backend.utils.preprocess import preprocess_image
+from backend.rag.query_generator import generate_query
 app = FastAPI()
 
+
+llm = ChatGroq(
+    temperature=0.2,
+    model="llama-3.1-8b-instant",
+    api_key=os.getenv("GROQ_API_KEY"),
+)
 UPLOAD_PATH = "backend/temp_xray.png"
 
 
@@ -72,8 +80,10 @@ async def analyze_xray(file: UploadFile = File(...)):
     # 5. RAG Retrieval
     # -------------------------
     query = f"{disease} chest x-ray findings treatment"
-
-    docs = retrieve_documents(query)
+    rag_query = generate_query(disease, region, fuzzy_info, llm)
+    print("\nBASELINE QUERY:", disease)
+    print("RAG QUERY:", rag_query)
+    docs = retrieve_documents(rag_query)
 
     # -------------------------
     # 6. Report Generation

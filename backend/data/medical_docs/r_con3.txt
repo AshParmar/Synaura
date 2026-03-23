@@ -1,0 +1,15 @@
+"Infectious Diseases Society of America/American Thoracic Society Consensus Guidelines on the Management of Community-Acquired Pneumonia in Adults" This document provides comprehensive, unified consensus guidelines for the management of community-acquired pneumonia (CAP) in adults, targeting emergency medicine physicians, hospitalists, and primary care practitioners
+. The guidelines emphasize making site-of-care decisions using objective severity-of-illness scores like CURB-65 or the Pneumonia Severity Index (PSI), supplemented by physician judgment
+. They offer specific recommendations for diagnostic testing, advising extensive testing mainly when results are likely to alter individual antibiotic management, particularly in cases of severe CAP
+. Detailed empirical antimicrobial treatment regimens are outlined for outpatient, non-ICU inpatient, and ICU settings, along with pathogen-directed therapies for resistant organisms like CA-MRSA and Pseudomonas aeruginosa
+. The guidelines also review criteria for switching from intravenous to oral therapy, duration of antibiotic treatment, and prevention strategies including influenza and pneumococcal vaccinations
+.
+"Pneumonia or lung consolidation Supporting Literature: Emergent Question" This literature review evaluates the diagnostic accuracy and clinical application of point-of-care lung ultrasound for identifying pulmonary consolidation and pneumonia in acutely ill, hypoxemic patients
+. The paper highlights that a subpleural "tissue-like sign" coupled with dynamic air bronchograms—seen in 70-97% of cases—are key sonographic indicators of pneumonia that can effectively rule out obstructive atelectasis
+. Supported by multiple studies, the document concludes that lung ultrasound is a highly effective, easily trainable tool that is often more accurate than bedside chest radiography for diagnosing consolidations in critically ill and mechanically ventilated patients
+.
+"Lobar Pneumonia: What Is It, Causes, Symptoms & Treatment | PharmEasy" This health article provides a clinical overview of lobar pneumonia, a severe infection characterized by the rapid inflammatory involvement of an entire lung lobe
+. It identifies Streptococcus pneumoniae as the primary causative bacterium, though other bacteria, viruses, and fungi can also be responsible
+. The text outlines common symptoms—such as persistent cough, high-grade fever, pleuritic chest pain, and confusion—and details the four stages of the disease: congestion, red hepatization, grey hepatization, and resolution
+. Furthermore, it discusses diagnostic methods, standard antibiotic treatments, home management techniques, and the importance of preventive vaccinations
+.

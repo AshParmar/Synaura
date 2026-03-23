@@ -1,0 +1,51 @@
+Title: Pleural Fluid Analysis in Differentiating Types of Pleural Effusion
+
+Radiological Findings:
+- Chest X-ray:
+  - Blunting of costophrenic angle
+  - Homogeneous basal opacity with meniscus sign
+- Ultrasound:
+  - Simple (anechoic) or complex (septated) effusion
+- CT findings:
+  - Pleural thickening or nodularity (malignancy)
+  - Associated consolidation (parapneumonic effusion)
+  - Lymphadenopathy (tuberculosis or malignancy)
+
+Causes:
+- Transudative:
+  - Heart failure
+- Exudative:
+  - Parapneumonic infection
+  - Tuberculosis
+  - Malignancy (including mesothelioma)
+- Others:
+  - Systemic diseases
+
+Symptoms:
+- Dyspnea
+- Chest pain
+- Fever (infection-related cases)
+
+Diagnosis:
+- Imaging (X-ray, CT, ultrasound) for detection and characterization
+- Thoracentesis with pleural fluid analysis:
+  - Light’s criteria → transudate vs exudate
+  - Elevated NT-proBNP → suggests heart failure
+  - Neutrophil predominance + high CRP → parapneumonic effusion
+  - Low pH (<7.2) → complicated effusion/empyema
+  - Lymphocyte predominance + high ADA → tuberculosis
+  - Tumor markers (mesothelin, fibulin-3) → mesothelioma
+- Cytology and immunohistochemistry for malignancy differentiation
+
+Clinical Importance:
+- Pleural fluid analysis is **central to diagnosis**
+- Enables identification of underlying mechanism and cause
+- Guides treatment decisions (e.g., antibiotics, drainage, oncology care)
+- Prevents high rates of undiagnosed effusions
+
+Differential Diagnosis:
+- Malignant pleural effusion
+- Tuberculous pleural effusion
+- Parapneumonic effusion/empyema
+- Heart failure-related effusion
+- Mesothelioma

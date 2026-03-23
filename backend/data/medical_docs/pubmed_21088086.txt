@@ -1,0 +1,49 @@
+Title: Radiological Classification and Imaging Features of Pneumonia
+
+Radiological Findings:
+- Lobar pneumonia:
+  - Dense, homogeneous consolidation involving a single lobe
+  - Air bronchograms commonly present
+- Bronchopneumonia:
+  - Patchy, multifocal consolidations
+  - Peribronchial distribution with scattered opacities
+- Interstitial pneumonia:
+  - Diffuse reticular or reticulonodular pattern
+  - Ground-glass opacities
+  - Bilateral, symmetric involvement (common in atypical/viral causes)
+- CT findings:
+  - Detects early or subtle consolidation not seen on X-ray
+  - Better visualization of ground-glass opacities and interstitial involvement
+- Complications:
+  - Pleural effusion (blunting of costophrenic angle)
+  - Empyema (loculated pleural fluid)
+  - Lung abscess (cavity with air-fluid level)
+
+Causes:
+- Bacterial (e.g., Streptococcus pneumoniae → lobar pattern)
+- Viral infections → interstitial pattern
+- Atypical organisms (e.g., Mycoplasma pneumoniae)
+- Hospital-acquired pathogens → bronchopneumonia
+
+Symptoms:
+- Cough
+- Fever
+- Shortness of breath
+
+Diagnosis:
+- Primary: Chest X-ray for pattern recognition
+- CT scan for unclear or severe cases
+- Ultrasound for pleural effusion detection and drainage guidance
+- Clinical correlation with infection signs
+
+Clinical Importance:
+- Radiological pattern helps classify pneumonia type → guides treatment
+- Imaging essential for detecting complications (effusion, abscess)
+- CT improves diagnostic accuracy in complex or hospital cases
+- Ultrasound assists in safe management of pleural complications
+
+Differential Diagnosis:
+- Pulmonary edema (bilateral opacities, different distribution)
+- Tuberculosis (cavitary lesions, upper lobe predominance)
+- Lung malignancy (mass-like consolidation)
+- ARDS (diffuse bilateral ground-glass opacities)

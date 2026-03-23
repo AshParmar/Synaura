@@ -1,0 +1,34 @@
+Title: Pericardial Effusion Mimicking Cardiomegaly on Chest X-ray
+
+Radiological Findings:
+- Globular, “water-bottle” shaped cardiac silhouette
+- Smooth, symmetric enlargement of heart borders
+- Rapid increase in cardiac size on serial X-rays
+- Clear lung fields (unless associated condition)
+- No chamber-specific contour changes
+
+Causes:
+- Fluid accumulation in pericardial sac
+- Infection (viral, tuberculosis)
+- Malignancy
+- Uremia or autoimmune disease
+
+Symptoms:
+- Dyspnea
+- Chest discomfort
+- In severe cases: signs of cardiac tamponade
+
+Diagnosis:
+- Chest X-ray showing globular cardiomegaly
+- Echocardiography confirming pericardial fluid
+- Clinical context (acute vs chronic onset)
+
+Clinical Importance:
+- Can mimic true cardiomegaly → critical to differentiate
+- Risk of cardiac tamponade (life-threatening)
+- Requires urgent management in severe cases
+
+Differential Diagnosis:
+- True cardiomegaly (chamber enlargement)
+- Dilated cardiomyopathy
+- Mediastinal mass

@@ -1,0 +1,32 @@
+Title: Subpulmonic Pleural Effusion on Chest X-ray
+
+Radiological Findings:
+- Apparent **elevated hemidiaphragm**
+- Lateral displacement of diaphragm peak
+- Increased distance between gastric bubble and diaphragm (left side)
+- Blunted costophrenic angle may be absent initially
+- Pseudo-diaphragm contour
+
+Causes:
+- Early pleural effusion collecting beneath lung
+- Heart failure
+- Postoperative or inflammatory states
+
+Symptoms:
+- Mild dyspnea
+- Often subtle or asymptomatic
+
+Diagnosis:
+- Chest X-ray with suspicious diaphragm elevation
+- Lateral decubitus view or ultrasound for confirmation
+- CT if unclear
+
+Clinical Importance:
+- Commonly misdiagnosed as diaphragm elevation
+- Early recognition prevents missed effusion
+- Important in subtle or early-stage disease
+
+Differential Diagnosis:
+- Diaphragmatic paralysis
+- Subphrenic abscess
+- Basal atelectasis

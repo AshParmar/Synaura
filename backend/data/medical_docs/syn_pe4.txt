@@ -1,0 +1,33 @@
+Title: Loculated Pleural Effusion on Chest X-ray
+
+Radiological Findings:
+- **Non-dependent, localized opacity** along pleura
+- Lenticular or biconvex shape
+- Does not shift with patient position
+- May mimic mass or consolidation
+- Sharp margins against lung parenchyma
+
+Causes:
+- Complicated parapneumonic effusion
+- Empyema
+- Post-inflammatory adhesions
+
+Symptoms:
+- Fever (if infectious)
+- Chest pain
+- Dyspnea
+
+Diagnosis:
+- Chest X-ray showing atypical fixed pleural opacity
+- Ultrasound showing septations and loculations
+- CT for detailed assessment
+
+Clinical Importance:
+- Suggests **complicated effusion → requires drainage**
+- Important to differentiate from tumor
+- Delayed treatment can lead to empyema
+
+Differential Diagnosis:
+- Lung abscess
+- Pleural tumor
+- Consolidation (follows lung anatomy, not pleural shape)

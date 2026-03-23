@@ -1,0 +1,32 @@
+Title: Small Pleural Effusion Detection on Chest X-ray
+
+Radiological Findings:
+- Early **blunting of costophrenic angle** (most sensitive sign)
+- Subtle loss of sharp diaphragm outline
+- Minimal basal opacity
+- Best seen on **lateral view** (posterior costophrenic recess)
+- May be missed on standard PA view if very small
+
+Causes:
+- Early heart failure
+- Mild parapneumonic effusion
+- Post-surgical or inflammatory states
+
+Symptoms:
+- Often asymptomatic
+- Mild dyspnea (if progressive)
+
+Diagnosis:
+- Chest X-ray (PA + lateral views)
+- Ultrasound for confirmation of small fluid volume
+- Clinical correlation for underlying cause
+
+Clinical Importance:
+- Early detection prevents progression
+- Easily overlooked → requires careful evaluation
+- Important in follow-up imaging
+
+Differential Diagnosis:
+- Pleural thickening
+- Subpulmonic effusion
+- Basal atelectasis

@@ -1,0 +1,52 @@
+Title: Pleural Effusion on Chest Imaging: Patterns and Clinical Differentiation
+
+Radiological Findings:
+- Blunting of **costophrenic angle** (early sign)
+- Homogeneous opacity in lower lung zones
+- **Meniscus sign** (curved upper fluid level)
+- Large effusion:
+  - Complete or near-complete hemithorax opacification
+  - Mediastinal shift (if massive)
+- Layering fluid on lateral decubitus view
+- Ultrasound:
+  - Anechoic or complex fluid collection
+  - Septations in complicated effusion/empyema
+- CT findings:
+  - Fluid density in pleural space
+  - Pleural thickening or enhancement (suggests exudate/empyema)
+
+Causes:
+- Transudative:
+  - Congestive heart failure (most common)
+- Exudative:
+  - Pneumonia (parapneumonic effusion)
+  - Malignancy (lung, breast cancer)
+  - Pulmonary embolism
+- Complicated:
+  - Empyema (infected pleural fluid)
+
+Symptoms:
+- Dyspnea
+- Chest pain (pleuritic)
+- Cough
+
+Diagnosis:
+- Chest X-ray detecting pleural fluid
+- Ultrasound for confirmation and characterization
+- CT for detailed evaluation and underlying cause
+- Pleural tap (thoracentesis):
+  - Differentiates **transudate vs exudate**
+  - Guides further diagnosis
+
+Clinical Importance:
+- Very common finding with wide range of causes
+- Imaging helps assess size, complexity, and complications
+- Differentiation of transudate vs exudate is critical for management
+- Early detection of empyema prevents severe complications
+- Guides interventions (drainage, pleurodesis, catheter placement)
+
+Differential Diagnosis:
+- Lung consolidation (no meniscus sign)
+- Atelectasis (volume loss present)
+- Pleural thickening (no free fluid layering)
+- Hemothorax or chylothorax (based on fluid characteristics)

@@ -1,0 +1,54 @@
+Title: Diagnostic Approach to Undiagnosed Pleural Effusion
+
+Radiological Findings:
+- Blunting of costophrenic angle
+- Homogeneous lower zone opacity with meniscus sign
+- Variable size: small to massive effusion
+- Ultrasound:
+  - Anechoic or complex fluid
+  - Septations in empyema
+- CT findings:
+  - Pleural thickening or nodularity (suggests malignancy)
+  - Associated lung pathology (infection, mass, embolism)
+  - Fluid characterization and extent
+
+Causes:
+- Common:
+  - Heart failure (transudative)
+  - Infection (parapneumonic, tuberculosis)
+  - Malignancy
+- Others:
+  - Pulmonary embolism
+  - Systemic diseases
+  - Chylothorax
+- Unknown etiology in some cases
+
+Symptoms:
+- Dyspnea
+- Chest discomfort
+- Cough
+
+Diagnosis:
+- Chest X-ray for initial detection
+- Ultrasound for guidance and characterization
+- CT for detailed evaluation of pleura and lung
+- Thoracentesis (image-guided):
+  - Fluid analysis (transudate vs exudate)
+  - Microbiology and cytology
+- Pleural biopsy if diagnosis remains unclear
+- Advanced tests:
+  - Nucleic acid amplification tests
+  - Pleural fluid cultures (enhanced techniques)
+
+Clinical Importance:
+- Accurate diagnosis requires integration of imaging + clinical + lab data
+- Image-guided procedures improve diagnostic yield and safety
+- Early identification of malignant or infectious causes is critical
+- Follow-up important in initially undiagnosed cases
+
+Differential Diagnosis:
+- Malignant pleural effusion
+- Tuberculous pleural effusion
+- Parapneumonic effusion/empyema
+- Congestive heart failure-related effusion
+- Chylothorax

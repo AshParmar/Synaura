@@ -1,0 +1,42 @@
+Title: Cardiomegaly due to High-Output State in Hereditary Hemorrhagic Telangiectasia (HHT)
+
+Radiological Findings:
+- Chest X-ray:
+  - Enlarged cardiac silhouette (cardiomegaly)
+  - No focal lung consolidation or primary pulmonary cause
+- Echocardiography:
+  - Dilatation of both ventricles
+  - Features of **high cardiac output state**
+  - No valvular or structural cardiac disease
+- Abdominal imaging (US/CT/MRI):
+  - Enlarged hepatic vasculature
+  - Multiple **arteriovenous shunts in liver**
+  - Angiomatous transformation of liver
+
+Causes:
+- Hereditary Hemorrhagic Telangiectasia (HHT)
+- Systemic arteriovenous malformations (especially hepatic)
+- High-output cardiac state due to vascular shunting
+
+Symptoms:
+- May include fatigue, dyspnea
+- Signs of systemic vascular disease (e.g., telangiectasias, bleeding)
+
+Diagnosis:
+- Chest X-ray showing cardiomegaly
+- Echocardiography excluding primary cardiac disease
+- CT/MRI confirming hepatic vascular malformations
+- Genetic testing (ACVRL1 mutation)
+- Clinical correlation with cutaneous and mucosal lesions
+
+Clinical Importance:
+- Cardiomegaly may be **secondary to systemic vascular disease**, not primary heart pathology
+- Identifying high-output state prevents misdiagnosis as cardiomyopathy
+- Important for detecting HHT → risk of multi-organ involvement
+- Guides management toward treating underlying vascular disorder
+
+Differential Diagnosis:
+- Primary cardiomyopathy
+- Valvular heart disease
+- Pericardial effusion
+- Other causes of high-output heart failure (e.g., anemia, thyroid disease)

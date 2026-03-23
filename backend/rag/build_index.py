@@ -17,7 +17,7 @@ def load_documents(data_path):
         path = os.path.join(data_path, file)
         if not os.path.isfile(path):
             continue
-        loader=TextLoader(path)
+        loader=TextLoader(path, encoding="utf-8")
         docs=loader.load()
         
         documents.extend(docs)

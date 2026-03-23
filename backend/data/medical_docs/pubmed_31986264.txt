@@ -1,0 +1,21 @@
+Title: Radiological and Clinical Features of COVID-19 Pneumonia
+
+COVID-19 pneumonia is a respiratory illness caused by a novel coronavirus, leading to lung infection and characteristic imaging abnormalities.
+
+Radiological Findings:
+On chest CT, COVID-19 pneumonia typically presents with bilateral ground-glass opacities, patchy consolidations, and peripheral or subpleural distribution. In severe cases, diffuse lung involvement may occur, progressing to acute respiratory distress syndrome (ARDS). Chest X-ray findings may show bilateral opacities, though CT is more sensitive for early detection.
+
+Causes:
+The disease is caused by infection with a novel coronavirus (SARS-CoV-2), leading to viral pneumonia and inflammatory lung damage.
+
+Symptoms:
+Common symptoms include fever, cough, fatigue, and shortness of breath. Severe cases may develop dyspnea and respiratory failure.
+
+Diagnosis:
+Diagnosis is based on laboratory confirmation (RT-PCR) along with imaging findings. Chest CT plays an important role in detecting early lung involvement and assessing severity.
+
+Clinical Importance:
+COVID-19 pneumonia can progress rapidly and may require intensive care in severe cases. Early detection and monitoring are essential to prevent complications such as ARDS and respiratory failure.
+
+Differential Diagnosis:
+COVID-19 pneumonia may resemble other viral pneumonias, bacterial pneumonia, or pulmonary edema and should be differentiated using clinical history and imaging patterns.

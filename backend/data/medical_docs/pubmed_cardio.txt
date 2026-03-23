@@ -1,0 +1,43 @@
+Title: Cardiomegaly on Chest X-ray Using Cardiothoracic Ratio (CTR)
+
+Radiological Findings:
+- Enlarged cardiac silhouette on chest X-ray
+- Cardiothoracic ratio (CTR) increased (>0.5 suggestive, >0.55 more specific)
+- Globular or widened cardiac borders
+- Loss of normal cardiac contour
+- Chamber-specific signs:
+  - Right atrial enlargement → right heart border bulge
+  - Left ventricular enlargement → elongated left heart border
+  - Left atrial enlargement → double density or straightening of left border
+  - Right ventricular enlargement → elevation of cardiac apex
+- Possible displacement of adjacent mediastinal structures
+
+Causes:
+- Cardiac chamber enlargement (hypertrophy or dilation)
+- Chronic hypertension
+- Valvular heart disease
+- Cardiomyopathy
+- Pericardial effusion (mimics enlargement)
+
+Symptoms:
+- Shortness of breath
+- Fatigue
+- Chest discomfort (in some cases)
+
+Diagnosis:
+- Chest X-ray (PA view) for CTR measurement
+- Evaluation of cardiac contours for chamber-specific enlargement
+- Echocardiography for definitive assessment
+- Clinical correlation with cardiac symptoms
+
+Clinical Importance:
+- Simple and quick screening tool for heart enlargement
+- Helps detect underlying cardiac disease early
+- Guides further cardiac evaluation (echo, ECG)
+- Important in differentiating true cardiomegaly from mimics
+
+Differential Diagnosis:
+- Pericardial effusion (globular heart shape)
+- Poor inspiratory effort (false enlargement)
+- AP projection X-ray (magnification artifact)
+- Mediastinal masses mimicking cardiac enlargement

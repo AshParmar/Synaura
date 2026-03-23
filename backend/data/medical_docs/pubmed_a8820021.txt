@@ -1,0 +1,49 @@
+Title: Radiological Signs and Types of Atelectasis on Chest X-ray
+
+Radiological Findings:
+- Key feature: **volume loss**
+- Direct signs:
+  - **Crowding of pulmonary vessels**
+  - Crowded or increased visibility of air bronchograms
+  - **Displacement of interlobar fissures**
+- Indirect signs:
+  - Increased lung opacity (may be subtle or absent)
+  - **Mediastinal shift toward affected side**
+  - Elevation of hemidiaphragm
+  - Displacement of hilum
+  - Rib crowding (narrowed intercostal spaces)
+  - Compensatory hyperinflation of adjacent lung
+- Patterns:
+  - Segmental or lobar collapse
+  - Linear/discoid (plate-like) atelectasis
+  - Diffuse or whole lung collapse
+
+Causes:
+- Airway obstruction (resorption atelectasis)
+- Surfactant deficiency (adhesive atelectasis)
+- External compression (pleural effusion, mass, pneumothorax)
+- Fibrosis (cicatrization atelectasis)
+- Hypoventilation or gravity-dependent changes
+
+Symptoms:
+- Dyspnea
+- Reduced breath sounds
+- May be asymptomatic in small areas
+
+Diagnosis:
+- Chest X-ray identifying **volume loss + structural displacement**
+- CT scan to identify underlying cause (e.g., obstruction)
+- Clinical correlation essential
+- Microbiological evidence required if infection suspected (atelectatic pneumonia)
+
+Clinical Importance:
+- Very common but often **misdiagnosed as pneumonia**
+- Recognition of volume loss is key differentiator
+- Helps identify underlying causes (obstruction, compression, fibrosis)
+- Guides appropriate management (physiotherapy, bronchoscopy, etc.)
+
+Differential Diagnosis:
+- Pneumonia (opacity without volume loss)
+- Pleural effusion (mass effect, shifts away)
+- Lung mass (no volume loss, focal lesion)
+- Pulmonary fibrosis (chronic structural distortion)

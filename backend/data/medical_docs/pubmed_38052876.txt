@@ -1,0 +1,36 @@
+Title: Chlamydophila pneumoniae in Pediatric Community-Acquired Pneumonia
+
+Radiological Findings:
+- Predominant interstitial pattern on chest X-ray
+- Diffuse or patchy reticulonodular opacities
+- Perihilar infiltrates (bilateral or unilateral)
+- Focal consolidation in some cases
+- Overall atypical pneumonia appearance rather than lobar pattern
+
+Causes:
+- Infection with Chlamydophila pneumoniae (atypical intracellular bacterium)
+- Frequent co-infection with Mycoplasma pneumoniae
+- Higher susceptibility in children with underlying diseases
+
+Symptoms:
+- Persistent cough (key symptom)
+- Fever
+- Gradual onset of respiratory illness
+
+Diagnosis:
+- Chest X-ray showing interstitial/atypical pneumonia pattern
+- PCR-based detection of bacterial DNA
+- Serology (IgM/IgG) as supportive evidence
+- Clinical correlation with prolonged cough and mild systemic features
+
+Clinical Importance:
+- Atypical CAP → does not respond to standard beta-lactam antibiotics
+- Requires macrolide-based therapy
+- Early identification reduces complications
+- Important in pediatric patients with comorbidities
+
+Differential Diagnosis:
+- Mycoplasma pneumoniae (very similar interstitial pattern)
+- Viral pneumonia (diffuse interstitial opacities)
+- Typical bacterial pneumonia (lobar consolidation dominant)
+- Other atypical pneumonias (e.g., Legionella)

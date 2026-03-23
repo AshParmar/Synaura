@@ -1,0 +1,33 @@
+Title: Bronchopneumonia with Multifocal Patchy Consolidation
+
+Radiological Findings:
+- Patchy, poorly defined consolidations
+- Peribronchial and multilobar distribution
+- Bilateral scattered opacities
+- Centrilobular nodular opacities may be present
+- No clear lobar boundaries
+
+Causes:
+- Staphylococcus aureus
+- Gram-negative bacteria (hospital-acquired infections)
+- Aspiration-related infections
+
+Symptoms:
+- Fever
+- Cough
+- Dyspnea
+
+Diagnosis:
+- Chest X-ray showing patchy multifocal consolidation
+- CT for better visualization of distribution
+- Clinical context (hospital setting, aspiration risk)
+
+Clinical Importance:
+- Common in hospitalized or immunocompromised patients
+- Indicates more diffuse infection → may require aggressive treatment
+- Helps differentiate from localized lobar pneumonia
+
+Differential Diagnosis:
+- Viral pneumonia (interstitial pattern dominant)
+- ARDS (diffuse bilateral opacities)
+- Pulmonary edema

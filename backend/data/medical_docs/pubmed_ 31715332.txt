@@ -1,0 +1,44 @@
+Title: Pulmonary Consolidation on Chest X-ray: Imaging Features and AI-Based Detection
+
+Radiological Findings:
+- Key feature: **Increased lung opacity (consolidation)**
+- Homogeneous or patchy **air-space opacification**
+- **Air bronchograms** may be visible within dense regions
+- Loss of normal lung markings in affected area
+- Lobar, segmental, or multifocal distribution
+- Blurring of adjacent structures (e.g., heart border, diaphragm)
+- Causes of opacity content:
+  - Pus (infection)
+  - Fluid (edema)
+  - Blood (hemorrhage)
+  - Proteinaceous material
+
+Causes:
+- Bacterial pneumonia (most common)
+- Viral or atypical infections
+- Pulmonary edema
+- Hemorrhage
+- Inflammatory or protein deposition disorders
+
+Symptoms:
+- Cough
+- Fever
+- Shortness of breath
+
+Diagnosis:
+- Chest X-ray identifying consolidation pattern
+- AI models (e.g., CNNs) assist in detecting and localizing opacities
+- Clinical correlation to determine underlying cause
+- Further imaging (CT) if unclear or complicated
+
+Clinical Importance:
+- Consolidation is a **core radiological sign** in lung disease
+- Early and accurate detection improves diagnosis and treatment
+- AI enhances radiologist performance and reduces missed findings
+- Helps in triage, especially in high-volume or resource-limited settings
+
+Differential Diagnosis:
+- Atelectasis (volume loss with opacity)
+- Pulmonary edema (bilateral diffuse opacities)
+- Lung malignancy (mass-like consolidation)
+- ARDS (diffuse bilateral involvement)

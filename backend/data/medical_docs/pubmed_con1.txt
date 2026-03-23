@@ -1,0 +1,32 @@
+Title: Lobar Pneumonia Presenting as Dense Pulmonary Consolidation
+
+Radiological Findings:
+- Dense, homogeneous consolidation involving a single lobe
+- Presence of air bronchograms within consolidated region
+- Sharp anatomical boundaries (limited by fissures)
+- Silhouette sign (loss of heart/diaphragm borders depending on lobe)
+- No significant volume loss (distinguishes from atelectasis)
+
+Causes:
+- Streptococcus pneumoniae (most common)
+- Other typical bacterial pathogens
+
+Symptoms:
+- High fever
+- Productive cough
+- Chest pain
+
+Diagnosis:
+- Chest X-ray showing lobar consolidation with air bronchograms
+- Clinical features of acute infection
+- Lab confirmation if required
+
+Clinical Importance:
+- Classic pattern of bacterial pneumonia → guides antibiotic therapy
+- Rapid identification enables early treatment
+- Helps differentiate from atypical pneumonia
+
+Differential Diagnosis:
+- Atelectasis (with volume loss)
+- Lung abscess (cavitation)
+- Pulmonary infarction

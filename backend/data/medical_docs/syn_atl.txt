@@ -1,0 +1,32 @@
+Title: Lobar Atelectasis with Fissure Displacement
+
+Radiological Findings:
+- Dense opacity involving a lung lobe
+- **Displacement of interlobar fissures** toward collapse
+- **Mediastinal shift toward affected side**
+- Loss of normal lobe volume
+- Compensatory hyperinflation of adjacent lobes
+- Possible air bronchograms (crowded)
+
+Causes:
+- Bronchial obstruction (tumor, mucus plug)
+- Foreign body aspiration
+
+Symptoms:
+- Dyspnea
+- Reduced breath sounds
+
+Diagnosis:
+- Chest X-ray showing lobar opacity + volume loss
+- CT scan to identify obstructing lesion
+- Bronchoscopy if obstruction suspected
+
+Clinical Importance:
+- Strongly suggests **airway obstruction**
+- Requires urgent evaluation to rule out malignancy
+- Differentiation from lobar pneumonia is critical
+
+Differential Diagnosis:
+- Lobar pneumonia (no fissure displacement)
+- Pleural effusion
+- Lung mass

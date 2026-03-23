@@ -1,0 +1,19 @@
+Title: Clinical Indicators and Radiographic Diagnosis of Pediatric Pneumonia
+
+Pneumonia is a major cause of morbidity and mortality in children, and early diagnosis is essential for effective treatment. However, clinical symptoms alone are often insufficient for accurate diagnosis.
+
+Radiological Findings:
+Chest radiography is considered the reference standard for diagnosing pneumonia in children. Typical findings include lung infiltrates and areas of consolidation, which confirm the presence of infection.
+
+Symptoms:
+Common symptoms include fever, cough, and increased respiratory rate (tachypnea). However, these findings are not highly specific for pneumonia. More indicative signs include hypoxemia (reduced oxygen saturation) and increased work of breathing, such as grunting, nasal flaring, and chest retractions.
+
+Diagnosis:
+Clinical signs alone cannot reliably differentiate pneumonia from other respiratory illnesses. Imaging, particularly chest radiographs, plays a critical role in confirming diagnosis when pneumonia is suspected.
+
+Clinical Importance:
+Accurate diagnosis is important to avoid unnecessary antibiotic use and to ensure timely treatment. Reliance solely on symptoms may lead to misdiagnosis or delayed intervention.
+
+Differential Diagnosis:
+Pneumonia may resemble other respiratory conditions such as bronchiolitis, asthma, or viral infections, and imaging is required for accurate differentiation.
+

@@ -1,0 +1,33 @@
+Title: Pulmonary Edema Mimicking Consolidation on Imaging
+
+Radiological Findings:
+- Bilateral, symmetric air-space opacities
+- Perihilar “bat-wing” pattern of consolidation
+- Kerley B lines (interstitial edema)
+- Associated pleural effusions
+- Rapidly changing opacities on serial imaging
+
+Causes:
+- Congestive heart failure (most common)
+- Fluid overload
+- Renal failure
+
+Symptoms:
+- Shortness of breath
+- Orthopnea
+- Reduced exercise tolerance
+
+Diagnosis:
+- Chest X-ray showing bilateral perihilar consolidation pattern
+- Clinical signs of cardiac dysfunction
+- Response to diuretics supports diagnosis
+
+Clinical Importance:
+- Can mimic pneumonia → risk of misdiagnosis
+- Requires cardiac management, not antibiotics
+- Rapidly reversible with proper treatment
+
+Differential Diagnosis:
+- Bilateral pneumonia
+- ARDS
+- Pulmonary hemorrhage

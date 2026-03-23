@@ -1,0 +1,32 @@
+Title: Linear (Discoid) Atelectasis on Chest X-ray
+
+Radiological Findings:
+- Thin **linear or plate-like opacity** (horizontal or oblique)
+- Usually located in **lower lung zones**
+- Minimal volume loss
+- No significant mediastinal shift
+- Often parallel to diaphragm
+
+Causes:
+- Shallow breathing (postoperative, pain)
+- Hypoventilation
+- Mucus plugging (minor airway obstruction)
+
+Symptoms:
+- Often asymptomatic
+- Mild dyspnea in some cases
+
+Diagnosis:
+- Chest X-ray showing characteristic linear opacity
+- Clinical context (post-surgery, immobility)
+- CT rarely required
+
+Clinical Importance:
+- Very common, especially in hospitalized patients
+- Usually reversible with physiotherapy and deep breathing
+- Important not to confuse with fibrosis or consolidation
+
+Differential Diagnosis:
+- Pulmonary fibrosis (persistent, irregular lines)
+- Subsegmental pneumonia
+- Scarring

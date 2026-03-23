@@ -1,0 +1,50 @@
+Title: Ultrasound-Based Quantitative Assessment of Pleural Effusion
+
+Radiological Findings:
+- Thoracic Ultrasound (TUS):
+  - **Anechoic (dark) fluid** → typically transudative
+  - **Echogenic fluid** with internal echoes → suggests exudative effusion
+  - **Septations and fibrin strands** → complicated effusion/empyema
+  - **Floating debris** → inflammatory or infectious process
+- Quantitative features:
+  - Increased **pixel density / echogenicity** in exudates
+  - Hypoechogenicity index variation between fluid types
+- CT correlation:
+  - Pleural thickening or enhancement (exudative/malignant)
+  - Associated lung pathology
+
+Causes:
+- Transudative:
+  - Heart failure
+- Exudative:
+  - Infection (parapneumonic, empyema)
+  - Malignancy
+  - Inflammatory conditions
+
+Symptoms:
+- Dyspnea
+- Chest discomfort
+- Fever (in infectious cases)
+
+Diagnosis:
+- Ultrasound for real-time detection and characterization
+- Quantitative image analysis (pixel density, echogenicity metrics)
+- Integration with:
+  - Clinical findings
+  - Laboratory data (fluid analysis when available)
+- AI-assisted models (emerging):
+  - Combine imaging + clinical + lab data for prediction
+- Thoracentesis remains gold standard for confirmation
+
+Clinical Importance:
+- Provides **noninvasive characterization** of pleural effusion
+- Helps differentiate transudate vs exudate when fluid sampling is limited
+- Useful in bedside and critical care settings
+- AI integration may improve standardization and diagnostic accuracy
+- Currently investigational but promising for future clinical workflows
+
+Differential Diagnosis:
+- Simple transudative effusion (anechoic, no septations)
+- Complicated parapneumonic effusion/empyema (septations, debris)
+- Malignant pleural effusion (echogenic with pleural abnormalities)
+- Hemothorax (echogenic due to blood content)

@@ -20,7 +20,7 @@ llm = ChatGroq(
 
 def generate_report(disease, region, fuzzy_info, docs):
 
-     # -------------------------
+    # -------------------------
     # 1. Filter relevant docs
     # -------------------------
     filtered_docs = [
@@ -66,7 +66,10 @@ Radiology Report
 Findings:
 Interpretation:
 Recommendation:
-Differential Diagnosis:
+
+Use information from MULTIPLE sources.
+If sources differ, mention uncertainty.
+Do not rely on a single document.
 
 Keep the report concise, accurate, and clinically consistent with {disease}.
 """

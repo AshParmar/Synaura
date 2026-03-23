@@ -1,0 +1,33 @@
+Title: Obstructive (Resorption) Atelectasis from Airway Blockage
+
+Radiological Findings:
+- Segmental or lobar opacity
+- Marked **volume loss**
+- **Mediastinal shift toward affected side**
+- Crowded vascular markings
+- Hyperinflation of remaining lung
+- Possible absence of air bronchograms (complete obstruction)
+
+Causes:
+- Mucus plug
+- Endobronchial tumor
+- Foreign body obstruction
+
+Symptoms:
+- Dyspnea
+- Sudden onset in acute obstruction
+
+Diagnosis:
+- Chest X-ray showing collapse with volume loss
+- CT scan to locate obstruction
+- Bronchoscopy for confirmation and treatment
+
+Clinical Importance:
+- Common cause of significant atelectasis
+- May indicate serious underlying disease (e.g., tumor)
+- Reversible if obstruction is removed early
+
+Differential Diagnosis:
+- Lobar pneumonia (air bronchograms present, no volume loss)
+- Pleural effusion (pushes structures away)
+- Pulmonary fibrosis (chronic changes)

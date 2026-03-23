@@ -1,0 +1,18 @@
+Title: Pulmonary Edema Diagnosis and Radiological Features
+
+Pulmonary edema is a condition characterized by the accumulation of fluid in the lung interstitium and alveolar spaces. It is increasingly recognized as a critical complication affecting patient outcomes, particularly in perioperative and intensive care settings.
+
+Radiological Findings:
+On chest X-ray, pulmonary edema typically presents as bilateral diffuse opacities, often described as a "bat-wing" pattern. Additional features may include Kerley B lines, vascular congestion, and fluid accumulation in the lower lung zones.
+
+Causes:
+Pulmonary edema may be cardiogenic, caused by heart failure or excessive fluid administration, or non-cardiogenic, resulting from increased pulmonary capillary permeability due to inflammatory processes.
+
+Diagnosis:
+Early diagnosis is essential and can be achieved through imaging techniques such as chest radiography, lung ultrasonography, and advanced methods like transpulmonary thermodilution. Chest X-ray remains a primary tool for identifying fluid accumulation and monitoring disease progression.
+
+Clinical Importance:
+Timely detection and differentiation between hydrostatic and permeability-related edema are crucial for appropriate treatment. Accurate assessment of extravascular lung water helps guide therapy and improve patient outcomes.
+
+Differential Diagnosis:
+Pulmonary edema may resemble pneumonia, acute respiratory distress syndrome (ARDS), or pleural effusion on imaging and should be carefully distinguished.

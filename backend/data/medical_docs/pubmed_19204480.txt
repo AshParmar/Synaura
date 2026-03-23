@@ -1,0 +1,50 @@
+Title: High-Attenuation Pulmonary Consolidations on CT: Differential Diagnosis
+
+Radiological Findings:
+- Key feature: Consolidation with **high attenuation (hyperdense areas)** on CT
+- Patterns:
+  - Diffuse or focal **hyperdense air-space consolidation**
+  - Dense opacities higher than soft tissue (suggestive of calcification or deposition)
+- Distribution clues:
+  - Diffuse bilateral involvement (e.g., metabolic or deposition diseases)
+  - Focal or segmental consolidation (e.g., infection, embolism)
+- Disease-specific patterns:
+  - Metastatic pulmonary calcification → diffuse, upper lobe predominant calcified opacities
+  - Pulmonary alveolar microlithiasis → diffuse sand-like calcified micronodules
+  - Amiodarone lung → high-attenuation consolidation due to iodine content
+  - Talcosis → dense nodules/conglomerates, often upper lobes
+  - Iodinated oil embolism → hyperdense embolic material in vessels/alveoli
+  - Tuberculosis → consolidation with possible calcifications
+  - Silicoproteinosis → ground-glass + dense opacities
+  - Amyloidosis → focal or diffuse dense deposits
+
+Causes:
+- Calcium deposition (metastatic calcification)
+- Inhaled or deposited materials (talc, silica)
+- Drug-induced (amiodarone)
+- Protein or amyloid deposition
+- Infectious causes (e.g., tuberculosis)
+- Embolic substances (iodinated oil)
+
+Symptoms:
+- Cough
+- Dyspnea
+- May be asymptomatic in early deposition diseases
+
+Diagnosis:
+- CT scan identifying **hyperdense consolidation pattern**
+- Pattern recognition based on **attenuation + distribution**
+- Clinical history (drug use, occupational exposure, infection risk)
+- Additional lab or microbiological tests if infection suspected
+
+Clinical Importance:
+- High-attenuation consolidation is a **key diagnostic clue** for non-typical lung diseases
+- Helps differentiate **deposition, metabolic, drug-induced, and infectious causes**
+- Reduces diagnostic ambiguity compared to standard consolidation
+- Guides targeted investigations and management
+
+Differential Diagnosis:
+- Typical pneumonia (non-calcified consolidation)
+- Pulmonary hemorrhage (can mimic consolidation but lacks high attenuation pattern)
+- Neoplastic lesions with calcification
+- Chronic granulomatous diseases

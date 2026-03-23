@@ -1,0 +1,23 @@
+Title: Radiological Patterns of Bacterial Pneumonia
+
+Bacterial pneumonia is a common lung infection characterized by inflammation of lung tissue and accumulation of fluid or pus in the alveolar spaces. Imaging plays a crucial role in its detection, characterization, and follow-up.
+
+Radiological Findings:
+On chest X-ray, bacterial pneumonia typically presents as air-space consolidation. The most common pattern is lobar consolidation, where a single lobe or segment is affected. Other patterns include bronchopneumonia with patchy opacities and diffuse involvement in severe cases.
+
+Specific radiological patterns include:
+- Community-acquired pneumonia (CAP): localized lobar or segmental consolidation
+- Aspiration pneumonia: bilateral, lower lobe predominant opacities
+- Nosocomial pneumonia: diffuse, multifocal opacities often associated with pleural effusion
+
+Causes:
+Bacterial pneumonia is caused by bacterial infections and is classified into community-acquired, aspiration-related, and hospital-acquired (nosocomial) forms depending on the clinical setting.
+
+Diagnosis:
+Chest radiography is the primary imaging modality due to its availability and effectiveness. CT imaging is used in complicated or unresolved cases to better visualize disease extent and associated complications.
+
+Clinical Importance:
+Early and accurate detection is essential, particularly in nosocomial pneumonia, which is associated with high mortality. Imaging also plays a key role in monitoring disease progression and identifying complications such as abscess or pleural effusion.
+
+Differential Diagnosis:
+Bacterial pneumonia may resemble viral pneumonia (e.g., COVID-19), pulmonary edema, or acute respiratory distress syndrome (ARDS), and should be differentiated based on imaging patterns and clinical context.

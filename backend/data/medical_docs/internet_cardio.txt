@@ -1,0 +1,42 @@
+Title: Left Ventricular Enlargement and Cardiomegaly on Chest X-ray
+
+Radiological Findings:
+- Increased cardiothoracic ratio (CTR > 0.5 on PA view)
+- Enlarged cardiac silhouette
+- Left ventricular enlargement signs:
+  - Left heart border displaced **leftward and inferiorly**
+  - **Rounded cardiac apex** (key feature)
+  - Inferior extension of cardiac shadow
+- On lateral view:
+  - Increased posterior cardiac shadow
+- Important pitfall:
+  - AP projection may falsely exaggerate heart size (magnification effect)
+
+Causes:
+- Chronic hypertension
+- Aortic valve disease
+- Cardiomyopathy
+- Volume or pressure overload of left ventricle
+
+Symptoms:
+- Shortness of breath
+- Fatigue
+- Exercise intolerance
+
+Diagnosis:
+- Chest X-ray (PA view preferred) for CTR assessment
+- Identification of left ventricular contour changes
+- Echocardiography for confirmation and functional assessment
+- Clinical correlation with cardiovascular findings
+
+Clinical Importance:
+- Left ventricular enlargement is a key indicator of chronic cardiac stress
+- Early detection helps prevent progression to heart failure
+- Differentiating true enlargement from projection artifacts is critical
+- Guides further cardiac evaluation and management
+
+Differential Diagnosis:
+- Pericardial effusion (globular enlarged silhouette)
+- AP film magnification (false cardiomegaly)
+- Right ventricular enlargement (different contour changes)
+- Mediastinal widening or masses

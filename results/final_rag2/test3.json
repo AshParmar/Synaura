@@ -1,0 +1,11 @@
+{
+  "image": "test3.jpg",
+  "disease": "Pneumonia",
+  "confidence": 0.8123983144760132,
+  "interval": [
+    0.7748779773712158,
+    0.8499186515808106
+  ],
+  "region": "left lung lower zone",
+  "report": "Radiology Report\n\n**Patient Information:** (Not applicable)\n\n**Imaging Study:** Chest X-ray\n\n**Findings:**\n\n- Consolidation in **dependent lung regions** is observed, consistent with aspiration pneumonia.\n- Patchy or confluent air-space opacities are present, with ill-defined segmental consolidation.\n- Possible air bronchograms are visible within the dense region.\n- The consolidation pattern is localized in the **left lung lower zone**.\n\n**Interpretation:**\n\nThe imaging findings are consistent with aspiration pneumonia, a common but often under-recognized cause of pneumonia. The location of consolidation in the dependent lung regions is a key diagnostic clue. The patient's clinical history of aspiration risk and symptoms such as cough, fever, and difficulty breathing support this diagnosis.\n\n**Recommendation:**\n\nFurther imaging with CT may be necessary to determine the extent of consolidation and potential complications. Clinical correlation with microbiological evaluation is also recommended to determine the underlying cause of pneumonia. Treatment should include antibiotics and aspiration prevention measures.\n\n**Differential Diagnosis:**\n\n- Lobar pneumonia (not dependent distribution)\n- Pulmonary edema (bilateral symmetric pattern)\n- Atelectasis (volume loss present)\n- Lung abscess (if cavitation dominates)\n\n**Clinical Importance:**\n\nAspiration pneumonia requires specific management, including antibiotics and aspiration prevention measures. Untreated complications such as lung abscess may occur. Early recognition and treatment are essential to prevent morbidity and mortality.\n\n**Uncertainty:**\n\nNone.\n\n**Additional Comments:**\n\nThe imaging findings are consistent with the predicted diagnosis of pneumonia. Further evaluation with CT and clinical correlation is recommended to determine the extent of consolidation and potential complications."
+}

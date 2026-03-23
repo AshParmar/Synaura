@@ -20,7 +20,7 @@ from experiments.utils import PROJECT_ROOT
 
 def main() -> None:
     root = PROJECT_ROOT
-    stages = ["baseline", "fuzzy", "gradcam", "final"]
+    stages = ["baseline", "fuzzy", "gradcam", "final_rag2", "final"]
     for name in stages:
         script = root / "experiments" / name / "run.py"
         if not script.is_file():

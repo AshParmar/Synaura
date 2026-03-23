@@ -1,0 +1,36 @@
+Title: Rounded Atelectasis Mimicking Pulmonary Mass on Chest X-ray
+
+Radiological Findings:
+- **Rounded or oval mass-like opacity** (typically 2–5 cm)
+- Located **peripherally**, abutting pleura (pleural-based)
+- Commonly in **posterior lower lobes**
+- **“Comet-tail sign”**:
+  - Curved bronchovascular structures converging toward lesion
+- Associated **pleural thickening** adjacent to lesion
+- No true invasive features (unlike malignancy)
+
+Causes:
+- Chronic pleural disease (e.g., prior inflammation, asbestos exposure)
+- Pleural thickening leading to folding/collapse of adjacent lung
+
+Symptoms:
+- Usually asymptomatic
+- Often incidentally detected
+
+Diagnosis:
+- Chest X-ray showing pleural-based rounded opacity
+- CT scan confirms:
+  - Comet-tail sign
+  - Pleural thickening
+- Stability over time supports benign nature
+
+Clinical Importance:
+- Frequently **misdiagnosed as lung tumor**
+- Recognition avoids unnecessary invasive procedures (e.g., thoracotomy)
+- Represents benign, non-progressive condition
+
+Differential Diagnosis:
+- Primary lung malignancy
+- Metastatic pulmonary nodule
+- Pulmonary abscess
+- Loculated pleural effusion

@@ -1,0 +1,8 @@
+Pulmonary edema (PE) is a condition characterized by the accumulation of excess fluid in the lungs, impairing gas exchange and leading to respiratory failure
+. It can be classified as either cardiogenic or non-cardiogenic, with various underlying mechanisms such as left-sided heart failure, acute respiratory distress syndrome (ARDS), and high-altitude pulmonary edema (HAPE)
+. The clinical presentation typically includes dyspnea, orthopnea, and hypoxemia, and diagnosis is primarily based on clinical features, imaging, and laboratory tests, such as chest X-ray, echocardiography, and arterial blood gas analysis
+. Early identification and prompt intervention are critical in preventing severe complications
+. Treatment strategies depend on the underlying cause, and may include pharmacological approaches like diuretics, vasodilators, and positive pressure ventilation
+. Additionally, supportive measures like oxygen therapy and mechanical ventilation are employed to manage acute episodes
+. Advances in therapeutic protocols and early management have significantly improved patient outcomes
+. This review explores the mechanisms, diagnostic methods, and treatment approaches for pulmonary edema, highlighting areas of ongoing research and clinical challenges

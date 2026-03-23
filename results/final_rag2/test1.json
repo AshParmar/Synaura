@@ -1,0 +1,11 @@
+{
+  "image": "test1.jpg",
+  "disease": "Edema",
+  "confidence": 0.9739308953285217,
+  "interval": [
+    0.968717074394226,
+    0.9791447162628174
+  ],
+  "region": "bilateral lung fields (diffuse opacities)",
+  "report": "Radiology Report\n\n**Patient Information:** Not applicable\n\n**Imaging Findings:**\n\n* Bilateral diffuse opacities in the lung fields, consistent with a \"bat-wing\" pattern\n* Interstitial markings and fluid accumulation in the lower lung zones\n* No evidence of focal consolidation or lobar distribution\n\n**Interpretation:**\n\nThe imaging findings are consistent with pulmonary edema, a condition characterized by the accumulation of fluid in the lung interstitium and alveolar spaces. The bilateral diffuse opacities and interstitial markings are typical radiographic features of pulmonary edema. The absence of focal consolidation or lobar distribution suggests a non-cardiogenic cause of pulmonary edema.\n\n**Recommendation:**\n\nFurther evaluation with High-Resolution Computed Tomography (HRCT) of the chest may be necessary to assess the extent and severity of pulmonary edema, as well as to evaluate for potential complications such as cardiomegaly or pulmonary artery dilatation. Clinical correlation with symptoms and laboratory findings is also essential to determine the underlying cause of pulmonary edema.\n\n**Uncertainty:**\n\nWhile the imaging findings are consistent with pulmonary edema, the exact cause (cardiogenic vs. non-cardiogenic) cannot be determined based on the available information. Further evaluation and clinical correlation are necessary to determine the underlying cause of pulmonary edema.\n\n**Conclusion:**\n\nThe imaging findings are consistent with pulmonary edema, and further evaluation with HRCT and clinical correlation are recommended to determine the extent and severity of pulmonary edema, as well as to evaluate for potential complications."
+}

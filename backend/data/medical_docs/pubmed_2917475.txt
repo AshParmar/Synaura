@@ -1,0 +1,18 @@
+Title: Diagnostic Modalities for Early Detection of Pulmonary Edema
+
+Pulmonary edema is a condition characterized by the accumulation of fluid in the lungs and is increasingly recognized as a significant perioperative complication affecting patient outcomes.
+
+Radiological Findings:
+On chest X-ray, pulmonary edema typically presents as bilateral diffuse opacities, often described as a "bat-wing" pattern. Additional radiographic features include vascular congestion, interstitial markings, and fluid accumulation in the lower lung zones.
+
+Causes:
+Pulmonary edema may be cardiogenic, resulting from heart failure or excessive fluid administration, or non-cardiogenic, caused by increased pulmonary capillary permeability due to inflammatory mediators.
+
+Diagnosis:
+Early and accurate diagnosis is critical for effective management. Various bedside diagnostic modalities are used, including chest auscultation, chest radiography, lung ultrasonography, and transpulmonary thermodilution. These tools help detect early accumulation of extravascular lung water before full clinical symptoms develop.
+
+Clinical Importance:
+Rapid identification and monitoring of pulmonary edema allow timely intervention and improved patient outcomes. Clinicians aim to differentiate between hydrostatic (cardiogenic) and permeability-related edema to guide appropriate treatment strategies.
+
+Differential Diagnosis:
+Pulmonary edema may resemble pneumonia, acute respiratory distress syndrome (ARDS), or pleural effusion on imaging and must be carefully distinguished.

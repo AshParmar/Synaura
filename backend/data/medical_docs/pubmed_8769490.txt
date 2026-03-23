@@ -1,0 +1,18 @@
+Title: Quantitative CT-Based Detection of Early Pulmonary Edema
+
+Pulmonary edema can be quantitatively assessed using computed tomography (CT) to detect early increases in lung water content, particularly in patients with congestive heart failure.
+
+Radiological Findings:
+On chest X-ray, pulmonary edema may appear as bilateral opacities and vascular congestion; however, early stages may not be clearly visible. On CT imaging, pulmonary edema is associated with increased lung density, reflected by changes in Hounsfield units (HU), particularly in the range of -650 to -750 HU.
+
+Causes:
+Pulmonary edema in this context is primarily associated with left-sided heart failure and elevated pulmonary wedge pressure, leading to fluid accumulation in lung tissues.
+
+Diagnosis:
+CT imaging enables early detection of pulmonary edema by measuring changes in lung density. A quantitative metric, such as the percentage of pixels (%PXL) within a specific Hounsfield unit range, correlates with pulmonary wedge pressure and indicates increased lung water content, even before abnormalities are visible on chest radiographs.
+
+Clinical Importance:
+Quantitative CT analysis provides a sensitive method for detecting subclinical pulmonary edema and monitoring disease progression. This allows earlier intervention and better management of patients with heart failure.
+
+Differential Diagnosis:
+Pulmonary edema detected on CT may resemble interstitial lung disease or pneumonia and should be differentiated using clinical and imaging context.

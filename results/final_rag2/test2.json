@@ -1,0 +1,11 @@
+{
+  "image": "test2.jpg",
+  "disease": "Edema",
+  "confidence": 0.9739308953285217,
+  "interval": [
+    0.968717074394226,
+    0.9791447162628174
+  ],
+  "region": "bilateral lung fields (diffuse opacities)",
+  "report": "Radiology Report\n\n**Patient Information:** Not available\n\n**Imaging Study:** Chest X-ray\n\n**Findings:**\n\nBilateral diffuse opacities are present, consistent with a \"bat-wing\" pattern. Kerley B lines and vascular congestion are also noted.\n\n**Interpretation:**\n\nThe imaging findings are consistent with pulmonary edema, a condition characterized by the accumulation of fluid in the lung interstitium and alveolar spaces. The bilateral diffuse opacities and Kerley B lines are typical radiographic features of pulmonary edema. The presence of vascular congestion further supports this diagnosis.\n\n**Recommendation:**\n\nGiven the imaging findings, pulmonary edema is the most likely diagnosis. Further evaluation and management should focus on addressing the underlying cause of the edema, which may include cardiogenic or non-cardiogenic etiologies. High-resolution CT imaging may be considered to further evaluate the extent and severity of the edema, but is not routinely required for diagnosis.\n\n**Clinical Correlation:**\n\nThe patient's symptoms and clinical presentation should be carefully evaluated to determine the underlying cause of the pulmonary edema. Treatment should be tailored to address the specific etiology, which may include oxygen therapy, diuretics, and management of the underlying cause such as heart failure.\n\n**Differential Diagnosis:**\n\nPulmonary edema may mimic other conditions such as pneumonia or acute respiratory distress syndrome (ARDS) on imaging. However, the presence of bilateral diffuse opacities and Kerley B lines is more suggestive of pulmonary edema."
+}

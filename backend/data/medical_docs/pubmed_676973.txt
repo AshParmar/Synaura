@@ -1,0 +1,18 @@
+Title: Hydrostatic Pulmonary Edema and High-Resolution CT Features
+
+Hydrostatic pulmonary edema is characterized by an abnormal accumulation of extravascular lung water due to elevated pressure in the pulmonary circulation, commonly seen in conditions such as congestive heart failure or intravascular volume overload.
+
+Radiological Findings:
+On chest X-ray, hydrostatic pulmonary edema typically presents as bilateral diffuse opacities, vascular congestion, and interstitial markings such as Kerley B lines. On high-resolution CT (HRCT), findings may include ground-glass opacities, interlobular septal thickening, and perihilar distribution of fluid, which can sometimes mimic other pulmonary conditions.
+
+Causes:
+This condition is primarily cardiogenic in origin and is commonly associated with elevated pulmonary capillary pressure due to heart failure or fluid overload.
+
+Diagnosis:
+Diagnosis is often based on clinical findings, chest radiography, and response to treatment. High-resolution CT is not routinely required but can be useful in identifying subtle or atypical presentations and distinguishing pulmonary edema from other lung diseases.
+
+Clinical Importance:
+Recognizing hydrostatic pulmonary edema on imaging is important to avoid misdiagnosis and unnecessary invasive procedures such as lung biopsy. Accurate differentiation from other conditions ensures appropriate and timely treatment.
+
+Differential Diagnosis:
+Hydrostatic pulmonary edema may mimic pneumonia, pulmonary fibrosis, or acute respiratory distress syndrome (ARDS) on imaging and should be carefully distinguished.

@@ -1,0 +1,29 @@
+Title: Radiological Variations of Pulmonary Edema Across Different Etiologies
+
+Pulmonary edema can be classified based on underlying mechanisms, including hydrostatic (cardiogenic) edema, permeability edema with or without diffuse alveolar damage (DAD), and mixed forms. The radiological appearance of pulmonary edema varies significantly depending on its cause.
+
+Radiological Findings:
+Pulmonary edema demonstrates diverse imaging patterns on chest X-ray and CT. Common findings include interstitial edema, septal lines (Kerley lines), peribronchial cuffing, and alveolar opacities.
+
+Specific radiological patterns include:
+- Postobstructive edema: septal lines, peribronchial cuffing, central alveolar edema
+- Chronic pulmonary embolism: localized ground-glass opacities
+- Veno-occlusive disease: diffuse interstitial edema, enlarged pulmonary arteries, dilated right ventricle
+- Near drowning: perihilar airspace consolidation and interstitial markings
+- Cytokine-induced edema: bilateral symmetric interstitial edema with septal thickening
+- High-altitude pulmonary edema: central interstitial edema with patchy consolidation
+- Neurogenic edema: bilateral homogeneous airspace consolidation, often upper lung predominant
+- Reperfusion edema: heterogeneous consolidation distal to affected vessels
+- Air embolism-related edema: interstitial edema followed by peripheral opacities, often at lung bases
+
+Causes:
+Pulmonary edema may result from multiple mechanisms including increased hydrostatic pressure, increased capillary permeability, vascular obstruction, or injury-related processes.
+
+Diagnosis:
+Radiological evaluation plays a critical role in identifying the underlying cause of pulmonary edema. Recognizing specific imaging patterns helps differentiate between various etiologies.
+
+Clinical Importance:
+Understanding the spectrum of radiological manifestations allows clinicians to narrow differential diagnoses and guide appropriate treatment strategies based on the underlying cause.
+
+Differential Diagnosis:
+Pulmonary edema patterns may overlap with pneumonia, acute respiratory distress syndrome (ARDS), pulmonary embolism, and interstitial lung disease, requiring careful interpretation.

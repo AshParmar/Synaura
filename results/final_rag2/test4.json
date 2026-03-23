@@ -1,0 +1,11 @@
+{
+  "image": "test4.jpg",
+  "disease": "Edema",
+  "confidence": 0.9208245873451233,
+  "interval": [
+    0.904989504814148,
+    0.9366596698760986
+  ],
+  "region": "bilateral lung fields (diffuse opacities)",
+  "report": "Radiology Report\n\n**Patient Information:** (Not Available)\n\n**Imaging Study:** Chest X-ray\n\n**Findings:**\n\nBilateral diffuse opacities are present, described as a \"bat-wing\" pattern, consistent with pulmonary edema. Additional findings include vascular congestion and interstitial markings.\n\n**Interpretation:**\n\nThe imaging findings are highly suggestive of pulmonary edema, with a high likelihood of cardiogenic or non-cardiogenic etiology. The diffuse bilateral opacities and vascular congestion are characteristic features of this condition.\n\n**Recommendation:**\n\nFurther evaluation with high-resolution computed tomography (HRCT) of the chest may be helpful to assess the extent and severity of pulmonary edema, as well as to evaluate for potential complications. Clinical correlation with symptoms and laboratory results is essential to determine the underlying cause of pulmonary edema.\n\n**Differential Diagnosis:**\n\nPulmonary edema may mimic other conditions, such as pneumonia or acute respiratory distress syndrome (ARDS), on imaging. However, the presence of bilateral diffuse opacities and vascular congestion is more suggestive of pulmonary edema.\n\n**Clinical Correlation:**\n\nThe patient's symptoms, such as shortness of breath and orthopnea, are consistent with pulmonary edema. Further clinical evaluation and management are necessary to determine the underlying cause and to guide treatment.\n\n**Conclusion:**\n\nPulmonary edema is a likely diagnosis based on the imaging findings and clinical correlation. Further evaluation and management are necessary to determine the underlying cause and to guide treatment."
+}

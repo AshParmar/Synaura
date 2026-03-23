@@ -1,0 +1,45 @@
+Title: Systemic Immune and Organ-Level Response in Pneumonia
+
+Radiological Findings:
+- Early:
+  - Mild ground-glass opacities
+  - Subtle interstitial changes
+- Progressive:
+  - Patchy or lobar consolidation
+  - Interstitial thickening from inflammation
+- Severe / systemic involvement:
+  - Bilateral diffuse opacities
+  - Ground-glass + consolidation (lung injury pattern)
+- Chronic / post-infection:
+  - Residual fibrosis-like interstitial markings
+  - Persistent lung abnormalities in severe cases
+
+Causes:
+- Microbial infection (bacterial, viral, atypical)
+- Dysregulated immune response across organs
+- Excessive inflammation causing tissue injury
+- Contribution from extrapulmonary organs (liver, bone marrow, immune system signaling)
+
+Symptoms:
+- Cough
+- Fever
+- Dyspnea (in moderate to severe cases)
+
+Diagnosis:
+- Chest X-ray / CT showing progression from interstitial changes to consolidation
+- Clinical evaluation of systemic involvement
+- Lab indicators of inflammation and immune activation
+- Assessment of comorbidities and organ involvement
+
+Clinical Importance:
+- Pneumonia is a systemic disease, not just lung infection
+- Interorgan signaling affects severity and recovery
+- Excess inflammation can lead to acute lung injury and long-term complications
+- Can trigger chronic pulmonary disease and extrapulmonary sequelae
+- Important for designing treatments targeting both infection and immune regulation
+
+Differential Diagnosis:
+- Acute Respiratory Distress Syndrome (ARDS)
+- Chronic interstitial lung disease
+- Pulmonary edema (cardiac or systemic origin)
+- Sepsis-related lung injury

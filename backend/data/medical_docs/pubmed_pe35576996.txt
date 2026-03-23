@@ -1,0 +1,45 @@
+Title: Malignant Pleural Effusion on Imaging in Advanced Cancer
+
+Radiological Findings:
+- Large **unilateral pleural effusion** (most common)
+- Homogeneous opacity with **meniscus sign**
+- Possible **mediastinal shift** (if massive)
+- CT findings:
+  - **Pleural thickening and nodularity** (key malignant feature)
+  - Irregular pleural enhancement
+  - Associated lung mass or metastases
+- Ultrasound:
+  - Complex fluid with septations
+  - Pleural or diaphragmatic nodules
+
+Causes:
+- Metastatic spread to pleura
+- Most commonly from:
+  - Lung cancer
+  - Breast cancer
+- Advanced-stage malignancy
+
+Symptoms:
+- Dyspnea (most common)
+- Chest discomfort
+- Reduced exercise tolerance
+
+Diagnosis:
+- Chest X-ray detecting pleural effusion
+- CT scan (gold standard) for pleural abnormalities
+- Ultrasound for characterization and guidance
+- Pleural fluid cytology (via thoracentesis)
+- Pleural biopsy if cytology inconclusive
+
+Clinical Importance:
+- Indicates **advanced malignancy (stage progression)**
+- Associated with poor prognosis
+- Imaging features (nodularity, thickening) suggest malignancy
+- Management is mainly **palliative** (symptom relief)
+- Guides interventions like drainage or pleurodesis
+
+Differential Diagnosis:
+- Parapneumonic effusion (infection-related)
+- Tuberculous pleural effusion
+- Congestive heart failure (transudative, usually bilateral)
+- Empyema (loculated infected fluid)
