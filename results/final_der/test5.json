@@ -1,0 +1,13 @@
+{
+  "image": "test5.jpg",
+  "disease": "Consolidation",
+  "confidence": 0.703164279460907,
+  "interval": [
+    0.6437971353530884,
+    0.7625314235687256
+  ],
+  "region": "right lung lower zone",
+  "report": "Radiology Report\n\nFindings:\nThe computed tomography (CT) scan of the chest reveals consolidation in the right lung lower zone. The consolidation is hyperdense and is seen within the alveoli. There are no obvious signs of calcifications or ground-glass opacities.\n\nInterpretation:\nThe consolidation in the right lung lower zone is suggestive of consolidation, with a possible differential diagnosis of tuberculosis or iodinated oil embolism. However, the absence of calcifications makes tuberculosis less likely. The hyperdense appearance within the alveoli is more consistent with iodinated oil embolism. It is essential to differentiate between these two conditions, as they have different treatment approaches.\n\nRecommendation:\nFurther imaging and clinical evaluation are recommended to confirm the diagnosis and determine the underlying cause of the consolidation.\n\nDifferential Diagnosis:\n- Consolidation (suggested by hyperdense appearance within the alveoli)\n- Iodinated oil embolism (suggested by hyperdense embolic material in vessels/alveoli)\n- Tuberculosis (less likely due to absence of calcifications)\n- Silicoproteinosis (not supported by imaging findings)\n- Amyloidosis (not supported by imaging findings)",
+  "support_query": "**",
+  "differential_query": "**"
+}

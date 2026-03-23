@@ -1,0 +1,13 @@
+{
+  "image": "test1.jpg",
+  "disease": "Edema",
+  "confidence": 0.9739308953285217,
+  "interval": [
+    0.968717074394226,
+    0.9791447162628174
+  ],
+  "region": "bilateral lung fields (diffuse opacities)",
+  "report": "Radiology Report\n\nFindings:\nBilateral diffuse opacities are present in the lung fields, suggestive of pulmonary edema. Additional findings include vascular congestion and fluid accumulation in the lower lung zones.\n\nInterpretation:\nThe imaging findings are consistent with pulmonary edema, which may be cardiogenic in origin due to elevated pulmonary capillary pressure. However, it is also possible that the findings could be suggestive of acute respiratory distress syndrome (ARDS) or pneumonia, particularly given the bilateral nature of the opacities. A high-resolution CT scan may be useful in further evaluating the extent and distribution of the opacities, as well as distinguishing pulmonary edema from other lung diseases.\n\nRecommendation:\nFurther evaluation with high-resolution CT scan is recommended to confirm the diagnosis and assess for any complications or alternative diagnoses.\n\nDifferential Diagnosis:\nPulmonary edema may mimic pneumonia, pulmonary fibrosis, or acute respiratory distress syndrome (ARDS) on imaging.",
+  "support_query": "Radiological features of pulmonary edema presenting as bilateral diffuse opacities in lower lung fields on chest X-ray.",
+  "differential_query": "Differential diagnosis of bilateral diffuse lung opacities on chest X-ray including ARDS, pneumonia, and interstitial lung disease, particularly in cases with high confidence in pulmonary edema diagnosis (confidence ≥ 0.98)."
+}

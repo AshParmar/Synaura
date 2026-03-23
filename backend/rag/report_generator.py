@@ -17,61 +17,62 @@ llm = ChatGroq(
     api_key=os.getenv("GROQ_API_KEY"),
 )
 
-
-def generate_report(disease, region, fuzzy_info, docs):
-
-    # -------------------------
-    # 1. Filter relevant docs
-    # -------------------------
-    filtered_docs = [
-        d for d in docs
-        if disease.lower() in d.page_content.lower()
-    ]
-
-    if len(filtered_docs) == 0:
-        filtered_docs = docs[:1]  # fallback
-
-    context = "\n".join([doc.page_content for doc in filtered_docs])
+def generate_report(disease, region, fuzzy_info, docs1, docs2):
 
     # -------------------------
-    # 2. Strong controlled prompt
+    # 1. Prepare contexts (DER)
+    # -------------------------
+    support_context = "\n".join([doc.page_content for doc in docs1[:5]])
+    diff_context = "\n".join([doc.page_content for doc in docs2[:5]])
+
+    # -------------------------
+    # 2. DER-aware prompt
     # -------------------------
     prompt = f"""
 You are an expert radiologist.
 
+Generate a concise and clinically realistic radiology report.
+
+AI System Output:
+- Predicted Disease: {disease}
+- Region: {region}
+- Confidence Interval: {fuzzy_info['lower']} - {fuzzy_info['upper']}
+
+Supporting Evidence:
+{support_context}
+
+Differential Evidence:
+{diff_context}
+
 IMPORTANT RULES:
-- The classifier has predicted: {disease}
-- You MUST align with this diagnosis
-- DO NOT contradict the prediction
-- DO NOT say the image is normal
-- DO NOT include patient information or placeholders
+- Do not include Patient Information, Dates, or Notes, Dates in the report
+- Do NOT include placeholders like Patient ID, Date, or Notes
+- Prefer "suggestive of" instead of "consistent with" unless certainty is very high
+- In Interpretation, explicitly compare the predicted disease with at least one alternative condition
+- Focus ONLY on imaging findings and interpretation
+- Do NOT include patient information or general explanations
+- Do NOT assume details not supported by evidence
+- Avoid over-specific claims (e.g., cardiogenic vs non-cardiogenic unless clearly supported)
+- Use cautious language such as "suggestive of" or "consistent with"
+- Compare supporting and alternative conditions before concluding
+- Keep the report concise and clinically relevant
 
-SPECIAL RULE:
-- If disease is cardiomegaly → focus on heart enlargement and cardiothoracic ratio
-- Do NOT incorrectly associate lung regions with heart diseases
-
-X-ray Analysis:
-Disease: {disease}
-Region: {region}
-Confidence Interval: {fuzzy_info['lower']} - {fuzzy_info['upper']}
-Interpretation: {fuzzy_info['interpretation']}
-
-Medical Knowledge:
-{context}
-
-Write a structured radiology report:
+Output format:
 
 Radiology Report
 
 Findings:
+...
+
 Interpretation:
+...
+
 Recommendation:
+...
 
-Use information from MULTIPLE sources.
-If sources differ, mention uncertainty.
-Do not rely on a single document.
-
-Keep the report concise, accurate, and clinically consistent with {disease}.
+Differential Diagnosis:
+...
 """
+
     response = llm.invoke([HumanMessage(content=prompt)])
     return response.content

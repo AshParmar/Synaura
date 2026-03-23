@@ -1,0 +1,13 @@
+{
+  "image": "test3.jpg",
+  "disease": "Pneumonia",
+  "confidence": 0.8123983144760132,
+  "interval": [
+    0.7748779773712158,
+    0.8499186515808106
+  ],
+  "region": "left lung lower zone",
+  "report": "Radiology Report\n\nFindings:\n- Dense, homogeneous consolidation involving a single lobe in the left lung lower zone\n- Presence of air bronchograms within the consolidated region\n- Sharp anatomical boundaries (limited by fissures)\n- Silhouette sign (loss of heart/diaphragm borders depending on lobe)\n- No significant volume loss (distinguishes from atelectasis)\n\nInterpretation:\nThe imaging findings are suggestive of lobar pneumonia, specifically Streptococcus pneumoniae, given the classic pattern of dense consolidation with air bronchograms and sharp anatomical boundaries. This is consistent with the clinical presentation of high fever, productive cough, and chest pain. However, it is also possible that the consolidation may be due to atelectasis, particularly if volume loss is present, or lung abscess if cavitation dominates.\n\nRecommendation:\nFurther evaluation with a CT scan may be necessary to confirm the diagnosis and rule out complications such as pleural effusion or lung abscess. Clinical correlation with laboratory results and clinical history is also essential.\n\nDifferential Diagnosis:\n- Atelectasis (with volume loss)\n- Lung abscess (cavitation)\n- Pulmonary infarction",
+  "support_query": "Radiological features of lobar pneumonia presenting as consolidation and air bronchograms in the left lung lower zone on chest X-ray.",
+  "differential_query": "Differential diagnosis of consolidation and air bronchograms in the left lung lower zone on chest X-ray including atelectasis, bronchiectasis, and lung abscess."
+}

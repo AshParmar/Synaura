@@ -14,6 +14,7 @@ from backend.rag.retriever import retrieve_documents
 from backend.rag.report_generator import generate_report
 from backend.utils.preprocess import preprocess_image
 from backend.rag.query_generator import generate_query
+from backend.rag.dual_retrieval import generate_dual_queries
 app = FastAPI()
 
 
@@ -81,9 +82,14 @@ async def analyze_xray(file: UploadFile = File(...)):
     # -------------------------
     query = f"{disease} chest x-ray findings treatment"
     rag_query = generate_query(disease, region, fuzzy_info, llm)
-    print("\nBASELINE QUERY:", disease)
-    print("RAG QUERY:", rag_query)
-    docs = retrieve_documents(rag_query)
+    q1, q2 = generate_dual_queries(disease, region, fuzzy_info, llm)
+
+    print("Support Query:", q1)
+    print("Differential Query:", q2)
+    docs_q1 = retrieve_documents(q1)
+    docs_q2 = retrieve_documents(q2)
+
+    # combine and deduplicate if needed
 
     # -------------------------
     # 6. Report Generation
@@ -92,7 +98,9 @@ async def analyze_xray(file: UploadFile = File(...)):
         disease,
         region,
         fuzzy_info,
-        docs
+        docs_q1,
+        docs_q2
+
     )
 
     # -------------------------

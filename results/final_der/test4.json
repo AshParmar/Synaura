@@ -1,0 +1,13 @@
+{
+  "image": "test4.jpg",
+  "disease": "Edema",
+  "confidence": 0.9208245873451233,
+  "interval": [
+    0.904989504814148,
+    0.9366596698760986
+  ],
+  "region": "bilateral lung fields (diffuse opacities)",
+  "report": "Radiology Report\n\nFindings:\nBilateral diffuse opacities are present in the lung fields, suggestive of pulmonary edema. Additional findings include Kerley B lines and vascular congestion.\n\nInterpretation:\nThe imaging findings are suggestive of pulmonary edema, which may be cardiogenic or non-cardiogenic in etiology. The presence of bilateral diffuse opacities and Kerley B lines is consistent with pulmonary edema. However, these findings may also be seen in other conditions such as pneumonia or acute respiratory distress syndrome (ARDS). A comparison of the imaging findings with these alternative conditions is necessary to establish a definitive diagnosis.\n\nRecommendation:\nFurther evaluation with high-resolution computed tomography (HRCT) of the chest may be necessary to better characterize the extent and distribution of the pulmonary edema. Additionally, clinical correlation with laboratory and clinical findings is essential to determine the underlying cause of the pulmonary edema.\n\nDifferential Diagnosis:\nPulmonary edema may resemble pneumonia or acute respiratory distress syndrome (ARDS) on imaging. The presence of bilateral diffuse opacities and Kerley B lines may also be seen in other conditions such as interstitial lung disease. A thorough evaluation of the imaging findings and clinical correlation is necessary to establish a definitive diagnosis.",
+  "support_query": "Radiological features of pulmonary edema presenting as bilateral diffuse opacities in lower lung fields on chest X-ray.",
+  "differential_query": "Differential diagnosis of bilateral diffuse lung opacities on chest X-ray including ARDS, cardiogenic pulmonary edema, and interstitial lung disease, excluding conditions with distinct radiographic patterns such as pneumothorax and pleural effusion."
+}

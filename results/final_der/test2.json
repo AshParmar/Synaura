@@ -1,0 +1,13 @@
+{
+  "image": "test2.jpg",
+  "disease": "Edema",
+  "confidence": 0.9739308953285217,
+  "interval": [
+    0.968717074394226,
+    0.9791447162628174
+  ],
+  "region": "bilateral lung fields (diffuse opacities)",
+  "report": "Radiology Report\n\nFindings:\nBilateral diffuse opacities are present in the lung fields, suggestive of pulmonary edema. The opacities are described as a \"bat-wing\" pattern, with Kerley B lines and vascular congestion also noted.\n\nInterpretation:\nThe imaging findings are consistent with pulmonary edema, which may be cardiogenic in origin, resulting from heart failure or excessive fluid administration. However, non-cardiogenic causes, such as increased pulmonary capillary permeability due to inflammatory mediators, cannot be ruled out. The differential diagnosis includes pneumonia, acute respiratory distress syndrome (ARDS), and interstitial lung disease.\n\nRecommendation:\nFurther evaluation with high-resolution CT or lung ultrasound may be considered to confirm the diagnosis and assess the underlying cause of pulmonary edema. Management should focus on addressing the underlying cause, with supportive care including oxygen therapy and diuretics as needed.\n\nDifferential Diagnosis:\nPulmonary edema may resemble pneumonia, acute respiratory distress syndrome (ARDS), or interstitial lung disease. Careful evaluation of radiographic features is required for correct diagnosis.",
+  "support_query": "Radiological features of pulmonary edema presenting as bilateral diffuse opacities in lower lung fields on chest X-ray.",
+  "differential_query": "Differential diagnosis of bilateral diffuse lung opacities on chest X-ray including ARDS, pneumonia, and interstitial lung disease, particularly focusing on conditions that may mimic the imaging pattern of pulmonary edema.\n\nNote: Since the confidence interval is above 0.98, I have included possible mimics in Query2 but with a focus on conditions that may mimic the imaging pattern of pulmonary edema, rather than a strong and explicit list of alternative diagnoses."
+}
