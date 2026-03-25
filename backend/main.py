@@ -15,6 +15,7 @@ from backend.rag.report_generator import generate_report
 from backend.utils.preprocess import preprocess_image
 from backend.rag.query_generator import generate_query
 from backend.rag.dual_retrieval import generate_dual_queries
+from backend.rag.imedrag import refine_report
 app = FastAPI()
 
 
@@ -94,14 +95,21 @@ async def analyze_xray(file: UploadFile = File(...)):
     # -------------------------
     # 6. Report Generation
     # -------------------------
+    # Step 1: initial report (DER)
     report = generate_report(
         disease,
         region,
         fuzzy_info,
         docs_q1,
         docs_q2
+)
 
-    )
+    # Prepare contexts again
+    support_context = "\n".join([doc.page_content for doc in docs_q1[:5]])
+    diff_context = "\n".join([doc.page_content for doc in docs_q2[:5]])
+
+    # Step 2: refinement (i-MedRAG)
+    report = refine_report(report, support_context, diff_context, llm)
 
     # -------------------------
     # 7. Final Response

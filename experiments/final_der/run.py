@@ -23,7 +23,7 @@ ensure_project_root_on_path()
 
 from backend.classify.clasification import classify_image, model
 from backend.rag.report_generator import generate_report
-from backend.rag.retriever import retrieve_documents
+from experiments.legacy_vector_retriever import retrieve_documents
 from backend.utils.preprocess import preprocess_image
 from backend.vision.gradcam import analyze_region
 from backend.rag.dual_retrieval import generate_dual_queries
@@ -67,6 +67,7 @@ def run_one(image_path: Path) -> dict:
         api_key=os.getenv("GROQ_API_KEY"),
     )
     q1, q2 = generate_dual_queries(disease, region, fuzzy_info, llm)
+    # Only use vector retrieval for this experiment
     docs_q1 = retrieve_documents(q1)
     docs_q2 = retrieve_documents(q2)
     report = generate_report(disease, region, fuzzy_info, docs_q1, docs_q2)

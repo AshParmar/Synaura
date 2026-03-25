@@ -1,5 +1,5 @@
 """
-Experiment E: full pipeline — classifier → GradCAM → RAG2 (query_generator) → LLM report (final_rag2 phase).
+Experiment H: full pipeline — classifier → GradCAM → Dual Hybrid Retrieval → DER report → i-MedRAG refinement (final_reports_imedrag phase).
 """
 
 import sys
@@ -22,12 +22,12 @@ from experiments.utils import (
 ensure_project_root_on_path()
 
 from backend.classify.clasification import classify_image, model
-from experiments.legacy_report_generator_rag2 import legacy_generate_report_rag2 as generate_report
-from experiments.legacy_vector_retriever import retrieve_documents
+from backend.rag.report_generator import generate_report
+from backend.rag.retriever import retrieve_hybrid
 from backend.utils.preprocess import preprocess_image
 from backend.vision.gradcam import analyze_region
-
-from backend.rag.query_generator import generate_query
+from backend.rag.dual_retrieval import generate_dual_queries
+from backend.rag.imedrag import refine_report
 from langchain_groq import ChatGroq
 import os
 
@@ -64,13 +64,18 @@ def run_one(image_path: Path) -> dict:
 
     llm = ChatGroq(
         temperature=0.2,
-        model="llama-3.1-8b-instant",
+        model="llama-3.3-70b-versatile",
         api_key=os.getenv("GROQ_API_KEY"),
     )
-    query = generate_query(disease, region, fuzzy_info, llm)
-    # Only use vector retrieval for this experiment
-    docs = retrieve_documents(query)
-    report = generate_report(disease, region, fuzzy_info, docs, [])
+    q1, q2 = generate_dual_queries(disease, region, fuzzy_info, llm)
+    docs_q1 = retrieve_hybrid(q1)
+    docs_q2 = retrieve_hybrid(q2)
+    # Step 1: DER report
+    report = generate_report(disease, region, fuzzy_info, docs_q1, docs_q2)
+    # Step 2: i-MedRAG refinement
+    support_context = "\n".join([doc.page_content for doc in docs_q1[:5]])
+    diff_context = "\n".join([doc.page_content for doc in docs_q2[:5]])
+    report = refine_report(report, support_context, diff_context, llm)
 
     return {
         "image": Path(path).name,
@@ -79,6 +84,8 @@ def run_one(image_path: Path) -> dict:
         "interval": interval,
         "region": region,
         "report": report,
+        "support_query": q1,
+        "differential_query": q2,
     }
 
 def main() -> None:
@@ -88,8 +95,8 @@ def main() -> None:
         return
     for img in images:
         payload = run_one(img)
-        out = save_result_json("final_rag2", img, payload)
-        print(f"final_rag2: {img.name} -> {out}")
+        out = save_result_json("final_reports_imedrag", img, payload)
+        print(f"final_reports_imedrag: {img.name} -> {out}")
 
 if __name__ == "__main__":
     main()

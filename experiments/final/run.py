@@ -22,8 +22,8 @@ from experiments.utils import (
 ensure_project_root_on_path()
 
 from backend.classify.clasification import classify_image, model
-from backend.rag.report_generator import generate_report
-from backend.rag.retriever import retrieve_documents
+from experiments.legacy_report_generator_rag import legacy_generate_report_rag as generate_report
+from experiments.legacy_vector_retriever import retrieve_documents
 from backend.utils.preprocess import preprocess_image
 from backend.vision.gradcam import analyze_region
 
@@ -62,8 +62,9 @@ def run_one(image_path: Path) -> dict:
     _, region = analyze_region(model, image_tensor, original_image, disease)
 
     query = f"{disease} chest x-ray findings treatment"
+    # Only use vector retrieval for this experiment
     docs = retrieve_documents(query)
-    report = generate_report(disease, region, fuzzy_info, docs)
+    report = generate_report(disease, region, fuzzy_info, docs, [])
 
     return {
         "image": Path(path).name,

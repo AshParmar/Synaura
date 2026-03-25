@@ -1,0 +1,13 @@
+{
+  "image": "test5.jpg",
+  "disease": "Consolidation",
+  "confidence": 0.703164279460907,
+  "interval": [
+    0.6437971353530884,
+    0.7625314235687256
+  ],
+  "region": "right lung lower zone",
+  "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows consolidation in the right lung lower zone, characterized by a homogeneous area of increased opacity. Air bronchograms are visible within the dense region.\n\nInterpretation:\nThe pattern of homogeneous consolidation with air bronchograms strongly suggests a diagnosis of lobar pneumonia. The absence of volume loss and presence of air bronchograms favor consolidation over atelectasis.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of consolidation. A CT scan may be suggested if the diagnosis is uncertain.\n\nDifferential Diagnosis:\n1. Pulmonary edema - less likely due to unilateral distribution\n2. Lung abscess - less likely due to absence of cavitation\n3. Atelectasis - less likely due to absence of volume loss\n4. Bronchopneumonia - possible due to patchy opacities",
+  "support_query": "Radiological features of consolidation in the right lung lower zone on chest X-ray, including air bronchograms and homogeneous opacities.",
+  "differential_query": "Differential diagnosis of right lower lung zone opacities on chest X-ray, considering pneumonia, atelectasis, and pulmonary edema as potential mimics of consolidation."
+}

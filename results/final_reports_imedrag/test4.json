@@ -1,0 +1,13 @@
+{
+  "image": "test4.jpg",
+  "disease": "Edema",
+  "confidence": 0.9208245873451233,
+  "interval": [
+    0.904989504814148,
+    0.9366596698760986
+  ],
+  "region": "bilateral lung fields (diffuse opacities)",
+  "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows bilateral diffuse opacities, often described as a \"bat-wing\" pattern, with Kerley B lines and vascular congestion in the bilateral lung fields.\n\nInterpretation:\nThe bilateral diffuse opacities and Kerley B lines strongly suggest pulmonary edema, as this pattern supports interstitial edema. The vascular congestion also favors fluid accumulation in the lung interstitium.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of pulmonary edema. A CT scan may be considered if the diagnosis is uncertain.\n\nDifferential Diagnosis:\n1. Pneumonia: less likely due to diffuse bilateral pattern.\n2. ARDS: less likely due to lack of pleural effusions.\n3. Pulmonary hemorrhage: less likely due to absence of alveolar opacities.\n4. Pleural effusion: less likely due to absence of fluid in pleural space.",
+  "support_query": "Radiological features of pulmonary edema presenting as bilateral diffuse opacities in lung fields on chest X-ray, characterized by perihilar opacities and Kerley B lines.",
+  "differential_query": "Differential diagnosis of bilateral diffuse lung opacities on chest X-ray, including acute respiratory distress syndrome, pneumonia, and interstitial lung disease, which can mimic the imaging patterns of edema in the lung fields."
+}

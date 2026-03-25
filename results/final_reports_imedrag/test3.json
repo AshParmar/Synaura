@@ -1,0 +1,13 @@
+{
+  "image": "test3.jpg",
+  "disease": "Pneumonia",
+  "confidence": 0.8123983144760132,
+  "interval": [
+    0.7748779773712158,
+    0.8499186515808106
+  ],
+  "region": "left lung lower zone",
+  "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows patchy opacities in the left lung lower zone, consistent with a focal pattern. The distribution is unilateral.\n\nInterpretation:\nThe focal pattern and unilateral distribution strongly suggest pneumonia. The absence of volume loss and fissure displacement favors pneumonia over atelectasis.\n\nRecommendation:\nClinical correlation is recommended to confirm the diagnosis. CT scan may be considered if the diagnosis is uncertain.\n\nDifferential Diagnosis:\n1. Atelectasis: less likely due to no volume loss.\n2. Pleural effusion: less likely due to no fissure displacement.\n3. Pulmonary edema: less likely due to unilateral distribution.\n4. Lobar pneumonia: less likely due to patchy pattern.",
+  "support_query": "Radiological features of pneumonia presenting as consolidations or patchy opacities in the left lung lower zone on chest X-ray, including air bronchograms and increased density.",
+  "differential_query": "Differential diagnosis of unilateral lower lobe opacities on chest X-ray, including pulmonary edema, atelectasis, and bronchiectasis, which can mimic pneumonia in the left lower lung zone."
+}

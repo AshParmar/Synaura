@@ -30,7 +30,7 @@ def split_documents(documents):
     return chunks
     
 def build_vector(chunks):
-    embeddings=HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
+    embeddings=HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL,force_download=True)
     vector_db=FAISS.from_documents(chunks, embeddings)
 
     os.makedirs(VECTOR_STORE_PATH, exist_ok=True)
