@@ -1,0 +1,314 @@
+{
+  "Baseline": {
+    "n_samples": 50,
+    "n_with_reference": 50,
+    "BLEU-1": [
+      0.115,
+      0.0527
+    ],
+    "BLEU-4": [
+      0.0065,
+      0.007
+    ],
+    "ROUGE-L": [
+      0.0992,
+      0.0356
+    ],
+    "BERTScore-F1": [
+      -0.1122,
+      0.0452
+    ],
+    "CheXBert-P": [
+      0.7233,
+      0.2741
+    ],
+    "CheXBert-R": [
+      0.3657,
+      0.211
+    ],
+    "CheXBert-F1": [
+      0.4382,
+      0.1697
+    ],
+    "RadGraph-F1": [
+      0.3828,
+      0.1454
+    ],
+    "Region-Local-F1": [
+      0.53,
+      0.2482
+    ],
+    "Fuzzy-Calibration": [
+      0.525,
+      0.2016
+    ],
+    "T2-Interval-Cover": [
+      1.0,
+      0.0
+    ],
+    "T2-Interval-Width": [
+      0.0328,
+      0.0366
+    ]
+  },
+  "RAG": {
+    "n_samples": 50,
+    "n_with_reference": 50,
+    "BLEU-1": [
+      0.0842,
+      0.0369
+    ],
+    "BLEU-4": [
+      0.0048,
+      0.0033
+    ],
+    "ROUGE-L": [
+      0.0865,
+      0.0328
+    ],
+    "BERTScore-F1": [
+      -0.115,
+      0.0383
+    ],
+    "CheXBert-P": [
+      0.5279,
+      0.1942
+    ],
+    "CheXBert-R": [
+      0.5673,
+      0.2062
+    ],
+    "CheXBert-F1": [
+      0.5114,
+      0.1419
+    ],
+    "RadGraph-F1": [
+      0.4417,
+      0.1523
+    ],
+    "Region-Local-F1": [
+      0.455,
+      0.311
+    ],
+    "Fuzzy-Calibration": [
+      0.7,
+      0.1323
+    ],
+    "T2-Interval-Cover": [
+      1.0,
+      0.0
+    ],
+    "T2-Interval-Width": [
+      0.0328,
+      0.0366
+    ]
+  },
+  "RAG2": {
+    "n_samples": 50,
+    "n_with_reference": 50,
+    "BLEU-1": [
+      0.122,
+      0.0609
+    ],
+    "BLEU-4": [
+      0.0064,
+      0.0053
+    ],
+    "ROUGE-L": [
+      0.0989,
+      0.0348
+    ],
+    "BERTScore-F1": [
+      -0.0592,
+      0.0487
+    ],
+    "CheXBert-P": [
+      0.5143,
+      0.2462
+    ],
+    "CheXBert-R": [
+      0.4584,
+      0.1926
+    ],
+    "CheXBert-F1": [
+      0.4497,
+      0.1593
+    ],
+    "RadGraph-F1": [
+      0.3844,
+      0.1285
+    ],
+    "Region-Local-F1": [
+      0.575,
+      0.2358
+    ],
+    "Fuzzy-Calibration": [
+      0.89,
+      0.1338
+    ],
+    "T2-Interval-Cover": [
+      1.0,
+      0.0
+    ],
+    "T2-Interval-Width": [
+      0.0328,
+      0.0366
+    ]
+  },
+  "DER": {
+    "n_samples": 50,
+    "n_with_reference": 50,
+    "BLEU-1": [
+      0.102,
+      0.0511
+    ],
+    "BLEU-4": [
+      0.0061,
+      0.007
+    ],
+    "ROUGE-L": [
+      0.0973,
+      0.0358
+    ],
+    "BERTScore-F1": [
+      -0.0764,
+      0.0421
+    ],
+    "CheXBert-P": [
+      0.5047,
+      0.2342
+    ],
+    "CheXBert-R": [
+      0.5243,
+      0.1855
+    ],
+    "CheXBert-F1": [
+      0.4804,
+      0.1597
+    ],
+    "RadGraph-F1": [
+      0.4007,
+      0.1406
+    ],
+    "Region-Local-F1": [
+      0.655,
+      0.2494
+    ],
+    "Fuzzy-Calibration": [
+      0.78,
+      0.147
+    ],
+    "T2-Interval-Cover": [
+      1.0,
+      0.0
+    ],
+    "T2-Interval-Width": [
+      0.0328,
+      0.0366
+    ]
+  },
+  "Hybrid": {
+    "n_samples": 50,
+    "n_with_reference": 50,
+    "BLEU-1": [
+      0.1189,
+      0.0517
+    ],
+    "BLEU-4": [
+      0.0083,
+      0.007
+    ],
+    "ROUGE-L": [
+      0.1017,
+      0.0349
+    ],
+    "BERTScore-F1": [
+      -0.0473,
+      0.0413
+    ],
+    "CheXBert-P": [
+      0.4948,
+      0.2113
+    ],
+    "CheXBert-R": [
+      0.5685,
+      0.2105
+    ],
+    "CheXBert-F1": [
+      0.4884,
+      0.1521
+    ],
+    "RadGraph-F1": [
+      0.3894,
+      0.149
+    ],
+    "Region-Local-F1": [
+      0.725,
+      0.2795
+    ],
+    "Fuzzy-Calibration": [
+      0.755,
+      0.1695
+    ],
+    "T2-Interval-Cover": [
+      1.0,
+      0.0
+    ],
+    "T2-Interval-Width": [
+      0.0328,
+      0.0366
+    ]
+  },
+  "IMEDRAG": {
+    "n_samples": 50,
+    "n_with_reference": 50,
+    "BLEU-1": [
+      0.1446,
+      0.0611
+    ],
+    "BLEU-4": [
+      0.0091,
+      0.0085
+    ],
+    "ROUGE-L": [
+      0.1123,
+      0.0345
+    ],
+    "BERTScore-F1": [
+      -0.0252,
+      0.0423
+    ],
+    "CheXBert-P": [
+      0.5179,
+      0.2403
+    ],
+    "CheXBert-R": [
+      0.5775,
+      0.2238
+    ],
+    "CheXBert-F1": [
+      0.5051,
+      0.1713
+    ],
+    "RadGraph-F1": [
+      0.4024,
+      0.1614
+    ],
+    "Region-Local-F1": [
+      0.715,
+      0.2739
+    ],
+    "Fuzzy-Calibration": [
+      0.725,
+      0.1601
+    ],
+    "T2-Interval-Cover": [
+      1.0,
+      0.0
+    ],
+    "T2-Interval-Width": [
+      0.0328,
+      0.0366
+    ]
+  }
+}

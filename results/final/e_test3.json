@@ -1,0 +1,11 @@
+{
+  "image": "e_test3.jpg",
+  "disease": "Edema",
+  "confidence": 0.9904308915138245,
+  "interval": [
+    0.9885170698165894,
+    0.9923447132110595
+  ],
+  "region": "bilateral lung fields (diffuse opacities)",
+  "report": "Radiology Report\n\n**Patient Information:** Not Available\n\n**Imaging Study:** Chest X-ray\n\n**Findings:**\n\n* Bilateral diffuse opacities in the lung fields, suggestive of interstitial edema\n* No evidence of cardiomegaly or enlarged cardiac silhouette\n* No significant pleural effusion or vascular redistribution\n\n**Interpretation:**\n\nBased on the imaging findings, there is a high likelihood of pulmonary edema with a non-cardiogenic etiology. The diffuse opacities in the lung fields are consistent with interstitial edema, which is a common feature of non-cardiogenic pulmonary edema. The absence of cardiomegaly or enlarged cardiac silhouette suggests that the edema is not cardiogenic in origin.\n\n**Recommendation:**\n\nFurther evaluation with High-Resolution Computed Tomography (HRCT) of the chest may be necessary to confirm the diagnosis and assess the extent of pulmonary edema. This will also help to differentiate between hydrostatic and permeability-related edema, which is crucial for appropriate treatment.\n\n**Clinical Correlation:**\n\nThe patient's symptoms and clinical presentation should be carefully evaluated to determine the underlying cause of pulmonary edema. A thorough history and physical examination, along with laboratory tests and other imaging studies, may be necessary to guide treatment and improve patient outcomes.\n\n**Differential Diagnosis:**\n\nPulmonary edema may resemble pneumonia, acute respiratory distress syndrome (ARDS), or interstitial lung disease, and careful evaluation of radiographic features is required for correct diagnosis."
+}

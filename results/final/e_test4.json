@@ -1,0 +1,11 @@
+{
+  "image": "e_test4.jpg",
+  "disease": "Edema",
+  "confidence": 0.8591176867485046,
+  "interval": [
+    0.8309412240982056,
+    0.8872941493988037
+  ],
+  "region": "bilateral lung fields (diffuse opacities)",
+  "report": "Radiology Report\n\n**Patient Information:** Not Available\n\n**Imaging Study:** Chest X-ray\n\n**Findings:**\n\nDiffuse opacities are observed in the bilateral lung fields, consistent with pulmonary edema. The cardiac silhouette appears normal in size, suggesting a non-cardiogenic cause of edema.\n\n**Interpretation:**\n\nThe imaging findings are consistent with pulmonary edema, likely of non-cardiogenic origin. The diffuse pattern of opacities in the bilateral lung fields, in the absence of cardiomegaly or other cardiac abnormalities, supports this interpretation. The normal cardiac silhouette and absence of vascular redistribution or pleural effusion further suggest a non-cardiogenic etiology.\n\n**Recommendation:**\n\nFurther evaluation with High-Resolution Computed Tomography (HRCT) of the chest may be helpful to further characterize the extent and distribution of pulmonary edema, as well as to assess for any underlying causes or complications."
+}

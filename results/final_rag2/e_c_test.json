@@ -1,0 +1,11 @@
+{
+  "image": "e_c_test.jpg",
+  "disease": "Cardiomegaly",
+  "confidence": 0.981383740901947,
+  "interval": [
+    0.9776604890823364,
+    0.9851069927215577
+  ],
+  "region": "cardiac region (enlarged heart silhouette)",
+  "report": "Radiology Report\n\nFindings:\n- Enlarged cardiac silhouette on chest X-ray\n- Increased cardiothoracic ratio (CTR) suggestive of cardiomegaly (>0.5)\n- Globular or widened cardiac borders\n- Loss of normal cardiac contour\n- Chamber-specific signs:\n  - Right atrial enlargement → right heart border bulge\n  - Left ventricular enlargement → elongated left heart border\n  - Left atrial enlargement → double density or straightening of left border\n  - Right ventricular enlargement → elevation of cardiac apex\n- Possible displacement of adjacent mediastinal structures\n\nInterpretation:\nThe imaging findings are suggestive of cardiomegaly, which may be associated with cardiac chamber enlargement, chronic hypertension, valvular heart disease, cardiomyopathy, or pericardial effusion. The differential diagnosis includes pericardial effusion, which can mimic cardiomegaly due to a globular heart shape. The findings are also consistent with poor inspiratory effort or magnification artifact on the AP projection X-ray.\n\nRecommendation:\nFurther evaluation with echocardiography is recommended to confirm the diagnosis and assess cardiac function. Clinical correlation with cardiovascular symptoms is also necessary to determine the underlying cause of cardiomegaly."
+}

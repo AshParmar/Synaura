@@ -1,0 +1,10 @@
+{
+  "image": "co_test.jpg",
+  "disease": "Consolidation",
+  "confidence": 0.936678409576416,
+  "interval": [
+    0.9240140914916992,
+    0.9493427276611328
+  ],
+  "region": "left lung upper zone"
+}

@@ -45,7 +45,8 @@ def _fuzzy_info_from_top(top: dict) -> dict:
         "interpretation": interpretation,
     }
 
-def run_one(image_path: Path) -> dict:
+
+def run_one(image_path: Path, temperature: float, run_id: int) -> dict:
     path = load_image(image_path)
     results = classify_image(path)
     top = get_top_prediction(results)
@@ -62,12 +63,11 @@ def run_one(image_path: Path) -> dict:
     _, region = analyze_region(model, image_tensor, original_image, disease)
 
     llm = ChatGroq(
-        temperature=0.2,
+        temperature=temperature,
         model="llama-3.1-8b-instant",
         api_key=os.getenv("GROQ_API_KEY"),
     )
     q1, q2 = generate_dual_queries(disease, region, fuzzy_info, llm)
-    # Only use vector retrieval for this experiment
     docs_q1 = retrieve_documents(q1)
     docs_q2 = retrieve_documents(q2)
     report = generate_report(disease, region, fuzzy_info, docs_q1, docs_q2)
@@ -78,20 +78,27 @@ def run_one(image_path: Path) -> dict:
         "confidence": confidence,
         "interval": interval,
         "region": region,
+        "temperature": temperature,
+        "run_id": run_id,
         "report": report,
         "support_query": q1,
         "differential_query": q2,
     }
+
 
 def main() -> None:
     images = list_test_images()
     if not images:
         print(f"No images found in {TEST_IMAGES_DIR}")
         return
+    temperatures = [0.2, 0.3, 0.4, 0.5, 0.6]
+    all_results = []
     for img in images:
-        payload = run_one(img)
-        out = save_result_json("final_der", img, payload)
-        print(f"final_der: {img.name} -> {out}")
+        for run_id, temp in enumerate(temperatures):
+            payload = run_one(img, temp, run_id)
+            all_results.append(payload)
+    out_path = save_result_json("final_der", Path("all_results.json"), all_results)
+    print(f"final_der: all results -> {out_path}")
 
 if __name__ == "__main__":
     main()

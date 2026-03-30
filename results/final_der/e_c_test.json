@@ -1,0 +1,13 @@
+{
+  "image": "e_c_test.jpg",
+  "disease": "Cardiomegaly",
+  "confidence": 0.981383740901947,
+  "interval": [
+    0.9776604890823364,
+    0.9851069927215577
+  ],
+  "region": "cardiac region (enlarged heart silhouette)",
+  "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an enlarged cardiac silhouette with a cardiothoracic ratio (CTR) increased (>0.5 suggestive, >0.55 more specific), indicating cardiomegaly in the cardiac region. The cardiac borders are globular or widened, and there is a loss of normal cardiac contour. Chamber-specific signs include an elongated left heart border, suggestive of left ventricular enlargement.\n\nInterpretation:\nFindings are strongly suggestive of cardiomegaly. The increased CTR and globular cardiac borders are consistent with cardiomegaly, whereas the elongated left heart border is more specific to left ventricular enlargement. In contrast, a pericardial effusion would typically present with a smooth, symmetric enlargement of heart borders.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of cardiomegaly.\n\nDifferential Diagnosis:\n1. **Left Ventricular Enlargement**: Justification: The elongated left heart border and rounded cardiac apex are characteristic of left ventricular enlargement.\n2. **Pericardial Effusion**: Justification: The smooth, symmetric enlargement of heart borders is more typical of pericardial effusion.\n3. **Chronic Hypertension**: Justification: The increased CTR and globular cardiac borders can be seen in chronic hypertension, but the absence of chamber-specific contour changes makes this less likely.\n4. **Cardiomyopathy**: Justification: The loss of normal cardiac contour and globular cardiac borders can be seen in cardiomyopathy, but the absence of specific chamber enlargement makes this less likely.",
+  "support_query": "Radiological features of cardiomegaly characterized by an enlarged cardiac silhouette, increased cardiothoracic ratio, and right ventricular prominence on chest X-ray.",
+  "differential_query": "Differential diagnosis of an enlarged cardiac silhouette on chest X-ray including pericardial effusion, cardiac tamponade, and constrictive pericarditis."
+}

@@ -1,0 +1,38 @@
+{
+  "Baseline": {
+    "Recall@5": "1.00 \u00b1 0.00",
+    "Faithfulness": 0.69,
+    "Relevance": 0.9,
+    "EmbeddingSim": 1.0
+  },
+  "RAG": {
+    "Recall@5": "1.00 \u00b1 0.00",
+    "Faithfulness": 0.99,
+    "Relevance": 0.99,
+    "EmbeddingSim": 1.0
+  },
+  "RAG2": {
+    "Recall@5": "1.00 \u00b1 0.00",
+    "Faithfulness": 1.0,
+    "Relevance": 0.48,
+    "EmbeddingSim": 1.0
+  },
+  "DER": {
+    "Recall@5": "1.00 \u00b1 0.00",
+    "Faithfulness": 0.5,
+    "Relevance": 0.0,
+    "EmbeddingSim": 1.0
+  },
+  "Hybrid": {
+    "Recall@5": "1.00 \u00b1 0.00",
+    "Faithfulness": 0.2,
+    "Relevance": 0.0,
+    "EmbeddingSim": 1.0
+  },
+  "Final": {
+    "Recall@5": "1.00 \u00b1 0.00",
+    "Faithfulness": 0.1,
+    "Relevance": 0.1,
+    "EmbeddingSim": 1.0
+  }
+}

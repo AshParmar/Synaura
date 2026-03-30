@@ -23,7 +23,8 @@ ensure_project_root_on_path()
 from backend.classify.clasification import classify_image
 
 
-def run_one(image_path: Path) -> dict:
+
+def run_one(image_path: Path, temperature: float, run_id: int) -> dict:
     path = load_image(image_path)
     results = classify_image(path)
     top = get_top_prediction(results)
@@ -33,7 +34,10 @@ def run_one(image_path: Path) -> dict:
         "disease": top["disease"],
         "confidence": float(top["confidence"]),
         "interval": [float(lo), float(hi)],
+        "temperature": temperature,
+        "run_id": run_id,
     }
+
 
 
 def main() -> None:
@@ -41,10 +45,14 @@ def main() -> None:
     if not images:
         print(f"No images found in {TEST_IMAGES_DIR}")
         return
+    temperatures = [0.2, 0.3, 0.4, 0.5, 0.6]
+    all_results = []
     for img in images:
-        payload = run_one(img)
-        out = save_result_json("fuzzy", img, payload)
-        print(f"fuzzy: {img.name} -> {out}")
+        for run_id, temp in enumerate(temperatures):
+            payload = run_one(img, temp, run_id)
+            all_results.append(payload)
+    out_path = save_result_json("fuzzy", Path("all_results.json"), all_results)
+    print(f"fuzzy: all results -> {out_path}")
 
 
 if __name__ == "__main__":

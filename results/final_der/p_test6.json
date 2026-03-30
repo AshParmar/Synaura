@@ -1,0 +1,13 @@
+{
+  "image": "p_test6.jpg",
+  "disease": "Pneumonia",
+  "confidence": 0.977411150932312,
+  "interval": [
+    0.9728933811187744,
+    0.9819289207458496
+  ],
+  "region": "left lung upper zone",
+  "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows consolidation in the left lung upper zone, with patchy or confluent air-space opacities and ill-defined segmental consolidation. Air bronchograms are possible. The distribution is unilateral, and the pattern is focal.\n\nInterpretation:\nFindings are strongly suggestive of pneumonia. The consolidation in the left lung upper zone is consistent with lobar consolidation, a common pattern of bacterial pneumonia. The focal distribution and presence of air bronchograms support this diagnosis. In comparison, atelectasis is less likely due to the absence of volume loss and displacement of fissures.\n\nRecommendation:\nClinical correlation is recommended to confirm the diagnosis and assess the need for further management. A CT scan may be considered if the diagnosis is uncertain or if complications are suspected.\n\nDifferential Diagnosis:\n1. Atelectasis: Less likely due to the absence of volume loss and displacement of fissures.\n2. Pulmonary edema: Less likely due to the focal distribution and absence of bilateral symmetric pattern.\n3. Lung abscess: Less likely due to the absence of cavitation or abscess formation.\n4. Pleural effusion: Less likely due to the absence of blunting of costophrenic angle.",
+  "support_query": "Radiological features of pneumonia presenting as consolidation and air bronchograms in the left lung upper zone on chest X-ray.",
+  "differential_query": "Differential diagnosis of consolidation and air bronchograms in the left lung upper zone on chest X-ray including atelectasis, lung abscess, and bronchiectasis."
+}

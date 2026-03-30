@@ -1,0 +1,13 @@
+{
+  "image": "co_test.jpg",
+  "disease": "Consolidation",
+  "confidence": 0.936678409576416,
+  "interval": [
+    0.9240140914916992,
+    0.9493427276611328
+  ],
+  "region": "left lung upper zone",
+  "report": "**Radiology Report**\n\n**Findings:**\nThe chest X-ray shows consolidation in the left lung upper zone, characterized by a homogeneous area of increased opacity. Air bronchograms are visible within the dense region. The distribution is unilateral, and the pattern is focal.\n\n**Interpretation:**\nFindings are suggestive of consolidation. The homogeneous area of increased opacity and air bronchograms in the left lung upper zone are consistent with consolidation. In comparison, atelectasis is less likely due to the absence of volume loss and displacement of fissures.\n\n**Recommendation:**\nClinical correlation is recommended to determine the underlying cause of consolidation. CT scan may be suggested if the diagnosis is uncertain.\n\n**Differential Diagnosis:**\n\n1. **Pulmonary edema**: Less likely due to the focal distribution and absence of bilateral diffuse opacities.\n2. **Lung malignancy**: Less likely due to the homogeneous appearance and absence of mass-like consolidation.\n3. **ARDS**: Less likely due to the focal distribution and absence of diffuse bilateral involvement.\n4. **Atelectasis**: Less likely due to the absence of volume loss and displacement of fissures.",
+  "support_query": "Radiological features of pulmonary consolidation presenting as increased opacity and air bronchograms in the left lung upper zone on chest X-ray.",
+  "differential_query": "Differential diagnosis of increased opacity and air bronchograms in the left lung upper zone on chest X-ray including atelectasis, pneumonia, and pulmonary infarction."
+}

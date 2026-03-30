@@ -1,0 +1,10 @@
+{
+  "image": "co_test9.jpg",
+  "disease": "Pneumonia",
+  "confidence": 0.909731924533844,
+  "interval": [
+    0.8916783094406128,
+    0.9277855396270752
+  ],
+  "region": "left lung lower zone"
+}

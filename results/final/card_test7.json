@@ -1,0 +1,11 @@
+{
+  "image": "card_test7.jpg",
+  "disease": "Cardiomegaly",
+  "confidence": 0.9514164328575134,
+  "interval": [
+    0.9416997194290161,
+    0.9611331462860108
+  ],
+  "region": "cardiac region (enlarged heart silhouette)",
+  "report": "Radiology Report\n\n**Patient's Condition:** Cardiomegaly\n\n**Imaging Modality:** Chest X-ray\n\n**Findings:**\n\nThe chest X-ray reveals an enlarged cardiac silhouette with a globular, \"water-bottle\" shaped appearance. The cardiothoracic ratio is increased, indicating a significant enlargement of the heart relative to the chest. The heart borders are smooth and symmetric, with no chamber-specific contour changes. The lung fields are clear, suggesting no associated pulmonary disease.\n\n**Interpretation:**\n\nThe findings are consistent with cardiomegaly, which refers to an enlarged heart. Cardiomegaly is often associated with cardiovascular disease and can be caused by various factors, including hypertension, heart failure, and pericardial effusion. The increased cardiothoracic ratio and smooth, symmetric enlargement of the heart borders are characteristic features of cardiomegaly.\n\n**Recommendation:**\n\nFurther evaluation with echocardiography is recommended to confirm the diagnosis and assess the underlying cause of the cardiomegaly. Clinical correlation with cardiac symptoms, such as shortness of breath and fatigue, is also essential. Management should focus on treating the underlying cause of the cardiomegaly, which may include medications to control hypertension or heart failure.\n\n**Differential Diagnosis:**\n\nPericardial effusion is a potential differential diagnosis, which can mimic true cardiomegaly. However, pericardial effusion typically presents with a more rapid increase in cardiac size on serial X-rays and may be associated with signs of cardiac tamponade. Other conditions, such as dilated cardiomyopathy and mediastinal masses, should also be considered in the differential diagnosis.\n\n**Clinical Importance:**\n\nCardiomegaly is a significant finding that requires prompt evaluation and management. The increased risk of cardiac tamponade and other complications emphasizes the need for timely diagnosis and treatment."
+}

@@ -16,3 +16,4 @@ langchain
 langchain-text-splitters
 langchain_groq
 python-dotenv
+ragas 

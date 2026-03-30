@@ -1,0 +1,9 @@
+{
+  "image": "pe_test1.jpg",
+  "disease": "Pleural Effusion",
+  "confidence": 0.9841912984848022,
+  "interval": [
+    0.9810295581817627,
+    0.9873530387878418
+  ]
+}

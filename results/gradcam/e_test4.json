@@ -1,0 +1,10 @@
+{
+  "image": "e_test4.jpg",
+  "disease": "Edema",
+  "confidence": 0.8591176867485046,
+  "interval": [
+    0.8309412240982056,
+    0.8872941493988037
+  ],
+  "region": "bilateral lung fields (diffuse opacities)"
+}

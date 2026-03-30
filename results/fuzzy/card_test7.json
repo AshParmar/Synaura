@@ -1,0 +1,9 @@
+{
+  "image": "card_test7.jpg",
+  "disease": "Cardiomegaly",
+  "confidence": 0.9514164328575134,
+  "interval": [
+    0.9416997194290161,
+    0.9611331462860108
+  ]
+}

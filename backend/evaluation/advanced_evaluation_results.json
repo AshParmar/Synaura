@@ -1,0 +1,222 @@
+{
+  "Baseline": {
+    "recall_at_k": {
+      "@1": [
+        1.0,
+        0.0
+      ],
+      "@3": [
+        1.0,
+        0.0
+      ],
+      "@5": [
+        1.0,
+        0.0
+      ],
+      "@10": [
+        1.0,
+        0.0
+      ]
+    },
+    "recall_using_proxy": true,
+    "faithfulness": [
+      0.0,
+      0.0
+    ],
+    "answer_relevance": [
+      0.0,
+      0.0
+    ],
+    "ragas_n_scored": 0,
+    "accuracy": 0.06,
+    "macro_f1": 0.0397,
+    "per_class_f1": {
+      "Cardiomegaly": 0.0,
+      "Consolidation": 0.0,
+      "Edema": 0.0,
+      "Effusion": 0.2,
+      "No Finding": 0.0,
+      "Opacity": 0.0,
+      "Pneumonia": 0.118,
+      "Pneumothorax": 0.0
+    },
+    "gt_source": "mimic_disease_stratified",
+    "n": 50
+  },
+  "RAG2": {
+    "recall_at_k": {
+      "@1": [
+        1.0,
+        0.0
+      ],
+      "@3": [
+        1.0,
+        0.0
+      ],
+      "@5": [
+        1.0,
+        0.0
+      ],
+      "@10": [
+        1.0,
+        0.0
+      ]
+    },
+    "recall_using_proxy": true,
+    "faithfulness": [
+      0.0,
+      0.0
+    ],
+    "answer_relevance": [
+      0.0,
+      0.0
+    ],
+    "ragas_n_scored": 0,
+    "accuracy": 0.06,
+    "macro_f1": 0.0397,
+    "per_class_f1": {
+      "Cardiomegaly": 0.0,
+      "Consolidation": 0.0,
+      "Edema": 0.0,
+      "Effusion": 0.2,
+      "No Finding": 0.0,
+      "Opacity": 0.0,
+      "Pneumonia": 0.118,
+      "Pneumothorax": 0.0
+    },
+    "gt_source": "mimic_disease_stratified",
+    "n": 50
+  },
+  "DER": {
+    "recall_at_k": {
+      "@1": [
+        1.0,
+        0.0
+      ],
+      "@3": [
+        1.0,
+        0.0
+      ],
+      "@5": [
+        1.0,
+        0.0
+      ],
+      "@10": [
+        1.0,
+        0.0
+      ]
+    },
+    "recall_using_proxy": true,
+    "faithfulness": [
+      0.0,
+      0.0
+    ],
+    "answer_relevance": [
+      0.0,
+      0.0
+    ],
+    "ragas_n_scored": 0,
+    "accuracy": 0.06,
+    "macro_f1": 0.0397,
+    "per_class_f1": {
+      "Cardiomegaly": 0.0,
+      "Consolidation": 0.0,
+      "Edema": 0.0,
+      "Effusion": 0.2,
+      "No Finding": 0.0,
+      "Opacity": 0.0,
+      "Pneumonia": 0.118,
+      "Pneumothorax": 0.0
+    },
+    "gt_source": "mimic_disease_stratified",
+    "n": 50
+  },
+  "Hybrid": {
+    "recall_at_k": {
+      "@1": [
+        1.0,
+        0.0
+      ],
+      "@3": [
+        1.0,
+        0.0
+      ],
+      "@5": [
+        1.0,
+        0.0
+      ],
+      "@10": [
+        1.0,
+        0.0
+      ]
+    },
+    "recall_using_proxy": true,
+    "faithfulness": [
+      0.0,
+      0.0
+    ],
+    "answer_relevance": [
+      0.0,
+      0.0
+    ],
+    "ragas_n_scored": 0,
+    "accuracy": 0.06,
+    "macro_f1": 0.0397,
+    "per_class_f1": {
+      "Cardiomegaly": 0.0,
+      "Consolidation": 0.0,
+      "Edema": 0.0,
+      "Effusion": 0.2,
+      "No Finding": 0.0,
+      "Opacity": 0.0,
+      "Pneumonia": 0.118,
+      "Pneumothorax": 0.0
+    },
+    "gt_source": "mimic_disease_stratified",
+    "n": 50
+  },
+  "IMEDRAG": {
+    "recall_at_k": {
+      "@1": [
+        1.0,
+        0.0
+      ],
+      "@3": [
+        1.0,
+        0.0
+      ],
+      "@5": [
+        1.0,
+        0.0
+      ],
+      "@10": [
+        1.0,
+        0.0
+      ]
+    },
+    "recall_using_proxy": true,
+    "faithfulness": [
+      0.0,
+      0.0
+    ],
+    "answer_relevance": [
+      0.0,
+      0.0
+    ],
+    "ragas_n_scored": 0,
+    "accuracy": 0.06,
+    "macro_f1": 0.0397,
+    "per_class_f1": {
+      "Cardiomegaly": 0.0,
+      "Consolidation": 0.0,
+      "Edema": 0.0,
+      "Effusion": 0.2,
+      "No Finding": 0.0,
+      "Opacity": 0.0,
+      "Pneumonia": 0.118,
+      "Pneumothorax": 0.0
+    },
+    "gt_source": "mimic_disease_stratified",
+    "n": 50
+  }
+}

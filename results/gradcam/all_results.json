@@ -1,0 +1,602 @@
+[
+  {
+    "image": "card_test7.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.9514164328575134,
+    "interval": [
+      0.9416997194290161,
+      0.9611331462860108
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.2,
+    "run_id": 0
+  },
+  {
+    "image": "card_test7.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.9514164328575134,
+    "interval": [
+      0.9416997194290161,
+      0.9611331462860108
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.3,
+    "run_id": 1
+  },
+  {
+    "image": "card_test7.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.9514164328575134,
+    "interval": [
+      0.9416997194290161,
+      0.9611331462860108
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.4,
+    "run_id": 2
+  },
+  {
+    "image": "card_test7.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.9514164328575134,
+    "interval": [
+      0.9416997194290161,
+      0.9611331462860108
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.5,
+    "run_id": 3
+  },
+  {
+    "image": "card_test7.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.9514164328575134,
+    "interval": [
+      0.9416997194290161,
+      0.9611331462860108
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.6,
+    "run_id": 4
+  },
+  {
+    "image": "co_test.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.936678409576416,
+    "interval": [
+      0.9240140914916992,
+      0.9493427276611328
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.2,
+    "run_id": 0
+  },
+  {
+    "image": "co_test.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.936678409576416,
+    "interval": [
+      0.9240140914916992,
+      0.9493427276611328
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.3,
+    "run_id": 1
+  },
+  {
+    "image": "co_test.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.936678409576416,
+    "interval": [
+      0.9240140914916992,
+      0.9493427276611328
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.4,
+    "run_id": 2
+  },
+  {
+    "image": "co_test.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.936678409576416,
+    "interval": [
+      0.9240140914916992,
+      0.9493427276611328
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.5,
+    "run_id": 3
+  },
+  {
+    "image": "co_test.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.936678409576416,
+    "interval": [
+      0.9240140914916992,
+      0.9493427276611328
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.6,
+    "run_id": 4
+  },
+  {
+    "image": "e_c_test.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.981383740901947,
+    "interval": [
+      0.9776604890823364,
+      0.9851069927215577
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.2,
+    "run_id": 0
+  },
+  {
+    "image": "e_c_test.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.981383740901947,
+    "interval": [
+      0.9776604890823364,
+      0.9851069927215577
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.3,
+    "run_id": 1
+  },
+  {
+    "image": "e_c_test.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.981383740901947,
+    "interval": [
+      0.9776604890823364,
+      0.9851069927215577
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.4,
+    "run_id": 2
+  },
+  {
+    "image": "e_c_test.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.981383740901947,
+    "interval": [
+      0.9776604890823364,
+      0.9851069927215577
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.5,
+    "run_id": 3
+  },
+  {
+    "image": "e_c_test.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.981383740901947,
+    "interval": [
+      0.9776604890823364,
+      0.9851069927215577
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.6,
+    "run_id": 4
+  },
+  {
+    "image": "e_test3.jpg",
+    "disease": "Edema",
+    "confidence": 0.9904308915138245,
+    "interval": [
+      0.9885170698165894,
+      0.9923447132110595
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.2,
+    "run_id": 0
+  },
+  {
+    "image": "e_test3.jpg",
+    "disease": "Edema",
+    "confidence": 0.9904308915138245,
+    "interval": [
+      0.9885170698165894,
+      0.9923447132110595
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.3,
+    "run_id": 1
+  },
+  {
+    "image": "e_test3.jpg",
+    "disease": "Edema",
+    "confidence": 0.9904308915138245,
+    "interval": [
+      0.9885170698165894,
+      0.9923447132110595
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.4,
+    "run_id": 2
+  },
+  {
+    "image": "e_test3.jpg",
+    "disease": "Edema",
+    "confidence": 0.9904308915138245,
+    "interval": [
+      0.9885170698165894,
+      0.9923447132110595
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.5,
+    "run_id": 3
+  },
+  {
+    "image": "e_test3.jpg",
+    "disease": "Edema",
+    "confidence": 0.9904308915138245,
+    "interval": [
+      0.9885170698165894,
+      0.9923447132110595
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.6,
+    "run_id": 4
+  },
+  {
+    "image": "e_test4.jpg",
+    "disease": "Edema",
+    "confidence": 0.8591176867485046,
+    "interval": [
+      0.8309412240982056,
+      0.8872941493988037
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.2,
+    "run_id": 0
+  },
+  {
+    "image": "e_test4.jpg",
+    "disease": "Edema",
+    "confidence": 0.8591176867485046,
+    "interval": [
+      0.8309412240982056,
+      0.8872941493988037
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.3,
+    "run_id": 1
+  },
+  {
+    "image": "e_test4.jpg",
+    "disease": "Edema",
+    "confidence": 0.8591176867485046,
+    "interval": [
+      0.8309412240982056,
+      0.8872941493988037
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.4,
+    "run_id": 2
+  },
+  {
+    "image": "e_test4.jpg",
+    "disease": "Edema",
+    "confidence": 0.8591176867485046,
+    "interval": [
+      0.8309412240982056,
+      0.8872941493988037
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.5,
+    "run_id": 3
+  },
+  {
+    "image": "e_test4.jpg",
+    "disease": "Edema",
+    "confidence": 0.8591176867485046,
+    "interval": [
+      0.8309412240982056,
+      0.8872941493988037
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.6,
+    "run_id": 4
+  },
+  {
+    "image": "p_test5.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.9827228784561157,
+    "interval": [
+      0.9792674541473388,
+      0.9861783027648926
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.2,
+    "run_id": 0
+  },
+  {
+    "image": "p_test5.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.9827228784561157,
+    "interval": [
+      0.9792674541473388,
+      0.9861783027648926
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.3,
+    "run_id": 1
+  },
+  {
+    "image": "p_test5.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.9827228784561157,
+    "interval": [
+      0.9792674541473388,
+      0.9861783027648926
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.4,
+    "run_id": 2
+  },
+  {
+    "image": "p_test5.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.9827228784561157,
+    "interval": [
+      0.9792674541473388,
+      0.9861783027648926
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.5,
+    "run_id": 3
+  },
+  {
+    "image": "p_test5.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.9827228784561157,
+    "interval": [
+      0.9792674541473388,
+      0.9861783027648926
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.6,
+    "run_id": 4
+  },
+  {
+    "image": "p_test6.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.977411150932312,
+    "interval": [
+      0.9728933811187744,
+      0.9819289207458496
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.2,
+    "run_id": 0
+  },
+  {
+    "image": "p_test6.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.977411150932312,
+    "interval": [
+      0.9728933811187744,
+      0.9819289207458496
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.3,
+    "run_id": 1
+  },
+  {
+    "image": "p_test6.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.977411150932312,
+    "interval": [
+      0.9728933811187744,
+      0.9819289207458496
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.4,
+    "run_id": 2
+  },
+  {
+    "image": "p_test6.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.977411150932312,
+    "interval": [
+      0.9728933811187744,
+      0.9819289207458496
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.5,
+    "run_id": 3
+  },
+  {
+    "image": "p_test6.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.977411150932312,
+    "interval": [
+      0.9728933811187744,
+      0.9819289207458496
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.6,
+    "run_id": 4
+  },
+  {
+    "image": "pe_test1.jpg",
+    "disease": "Pleural Effusion",
+    "confidence": 0.9841912984848022,
+    "interval": [
+      0.9810295581817627,
+      0.9873530387878418
+    ],
+    "region": "pleural space (lung base)",
+    "temperature": 0.2,
+    "run_id": 0
+  },
+  {
+    "image": "pe_test1.jpg",
+    "disease": "Pleural Effusion",
+    "confidence": 0.9841912984848022,
+    "interval": [
+      0.9810295581817627,
+      0.9873530387878418
+    ],
+    "region": "pleural space (lung base)",
+    "temperature": 0.3,
+    "run_id": 1
+  },
+  {
+    "image": "pe_test1.jpg",
+    "disease": "Pleural Effusion",
+    "confidence": 0.9841912984848022,
+    "interval": [
+      0.9810295581817627,
+      0.9873530387878418
+    ],
+    "region": "pleural space (lung base)",
+    "temperature": 0.4,
+    "run_id": 2
+  },
+  {
+    "image": "pe_test1.jpg",
+    "disease": "Pleural Effusion",
+    "confidence": 0.9841912984848022,
+    "interval": [
+      0.9810295581817627,
+      0.9873530387878418
+    ],
+    "region": "pleural space (lung base)",
+    "temperature": 0.5,
+    "run_id": 3
+  },
+  {
+    "image": "pe_test1.jpg",
+    "disease": "Pleural Effusion",
+    "confidence": 0.9841912984848022,
+    "interval": [
+      0.9810295581817627,
+      0.9873530387878418
+    ],
+    "region": "pleural space (lung base)",
+    "temperature": 0.6,
+    "run_id": 4
+  },
+  {
+    "image": "test3.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.8123983144760132,
+    "interval": [
+      0.7748779773712158,
+      0.8499186515808106
+    ],
+    "region": "left lung lower zone",
+    "temperature": 0.2,
+    "run_id": 0
+  },
+  {
+    "image": "test3.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.8123983144760132,
+    "interval": [
+      0.7748779773712158,
+      0.8499186515808106
+    ],
+    "region": "left lung lower zone",
+    "temperature": 0.3,
+    "run_id": 1
+  },
+  {
+    "image": "test3.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.8123983144760132,
+    "interval": [
+      0.7748779773712158,
+      0.8499186515808106
+    ],
+    "region": "left lung lower zone",
+    "temperature": 0.4,
+    "run_id": 2
+  },
+  {
+    "image": "test3.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.8123983144760132,
+    "interval": [
+      0.7748779773712158,
+      0.8499186515808106
+    ],
+    "region": "left lung lower zone",
+    "temperature": 0.5,
+    "run_id": 3
+  },
+  {
+    "image": "test3.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.8123983144760132,
+    "interval": [
+      0.7748779773712158,
+      0.8499186515808106
+    ],
+    "region": "left lung lower zone",
+    "temperature": 0.6,
+    "run_id": 4
+  },
+  {
+    "image": "test5.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.703164279460907,
+    "interval": [
+      0.6437971353530884,
+      0.7625314235687256
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.2,
+    "run_id": 0
+  },
+  {
+    "image": "test5.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.703164279460907,
+    "interval": [
+      0.6437971353530884,
+      0.7625314235687256
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.3,
+    "run_id": 1
+  },
+  {
+    "image": "test5.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.703164279460907,
+    "interval": [
+      0.6437971353530884,
+      0.7625314235687256
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.4,
+    "run_id": 2
+  },
+  {
+    "image": "test5.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.703164279460907,
+    "interval": [
+      0.6437971353530884,
+      0.7625314235687256
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.5,
+    "run_id": 3
+  },
+  {
+    "image": "test5.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.703164279460907,
+    "interval": [
+      0.6437971353530884,
+      0.7625314235687256
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.6,
+    "run_id": 4
+  }
+]

@@ -28,7 +28,7 @@ def split_documents(documents):
     splitter=RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
     chunks=splitter.split_documents(documents)
     return chunks
-    
+
 def build_vector(chunks):
     embeddings=HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL,force_download=True)
     vector_db=FAISS.from_documents(chunks, embeddings)

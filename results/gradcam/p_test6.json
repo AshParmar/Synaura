@@ -1,0 +1,10 @@
+{
+  "image": "p_test6.jpg",
+  "disease": "Pneumonia",
+  "confidence": 0.977411150932312,
+  "interval": [
+    0.9728933811187744,
+    0.9819289207458496
+  ],
+  "region": "left lung upper zone"
+}

@@ -1,0 +1,11 @@
+{
+  "image": "e_test4.jpg",
+  "disease": "Edema",
+  "confidence": 0.8591176867485046,
+  "interval": [
+    0.8309412240982056,
+    0.8872941493988037
+  ],
+  "region": "bilateral lung fields (diffuse opacities)",
+  "report": "Radiology Report\n\nFindings:\n\nBilateral diffuse opacities are present in the lung fields, suggestive of pulmonary edema. The opacities are described as a \"bat-wing\" pattern, with possible Kerley B lines and vascular congestion.\n\nInterpretation:\n\nThe imaging findings are suggestive of pulmonary edema. However, it is also possible that the bilateral diffuse opacities could be consistent with a multifocal pneumonia or acute respiratory distress syndrome (ARDS). The presence of Kerley B lines and vascular congestion supports the diagnosis of pulmonary edema, but further evaluation with CT imaging or clinical correlation may be necessary to confirm the diagnosis.\n\nRecommendation:\n\nFurther evaluation with CT imaging or clinical correlation is recommended to confirm the diagnosis of pulmonary edema and to rule out alternative conditions such as multifocal pneumonia or ARDS."
+}

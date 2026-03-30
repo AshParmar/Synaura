@@ -16,7 +16,7 @@ llm = ChatGroq(
     api_key=os.getenv("GROQ_API_KEY"),
 )
 
-def legacy_generate_report_rag2(disease, region, fuzzy_info, docs1, docs2=None):
+def legacy_generate_report_rag2(disease, region, fuzzy_info, docs1, docs2=None, temperature=0.2):
     context = "\n".join([doc.page_content for doc in docs1[:5]])
     prompt = f"""
 You are an expert radiologist.
@@ -57,5 +57,10 @@ Interpretation:
 Recommendation:
 ...
 """
-    response = llm.invoke([HumanMessage(content=prompt)])
+    local_llm = ChatGroq(
+        temperature=temperature,
+        model="llama-3.1-8b-instant",
+        api_key=os.getenv("GROQ_API_KEY"),
+    )
+    response = local_llm.invoke([HumanMessage(content=prompt)])
     return response.content

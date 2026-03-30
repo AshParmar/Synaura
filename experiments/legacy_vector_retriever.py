@@ -20,3 +20,8 @@ db = load_vector_db()
 
 def retrieve_documents(query, k=10):
     return db.similarity_search(query, k=k)
+
+def retrieve_vector_legacy(disease, region, fuzzy_info):
+    # Compose a simple query using disease and region (no dual retrieval)
+    query = f"{disease} {region} confidence {fuzzy_info['lower']}-{fuzzy_info['upper']}"
+    return retrieve_documents(query, k=10)

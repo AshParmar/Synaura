@@ -1,0 +1,44 @@
+{
+  "Baseline": {
+    "Clinical Accuracy": "2.20 \u00b1 1.04",
+    "Diagnostic Reasoning": "0.22 \u00b1 0.29",
+    "Hit Rate": 0.76,
+    "RadGraph-F1": 1.0,
+    "FactScore": 0.17
+  },
+  "RAG": {
+    "Clinical Accuracy": "2.86 \u00b1 1.02",
+    "Diagnostic Reasoning": "0.86 \u00b1 0.32",
+    "Hit Rate": 1.0,
+    "RadGraph-F1": 1.0,
+    "FactScore": 0.29
+  },
+  "RAG2": {
+    "Clinical Accuracy": "2.56 \u00b1 0.96",
+    "Diagnostic Reasoning": "0.91 \u00b1 0.26",
+    "Hit Rate": 1.0,
+    "RadGraph-F1": 0.98,
+    "FactScore": 0.34
+  },
+  "DER": {
+    "Clinical Accuracy": "3.04 \u00b1 1.00",
+    "Diagnostic Reasoning": "1.00 \u00b1 0.00",
+    "Hit Rate": 1.0,
+    "RadGraph-F1": 1.0,
+    "FactScore": 0.32
+  },
+  "Hybrid": {
+    "Clinical Accuracy": "3.00 \u00b1 1.00",
+    "Diagnostic Reasoning": "1.00 \u00b1 0.00",
+    "Hit Rate": 1.0,
+    "RadGraph-F1": 1.0,
+    "FactScore": 0.37
+  },
+  "IMEDRAG": {
+    "Clinical Accuracy": "3.00 \u00b1 1.00",
+    "Diagnostic Reasoning": "1.00 \u00b1 0.00",
+    "Hit Rate": 1.0,
+    "RadGraph-F1": 1.0,
+    "FactScore": 0.34
+  }
+}

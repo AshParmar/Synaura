@@ -1,0 +1,13 @@
+{
+  "image": "card_test7.jpg",
+  "disease": "Cardiomegaly",
+  "confidence": 0.9514164328575134,
+  "interval": [
+    0.9416997194290161,
+    0.9611331462860108
+  ],
+  "region": "cardiac region (enlarged heart silhouette)",
+  "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an enlarged cardiac silhouette with a cardiothoracic ratio (CTR) increased, indicating cardiomegaly. The cardiac silhouette is globular with widened borders and a loss of normal cardiac contour. Chamber-specific signs are present, including right atrial enlargement with a right heart border bulge.\n\nInterpretation:\nFindings are strongly suggestive of cardiomegaly. The increased CTR and globular cardiac silhouette are consistent with cardiomegaly. In contrast, pericardial effusion is less likely due to the presence of chamber-specific contour changes.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of cardiomegaly.\n\nDifferential Diagnosis:\n1. Cardiomyopathy (less likely due to the absence of diffuse volume loss)\n2. Chronic hypertension (less likely due to the absence of focal volume loss)\n3. Pericardial effusion (less likely due to the presence of chamber-specific contour changes)\n4. Mediastinal mass (less likely due to the absence of focal volume loss)",
+  "support_query": "Radiological features of cardiomegaly on chest X-ray characterized by an enlarged cardiac silhouette, increased cardiothoracic ratio, and possible right atrial and ventricular enlargement.",
+  "differential_query": "Differential diagnosis of an enlarged cardiac silhouette on chest X-ray including pericardial effusion, cardiac tamponade, and constrictive pericarditis."
+}

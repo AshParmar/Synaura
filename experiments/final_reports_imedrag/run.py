@@ -46,7 +46,8 @@ def _fuzzy_info_from_top(top: dict) -> dict:
         "interpretation": interpretation,
     }
 
-def run_one(image_path: Path) -> dict:
+
+def run_one(image_path: Path, temperature: float, run_id: int) -> dict:
     path = load_image(image_path)
     results = classify_image(path)
     top = get_top_prediction(results)
@@ -63,8 +64,8 @@ def run_one(image_path: Path) -> dict:
     _, region = analyze_region(model, image_tensor, original_image, disease)
 
     llm = ChatGroq(
-        temperature=0.2,
-        model="llama-3.3-70b-versatile",
+        temperature=temperature,
+        model="meta-llama/llama-4-scout-17b-16e-instruct",
         api_key=os.getenv("GROQ_API_KEY"),
     )
     q1, q2 = generate_dual_queries(disease, region, fuzzy_info, llm)
@@ -83,20 +84,42 @@ def run_one(image_path: Path) -> dict:
         "confidence": confidence,
         "interval": interval,
         "region": region,
+        "temperature": temperature,
+        "run_id": run_id,
         "report": report,
         "support_query": q1,
         "differential_query": q2,
     }
 
+
 def main() -> None:
+    import argparse
+    parser = argparse.ArgumentParser(description="Run i-MedRAG final report experiment in batches.")
+    parser.add_argument('--start', type=int, default=0, help='Start index (inclusive) of images to process')
+    parser.add_argument('--end', type=int, default=None, help='End index (exclusive) of images to process')
+    parser.add_argument('--output', type=str, default=None, help='Output filename for this batch')
+    args = parser.parse_args()
+
     images = list_test_images()
     if not images:
         print(f"No images found in {TEST_IMAGES_DIR}")
         return
-    for img in images:
-        payload = run_one(img)
-        out = save_result_json("final_reports_imedrag", img, payload)
-        print(f"final_reports_imedrag: {img.name} -> {out}")
+    start = args.start
+    end = args.end if args.end is not None else len(images)
+    batch_images = images[start:end]
+    temperatures = [0.2, 0.3, 0.4, 0.5, 0.6]
+    all_results = []
+    for img in batch_images:
+        for run_id, temp in enumerate(temperatures):
+            payload = run_one(img, temp, run_id)
+            all_results.append(payload)
+    # Output file naming
+    if args.output:
+        out_filename = args.output
+    else:
+        out_filename = f"results_{start}_{end}.json"
+    out_path = save_result_json("final_reports_imedrag", Path(out_filename), all_results)
+    print(f"final_reports_imedrag: batch results -> {out_path}")
 
 if __name__ == "__main__":
     main()

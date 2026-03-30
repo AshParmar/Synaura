@@ -1,0 +1,38 @@
+{
+  "Baseline": {
+    "Recall@5": 1.0,
+    "Clinical": 1.0,
+    "Region": 0.3,
+    "Hallucination": 0.72
+  },
+  "RAG": {
+    "Recall@5": 1.0,
+    "Clinical": 1.0,
+    "Region": 0.25,
+    "Hallucination": 0.68
+  },
+  "RAG2": {
+    "Recall@5": 1.0,
+    "Clinical": 1.0,
+    "Region": 0.25,
+    "Hallucination": 0.77
+  },
+  "DER": {
+    "Recall@5": 1.0,
+    "Clinical": 1.0,
+    "Region": 0.25,
+    "Hallucination": 0.62
+  },
+  "Hybrid": {
+    "Recall@5": 1.0,
+    "Clinical": 1.0,
+    "Region": 0.25,
+    "Hallucination": 0.64
+  },
+  "Final": {
+    "Recall@5": 1.0,
+    "Clinical": 1.0,
+    "Region": 0.25,
+    "Hallucination": 0.65
+  }
+}

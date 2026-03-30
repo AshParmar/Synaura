@@ -1,0 +1,11 @@
+{
+  "image": "co_test.jpg",
+  "disease": "Consolidation",
+  "confidence": 0.936678409576416,
+  "interval": [
+    0.9240140914916992,
+    0.9493427276611328
+  ],
+  "region": "left lung upper zone",
+  "report": "Radiology Report\n\nFindings:\n- **Increased lung opacity (consolidation)** in the left lung upper zone\n- Homogeneous air-space opacification\n- Air bronchograms may be visible within dense regions\n- Loss of normal lung markings in the affected area\n- Lobar, segmental, or multifocal distribution\n- Blurring of adjacent structures (e.g., heart border, diaphragm)\n\nInterpretation:\nThe imaging findings are suggestive of consolidation in the left lung upper zone. This pattern is consistent with a variety of conditions, including bacterial pneumonia, viral or atypical infections, pulmonary edema, hemorrhage, and inflammatory or protein deposition disorders. The location of the consolidation in the upper zone is more typical of atypical infections or viral pneumonia. However, it is also possible that this is a case of lobar pneumonia, which typically presents in the lower lung zones.\n\nRecommendation:\nFurther imaging with CT may be necessary to determine the underlying cause of the consolidation and to assess for any complications. Clinical correlation, including a thorough history and physical examination, is essential to determine the underlying cause and to guide management. Treatment may include antibiotics if infection is present, and supportive care for other causes."
+}

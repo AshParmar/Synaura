@@ -1,0 +1,11 @@
+{
+  "image": "e_c_test.jpg",
+  "disease": "Cardiomegaly",
+  "confidence": 0.981383740901947,
+  "interval": [
+    0.9776604890823364,
+    0.9851069927215577
+  ],
+  "region": "cardiac region (enlarged heart silhouette)",
+  "report": "Radiology Report\n\n**Patient:** Not applicable\n\n**Imaging Study:** Chest X-ray\n\n**Findings:**\n\nThe chest X-ray demonstrates an enlarged cardiac silhouette with a cardiothoracic ratio (CTR) suggestive of cardiomegaly. The heart appears globular with smooth, symmetric enlargement of the heart borders. The lung fields are clear, and there are no chamber-specific contour changes.\n\n**Interpretation:**\n\nThe findings are consistent with cardiomegaly, which refers to an enlarged heart. Cardiomegaly is often associated with cardiovascular disease and can be caused by various conditions, including chronic hypertension, valvular heart disease, and cardiomyopathy. The increased cardiothoracic ratio on the chest X-ray is a key indicator of cardiomegaly.\n\n**Recommendation:**\n\nFurther evaluation with echocardiography is recommended to confirm the diagnosis of cardiomegaly and to assess the underlying cause. Management should focus on treating the underlying cause, such as hypertension or heart failure, to prevent further cardiac enlargement and related symptoms.\n\n**Clinical Correlation:**\n\nThe patient may experience symptoms such as fatigue, shortness of breath, and swelling in the legs. It is essential to differentiate cardiomegaly from other conditions that may mimic an enlarged cardiac silhouette, such as pericardial effusion.\n\n**Differential Diagnosis:**\n\nPericardial effusion should be considered in the differential diagnosis, especially if the cardiac silhouette appears globular or \"water-bottle\" shaped. However, the smooth, symmetric enlargement of the heart borders and clear lung fields in this case suggest true cardiomegaly.\n\n**Conclusion:**\n\nThe chest X-ray findings are consistent with cardiomegaly, and further evaluation with echocardiography is recommended to confirm the diagnosis and assess the underlying cause."
+}

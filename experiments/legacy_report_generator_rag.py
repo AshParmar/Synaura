@@ -16,7 +16,7 @@ llm = ChatGroq(
     api_key=os.getenv("GROQ_API_KEY"),
 )
 
-def legacy_generate_report_rag(disease, region, fuzzy_info, docs1, docs2=None):
+def legacy_generate_report_rag(disease, region, fuzzy_info, docs1, docs2=None, temperature=0.2):
     context = "\n".join([doc.page_content for doc in docs1[:5]])
     prompt = f"""
 You are an expert radiologist.
@@ -55,5 +55,51 @@ Do not rely on a single document.
 
 Keep the report concise, accurate, and clinically consistent with {disease}.
 """
-    response = llm.invoke([HumanMessage(content=prompt)])
+    local_llm = ChatGroq(
+        temperature=temperature,
+        model="llama-3.1-8b-instant",
+        api_key=os.getenv("GROQ_API_KEY"),
+    )
+    response = local_llm.invoke([HumanMessage(content=prompt)])
+    return response.content
+
+def generate_baseline_rag_report(disease, region, fuzzy_info, docs, temperature=0.2):
+    context = "\n".join([doc.page_content for doc in docs[:5]])
+    prompt = f"""
+You are an expert radiologist.
+
+Write a radiology report based ONLY on:
+
+Disease: {disease}
+Region: {region}
+Confidence: {fuzzy_info['lower']} - {fuzzy_info['upper']}
+
+Medical Knowledge:
+{context}
+
+IMPORTANT:
+- Do NOT use external knowledge
+- Do NOT include differential diagnosis
+- Keep it simple and direct
+
+Output:
+
+Radiology Report
+
+Findings:
+...
+
+Interpretation:
+...
+
+Recommendation:
+...
+"""
+    # Create a new LLM instance with the specified temperature
+    local_llm = ChatGroq(
+        temperature=temperature,
+        model="llama-3.1-8b-instant",
+        api_key=os.getenv("GROQ_API_KEY"),
+    )
+    response = local_llm.invoke([HumanMessage(content=prompt)])
     return response.content

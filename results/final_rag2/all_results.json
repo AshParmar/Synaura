@@ -1,0 +1,652 @@
+[
+  {
+    "image": "card_test7.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.9514164328575134,
+    "interval": [
+      0.9416997194290161,
+      0.9611331462860108
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\n**Findings:**\n\n- Enlarged cardiac silhouette on chest X-ray\n- Increased cardiothoracic ratio (CTR) > 0.5 suggestive of cardiomegaly\n- Globular or widened cardiac borders\n- Loss of normal cardiac contour\n- Chamber-specific signs:\n  - Right atrial enlargement → right heart border bulge\n  - Left ventricular enlargement → elongated left heart border\n  - Left atrial enlargement → double density or straightening of left border\n  - Right ventricular enlargement → elevation of cardiac apex\n- Possible displacement of adjacent mediastinal structures\n\n**Interpretation:**\n\nThe chest X-ray findings are suggestive of cardiomegaly, which may be associated with various underlying conditions such as cardiac chamber enlargement, chronic hypertension, valvular heart disease, cardiomyopathy, or pericardial effusion. The differential diagnosis includes pericardial effusion, which can mimic true cardiomegaly. It is essential to differentiate between these conditions to determine the underlying cause and appropriate management.\n\n**Recommendation:**\n\nFurther evaluation with echocardiography is recommended to assess cardiac function and identify the underlying cause of cardiomegaly. Clinical correlation with cardiovascular findings is also necessary to determine the appropriate management plan."
+  },
+  {
+    "image": "card_test7.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.9514164328575134,
+    "interval": [
+      0.9416997194290161,
+      0.9611331462860108
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\n- Enlarged cardiac silhouette on chest X-ray\n- Increased cardiothoracic ratio (CTR > 0.55)\n- Globular or widened cardiac borders\n- Loss of normal cardiac contour\n- Chamber-specific signs:\n  - Right atrial enlargement → right heart border bulge\n  - Left ventricular enlargement → elongated left heart border\n  - Left atrial enlargement → double density or straightening of left border\n  - Right ventricular enlargement → elevation of cardiac apex\n- Possible displacement of adjacent mediastinal structures\n\nInterpretation:\nThe chest X-ray findings are suggestive of cardiomegaly, which may be associated with chronic hypertension, valvular heart disease, cardiomyopathy, or pericardial effusion. Cardiomegaly should be distinguished from pericardial effusion and other conditions that enlarge the cardiac silhouette. Pericardial effusion is a differential diagnosis that can mimic true cardiomegaly and requires urgent management in severe cases.\n\nRecommendation:\nFurther evaluation with echocardiography is recommended to confirm the diagnosis and assess cardiac function. Clinical correlation with cardiac symptoms is also necessary to guide management."
+  },
+  {
+    "image": "card_test7.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.9514164328575134,
+    "interval": [
+      0.9416997194290161,
+      0.9611331462860108
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\n- Enlarged cardiac silhouette on chest X-ray\n- Increased cardiothoracic ratio (CTR) > 0.5 suggestive of cardiomegaly\n- Globular or widened cardiac borders\n- Loss of normal cardiac contour\n- Chamber-specific signs:\n  - Right atrial enlargement → right heart border bulge\n  - Left ventricular enlargement → elongated left heart border\n  - Left atrial enlargement → double density or straightening of left border\n  - Right ventricular enlargement → elevation of cardiac apex\n- Possible displacement of adjacent mediastinal structures\n\nInterpretation:\nThe findings are suggestive of cardiomegaly, which may be due to cardiac chamber enlargement, chronic hypertension, valvular heart disease, cardiomyopathy, or pericardial effusion. The increased cardiothoracic ratio (CTR) and chamber-specific signs are consistent with left ventricular enlargement. However, pericardial effusion should be considered in the differential diagnosis due to its potential to mimic cardiomegaly.\n\nRecommendation:\nFurther evaluation with echocardiography is recommended to confirm the diagnosis and assess cardiac function. Clinical correlation with cardiovascular findings and symptoms is also necessary to determine the underlying cause of cardiomegaly."
+  },
+  {
+    "image": "card_test7.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.9514164328575134,
+    "interval": [
+      0.9416997194290161,
+      0.9611331462860108
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "**Radiology Report**\n\n**Findings:**\n\n- Enlarged cardiac silhouette on chest X-ray\n- Increased cardiothoracic ratio (CTR) > 0.55\n- Globular or widened cardiac borders\n- Loss of normal cardiac contour\n- Chamber-specific signs:\n  - Right atrial enlargement: right heart border bulge\n  - Left ventricular enlargement: elongated left heart border\n  - Left atrial enlargement: double density or straightening of left border\n  - Right ventricular enlargement: elevation of cardiac apex\n\n**Interpretation:**\n\nThe chest X-ray findings are suggestive of cardiomegaly, which may be associated with cardiac chamber enlargement, chronic hypertension, valvular heart disease, cardiomyopathy, or pericardial effusion. However, the differential diagnosis should also include pericardial effusion and other conditions that enlarge the cardiac silhouette. The presence of left ventricular enlargement signs, such as a rounded cardiac apex and inferior extension of the cardiac shadow, is consistent with left ventricular hypertrophy or dilation.\n\n**Recommendation:**\n\nFurther evaluation with echocardiography is recommended to confirm the diagnosis of cardiomegaly and assess cardiac function. Clinical correlation with cardiovascular findings is also essential for accurate diagnosis and management."
+  },
+  {
+    "image": "card_test7.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.9514164328575134,
+    "interval": [
+      0.9416997194290161,
+      0.9611331462860108
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\nFindings:\n- Enlarged cardiac silhouette on chest X-ray\n- Increased cardiothoracic ratio (CTR > 0.5)\n- Globular or widened cardiac borders\n- Loss of normal cardiac contour\n- Chamber-specific signs suggestive of left ventricular enlargement (elongated left heart border and rounded cardiac apex)\n- Possible displacement of adjacent mediastinal structures\n\nInterpretation:\nThe imaging findings are suggestive of cardiomegaly, specifically left ventricular enlargement, which may be consistent with chronic hypertension, aortic valve disease, or cardiomyopathy. It is essential to distinguish cardiomegaly from pericardial effusion and other conditions that enlarge the cardiac silhouette. An alternative condition to consider is pericardial effusion, which may present with a similar appearance on chest X-ray.\n\nRecommendation:\nFurther evaluation with echocardiography is recommended to confirm the diagnosis and assess cardiac function. Clinical correlation with cardiovascular findings is also necessary to determine the underlying cause of the cardiomegaly."
+  },
+  {
+    "image": "co_test.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.936678409576416,
+    "interval": [
+      0.9240140914916992,
+      0.9493427276611328
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\nFindings:\n- Consolidation appears as a homogeneous area of increased opacity on chest X-ray in the left lung upper zone.\n- Air bronchograms may be visible, where air-filled bronchi are seen within the dense region.\n- The consolidation is suggestive of a lobar distribution.\n\nInterpretation:\nThe imaging findings are suggestive of consolidation, which is consistent with pneumonia or a lung infection. However, it is also possible that the consolidation may be due to atelectasis or pulmonary edema, although the latter typically presents with a bilateral symmetric pattern. The location of the consolidation in the left lung upper zone is a key diagnostic clue.\n\nRecommendation:\nFurther imaging with CT is recommended to determine the extent and complications of the consolidation. Clinical correlation with the patient's symptoms and history is also necessary to determine the underlying cause."
+  },
+  {
+    "image": "co_test.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.936678409576416,
+    "interval": [
+      0.9240140914916992,
+      0.9493427276611328
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\n**Findings:**\n\n- **Increased lung opacity (consolidation)** in the left lung upper zone, suggestive of consolidation.\n- Homogeneous or patchy air-space opacification with possible air bronchograms.\n- Loss of normal lung markings in the affected area.\n- Lobar, segmental, or multifocal distribution of consolidation.\n- Blurring of adjacent structures, such as the heart border and diaphragm.\n\n**Interpretation:**\n\nThe imaging findings are suggestive of pulmonary consolidation, consistent with a diagnosis of consolidation. The location of consolidation in the left lung upper zone is a key diagnostic clue. The differential diagnosis includes lobar pneumonia (not dependent distribution), pulmonary edema (bilateral symmetric pattern), atelectasis (volume loss present), and lung abscess (if cavitation dominates). The clinical history of aspiration risk supports the diagnosis of aspiration pneumonia presenting as dependent lung consolidation.\n\n**Recommendation:**\n\nFurther imaging with CT scan is recommended to determine the extent and complications of consolidation. Clinical correlation with the patient's history, symptoms, and microbiological evaluation is essential to determine the underlying cause of consolidation. Treatment with antibiotics and aspiration prevention is recommended if infection is present."
+  },
+  {
+    "image": "co_test.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.936678409576416,
+    "interval": [
+      0.9240140914916992,
+      0.9493427276611328
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\n- Consolidation in the left lung upper zone, suggestive of increased lung opacity with homogeneous air-space opacification.\n- Air bronchograms may be visible within the dense region.\n- Lobar, segmental, or multifocal distribution of consolidation.\n- Blurring of adjacent structures (e.g., heart border, diaphragm).\n\nInterpretation:\nThe imaging findings are suggestive of consolidation, which is consistent with an infectious or inflammatory process. However, atelectasis or pulmonary edema cannot be ruled out based on the imaging findings alone. The location of consolidation in the left lung upper zone is a key diagnostic clue, but it is essential to consider the clinical history and further imaging (CT) if the diagnosis remains unclear.\n\nRecommendation:\nFurther imaging with a CT scan of the chest is recommended to better localize and characterize the consolidation, as well as to evaluate for potential complications such as lung abscess formation. Clinical correlation with the patient's history and microbiological evaluation if severe is also essential for determining the underlying cause of the consolidation."
+  },
+  {
+    "image": "co_test.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.936678409576416,
+    "interval": [
+      0.9240140914916992,
+      0.9493427276611328
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\n**Findings:**\n\n- Bilateral chest X-ray demonstrates consolidation in the left lung upper zone.\n- The consolidation appears as a homogeneous area of increased opacity.\n- Air bronchograms may be visible within the dense region.\n- The consolidation is suggestive of an infectious or inflammatory process.\n\n**Interpretation:**\n\nThe imaging findings are suggestive of consolidation in the left lung upper zone, consistent with a diagnosis of pneumonia or a lung infection. This is supported by the presence of air bronchograms and a homogeneous area of increased opacity. However, alternative conditions such as atelectasis or pulmonary edema cannot be ruled out without further imaging or clinical correlation.\n\n**Recommendation:**\n\nFurther imaging with CT scan is recommended to better assess the extent and severity of the consolidation. Clinical correlation, including microbiological evaluation and aspiration risk assessment, is also necessary to determine the underlying cause and guide appropriate management."
+  },
+  {
+    "image": "co_test.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.936678409576416,
+    "interval": [
+      0.9240140914916992,
+      0.9493427276611328
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\nFindings:\nConsolidation is identified in the left lung upper zone, suggestive of an area of increased opacity on chest X-ray. Air bronchograms are visible, indicating the presence of fluid or pus within the airspaces. \n\nInterpretation:\nThe imaging findings are suggestive of consolidation, which may be caused by infection (pneumonia), inflammation, or other lung conditions. This finding is consistent with atelectasis, but the presence of air bronchograms and increased opacity in the upper zone is more indicative of consolidation. The clinical importance of this finding cannot be overstated, as it may indicate a serious underlying condition that requires prompt treatment.\n\nRecommendation:\nFurther imaging, such as a CT scan, may be necessary to determine the extent and severity of the consolidation. Clinical correlation with symptoms and medical history is also essential to determine the underlying cause of the consolidation. Treatment may include antibiotics if infection is present, and aspiration prevention if aspiration is suspected."
+  },
+  {
+    "image": "e_c_test.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.981383740901947,
+    "interval": [
+      0.9776604890823364,
+      0.9851069927215577
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\n**Findings:**\n\n- Enlarged cardiac silhouette on chest X-ray\n- Increased cardiothoracic ratio (CTR > 0.55)\n- Globular or widened cardiac borders\n- Loss of normal cardiac contour\n- Chamber-specific signs:\n  - Right atrial enlargement → right heart border bulge\n  - Left ventricular enlargement → elongated left heart border\n  - Left atrial enlargement → double density or straightening of left border\n  - Right ventricular enlargement → elevation of cardiac apex\n- Possible displacement of adjacent mediastinal structures\n\n**Interpretation:**\n\nThe chest X-ray findings are suggestive of cardiomegaly, specifically left ventricular enlargement. This is supported by the increased cardiothoracic ratio, globular cardiac borders, and chamber-specific signs. However, it is essential to consider alternative conditions that may mimic cardiomegaly, such as pericardial effusion or poor inspiratory effort. The clinical correlation with symptoms such as shortness of breath and fatigue further supports the diagnosis of cardiomegaly.\n\n**Recommendation:**\n\nFurther evaluation with echocardiography is recommended to confirm the diagnosis and assess cardiac function. Clinical correlation with cardiovascular findings and symptoms is also essential for accurate diagnosis and management."
+  },
+  {
+    "image": "e_c_test.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.981383740901947,
+    "interval": [
+      0.9776604890823364,
+      0.9851069927215577
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "**Radiology Report**\n\n**Findings:**\n\n- Enlarged cardiac silhouette on chest X-ray\n- Cardiothoracic ratio (CTR) increased (>0.5 suggestive, >0.55 more specific)\n- Globular or widened cardiac borders\n- Loss of normal cardiac contour\n- Chamber-specific signs:\n  - Right atrial enlargement → right heart border bulge\n  - Left ventricular enlargement → elongated left heart border\n  - Left atrial enlargement → double density or straightening of left border\n  - Right ventricular enlargement → elevation of cardiac apex\n- Possible displacement of adjacent mediastinal structures\n\n**Interpretation:**\n\nThe chest X-ray is suggestive of cardiomegaly, consistent with an enlarged heart. The increased cardiothoracic ratio and globular cardiac borders are indicative of cardiac chamber enlargement. However, it is essential to differentiate this from pericardial effusion, which can mimic cardiomegaly. The presence of chamber-specific contour changes, such as right atrial enlargement or left ventricular enlargement, supports the diagnosis of cardiomegaly.\n\n**Recommendation:**\n\nFurther evaluation with echocardiography is recommended to confirm the diagnosis and assess cardiac function. Clinical correlation with cardiovascular findings is also necessary to determine the underlying cause of cardiomegaly. Management should focus on treating underlying causes, such as hypertension or heart failure."
+  },
+  {
+    "image": "e_c_test.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.981383740901947,
+    "interval": [
+      0.9776604890823364,
+      0.9851069927215577
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\n\n- Enlarged cardiac silhouette on chest X-ray\n- Increased cardiothoracic ratio (CTR) >0.55\n- Globular or widened cardiac borders\n- Loss of normal cardiac contour\n- Chamber-specific signs:\n  - Right atrial enlargement → right heart border bulge\n  - Left ventricular enlargement → elongated left heart border\n  - Left atrial enlargement → double density or straightening of left border\n  - Right ventricular enlargement → elevation of cardiac apex\n- Possible displacement of adjacent mediastinal structures\n\nInterpretation:\n\nThe chest X-ray findings are suggestive of cardiomegaly, which is an enlarged heart. The increased cardiothoracic ratio (CTR) and globular or widened cardiac borders are indicative of cardiac chamber enlargement. The chamber-specific signs, such as right atrial enlargement and left ventricular enlargement, support this interpretation. However, it is essential to distinguish cardiomegaly from pericardial effusion and other conditions that may mimic cardiac enlargement. Pericardial effusion may present with a globular heart shape, which can be differentiated from cardiomegaly by echocardiography.\n\nRecommendation:\n\nFurther evaluation with echocardiography is recommended to confirm the diagnosis of cardiomegaly and assess cardiac function. Clinical correlation with cardiovascular symptoms and findings is also essential to guide further management."
+  },
+  {
+    "image": "e_c_test.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.981383740901947,
+    "interval": [
+      0.9776604890823364,
+      0.9851069927215577
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\nFindings:\n\n- Enlarged cardiac silhouette on chest X-ray\n- Increased cardiothoracic ratio (CTR) > 0.55\n- Globular or widened cardiac borders\n- Loss of normal cardiac contour\n- Chamber-specific signs:\n  - Right atrial enlargement → right heart border bulge\n  - Left ventricular enlargement → elongated left heart border\n  - Left atrial enlargement → double density or straightening of left border\n  - Right ventricular enlargement → elevation of cardiac apex\n- Possible displacement of adjacent mediastinal structures\n\nInterpretation:\n\nThe chest X-ray is suggestive of cardiomegaly, a condition characterized by an enlarged heart. This is indicated by an increased cardiothoracic ratio (CTR) and an enlarged cardiac silhouette. The findings are consistent with left ventricular enlargement, which can be a cause of cardiomegaly. However, other conditions such as pericardial effusion and hypertensive heart disease should be considered in the differential diagnosis.\n\nRecommendation:\n\n- Further evaluation with echocardiography to confirm the diagnosis and assess cardiac function\n- Clinical correlation with cardiovascular findings to identify underlying causes of cardiomegaly\n- Management of underlying conditions such as hypertension to prevent further cardiac enlargement"
+  },
+  {
+    "image": "e_c_test.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.981383740901947,
+    "interval": [
+      0.9776604890823364,
+      0.9851069927215577
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "**Radiology Report**\n\n**Findings:**\n\n* Enlarged cardiac silhouette on chest X-ray\n* Increased cardiothoracic ratio (CTR) > 0.5 suggestive of cardiomegaly\n* Globular or widened cardiac borders\n* Loss of normal cardiac contour\n* Chamber-specific signs:\n  - Right atrial enlargement: right heart border bulge\n  - Left ventricular enlargement: elongated left heart border\n  - Left atrial enlargement: double density or straightening of left border\n  - Right ventricular enlargement: elevation of cardiac apex\n* Possible displacement of adjacent mediastinal structures\n\n**Interpretation:**\n\nThe chest X-ray findings are suggestive of cardiomegaly, which is an enlarged heart. This condition can be caused by various factors such as cardiac chamber enlargement, chronic hypertension, valvular heart disease, cardiomyopathy, and pericardial effusion. The increased cardiothoracic ratio and chamber-specific signs are consistent with left ventricular enlargement. Pericardial effusion is a differential diagnosis that should be considered, as it can mimic cardiomegaly.\n\n**Recommendation:**\n\nFurther evaluation with echocardiography is recommended to confirm the diagnosis and assess cardiac function. Additionally, a thorough clinical evaluation should be performed to identify underlying causes of cardiomegaly.\n\n**Comparison with Alternative Conditions:**\n\nThe findings are suggestive of cardiomegaly, which is different from pericardial effusion. While pericardial effusion can cause an enlarged cardiac silhouette, it typically presents with a more uniform increase in cardiac size and may be associated with signs of pericardial effusion such as a \"water bottle\" appearance or a \"double density\" sign."
+  },
+  {
+    "image": "e_test3.jpg",
+    "disease": "Edema",
+    "confidence": 0.9904308915138245,
+    "interval": [
+      0.9885170698165894,
+      0.9923447132110595
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\nFindings:\n\n- Bilateral diffuse opacities in the lung fields, suggestive of pulmonary edema.\n- Linear or plate-like opacity in the lower lung zones, consistent with linear (discoid) atelectasis.\n- Minimal volume loss and no significant mediastinal shift.\n\nInterpretation:\n\nThe imaging findings are suggestive of pulmonary edema, characterized by bilateral diffuse opacities. However, the presence of linear or plate-like opacity in the lower lung zones is also consistent with linear (discoid) atelectasis. The clinical context and patient's symptoms are essential for determining the underlying cause. Pulmonary edema may be cardiogenic or non-cardiogenic, while linear (discoid) atelectasis is often caused by shallow breathing, hypoventilation, or mucus plugging.\n\nRecommendation:\n\nFurther evaluation with high-resolution computed tomography (CT) of the chest may be necessary to differentiate between pulmonary edema and linear (discoid) atelectasis. Clinical correlation and patient management should be based on the underlying cause and severity of the condition."
+  },
+  {
+    "image": "e_test3.jpg",
+    "disease": "Edema",
+    "confidence": 0.9904308915138245,
+    "interval": [
+      0.9885170698165894,
+      0.9923447132110595
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\n\nBilateral diffuse opacities are present in the lung fields, suggestive of pulmonary edema. Additional findings include interstitial markings and fluid accumulation in the lower lung zones.\n\nInterpretation:\n\nThe imaging findings are suggestive of pulmonary edema, which may be cardiogenic or non-cardiogenic in origin. The diffuse bilateral opacities and interstitial markings are consistent with a \"bat-wing\" pattern, often seen in pulmonary edema. However, it is also possible that these findings may be seen in other conditions, such as pneumonia or acute respiratory distress syndrome (ARDS). A comparison of the imaging findings with these alternative conditions suggests that pulmonary edema is the most likely diagnosis.\n\nRecommendation:\n\nFurther evaluation with a chest CT scan is recommended to confirm the diagnosis and assess the extent of pulmonary edema."
+  },
+  {
+    "image": "e_test3.jpg",
+    "disease": "Edema",
+    "confidence": 0.9904308915138245,
+    "interval": [
+      0.9885170698165894,
+      0.9923447132110595
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\n\nBilateral diffuse opacities are seen in the lung fields, suggestive of pulmonary edema. The opacities are described as a \"bat-wing\" pattern, with possible Kerley B lines and vascular congestion. These findings are consistent with fluid accumulation in the lung interstitium and alveolar spaces.\n\nInterpretation:\n\nThe imaging findings are suggestive of pulmonary edema, which may be cardiogenic or non-cardiogenic in origin. The presence of bilateral diffuse opacities and a \"bat-wing\" pattern is characteristic of this condition. However, it is also possible that these findings could be consistent with other conditions, such as bilateral pneumonia or acute respiratory distress syndrome (ARDS). The clinical context and patient symptoms would be necessary to further differentiate these possibilities.\n\nRecommendation:\n\nFurther evaluation with CT imaging may be necessary to confirm the diagnosis and assess the extent of pulmonary edema. Additionally, clinical correlation with patient symptoms and laboratory results would be essential to determine the underlying cause of the edema and guide appropriate management.\n\nComparison:\n\nThe imaging findings are more suggestive of pulmonary edema than bilateral pneumonia, as the opacities are diffuse and not localized to a specific lobe. However, it is also possible that these findings could be consistent with ARDS, although the clinical context and patient symptoms would be necessary to further differentiate these possibilities.\n\nConfidence Level:\n\nThe confidence level for this interpretation is high, with a predicted disease confidence interval of 0.9885170698165894 - 0.9923447132110595."
+  },
+  {
+    "image": "e_test3.jpg",
+    "disease": "Edema",
+    "confidence": 0.9904308915138245,
+    "interval": [
+      0.9885170698165894,
+      0.9923447132110595
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\nFindings:\nChest X-ray shows bilateral diffuse opacities, suggestive of pulmonary edema. Additional findings include vascular congestion and interstitial markings. High-resolution computed tomography (HRCT) of the chest reveals ground glass opacities, interlobular septal thickening, and air space consolidation, consistent with pulmonary edema.\n\nInterpretation:\nThe imaging findings are suggestive of pulmonary edema, with bilateral diffuse opacities on chest X-ray and characteristic ground glass opacities, interlobular septal thickening, and air space consolidation on HRCT. These findings are more suggestive of pulmonary edema than linear or plate-like opacity atelectasis, which typically presents as thin, horizontal or oblique opacities in the lower lung zones with minimal volume loss.\n\nRecommendation:\nFurther evaluation with HRCT is recommended to confirm the diagnosis and assess the extent of pulmonary edema."
+  },
+  {
+    "image": "e_test3.jpg",
+    "disease": "Edema",
+    "confidence": 0.9904308915138245,
+    "interval": [
+      0.9885170698165894,
+      0.9923447132110595
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\nFindings:\n\nThe chest X-ray demonstrates bilateral diffuse opacities, suggestive of pulmonary edema. The opacities are described as a \"bat-wing\" pattern, with possible Kerley B lines and vascular congestion.\n\nInterpretation:\n\nThe imaging findings are suggestive of pulmonary edema. While the pattern is consistent with cardiogenic edema, it may also be seen in non-cardiogenic causes such as acute respiratory distress syndrome (ARDS) or pneumonia. The presence of bilateral diffuse opacities and vascular congestion supports the diagnosis of pulmonary edema, but further evaluation is needed to determine the underlying cause.\n\nRecommendation:\n\nFurther imaging, including a high-resolution computed tomography (HRCT) scan, is recommended to better evaluate the extent and severity of pulmonary edema. Additionally, a thorough clinical evaluation, including laboratory tests and cardiac function assessment, is necessary to determine the underlying cause of pulmonary edema and guide appropriate treatment strategies."
+  },
+  {
+    "image": "e_test4.jpg",
+    "disease": "Edema",
+    "confidence": 0.8591176867485046,
+    "interval": [
+      0.8309412240982056,
+      0.8872941493988037
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\n**Findings:**\n\n- Bilateral diffuse opacities in the lung fields, suggestive of pulmonary edema.\n- Thin linear or plate-like opacity in the lower lung zones, consistent with linear (discoid) atelectasis.\n- Minimal volume loss and no significant mediastinal shift.\n\n**Interpretation:**\n\nThe imaging findings are suggestive of pulmonary edema, characterized by bilateral diffuse opacities. However, the presence of linear (discoid) atelectasis in the lower lung zones may also be considered. The atelectasis is likely due to shallow breathing or hypoventilation, which can be a contributing factor to the development of pulmonary edema. It is essential to consider both conditions and their potential interrelation.\n\n**Recommendation:**\n\nFurther evaluation with high-resolution computed tomography (CT) of the chest may be necessary to confirm the diagnosis and assess the extent of pulmonary edema and atelectasis. Clinical correlation with the patient's symptoms and underlying condition is also crucial for determining the appropriate management plan."
+  },
+  {
+    "image": "e_test4.jpg",
+    "disease": "Edema",
+    "confidence": 0.8591176867485046,
+    "interval": [
+      0.8309412240982056,
+      0.8872941493988037
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\nBilateral diffuse opacities are present in the lung fields, suggestive of pulmonary edema. Additional findings include interlobular septal thickening and air space consolidation.\n\nInterpretation:\nThe imaging findings are suggestive of pulmonary edema, which may be cardiogenic or non-cardiogenic in etiology. The diffuse opacities and interlobular septal thickening are consistent with fluid accumulation in the lung interstitium. However, these findings may also be seen in other conditions such as pneumonia or acute respiratory distress syndrome (ARDS). The presence of air space consolidation may suggest a more severe form of pulmonary edema or an associated condition such as pneumonia.\n\nRecommendation:\nFurther clinical evaluation and monitoring are recommended to determine the underlying cause of the pulmonary edema and to assess the need for supportive therapy. Imaging follow-up may be necessary to monitor for progression of complications."
+  },
+  {
+    "image": "e_test4.jpg",
+    "disease": "Edema",
+    "confidence": 0.8591176867485046,
+    "interval": [
+      0.8309412240982056,
+      0.8872941493988037
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\nChest X-ray and High Resolution Computed Tomography (HRCT) of the chest reveal bilateral diffuse opacities, suggestive of pulmonary edema. Additional findings include interlobular septal thickening, air space consolidation, and pleural effusion.\n\nInterpretation:\nThe imaging findings are suggestive of pulmonary edema, which may be cardiogenic or non-cardiogenic in etiology. The presence of ground glass opacities, interlobular septal thickening, and air space consolidation is consistent with acute pulmonary edema. However, these findings can also be seen in other conditions such as pneumonia or acute respiratory distress syndrome (ARDS). Therefore, a definitive diagnosis cannot be made solely based on imaging, and clinical correlation is necessary.\n\nRecommendation:\nFurther clinical evaluation and management are recommended to determine the underlying cause of the pulmonary edema and to guide treatment. Imaging follow-up may be necessary to assess the progression of complications."
+  },
+  {
+    "image": "e_test4.jpg",
+    "disease": "Edema",
+    "confidence": 0.8591176867485046,
+    "interval": [
+      0.8309412240982056,
+      0.8872941493988037
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\nFindings:\n\nBilateral diffuse opacities are present in the lung fields, suggestive of pulmonary edema. Additional radiographic features include vascular congestion and interstitial markings.\n\nLinear or plate-like opacities are visible in the lower lung zones, consistent with linear (discoid) atelectasis.\n\nInterpretation:\n\nThe imaging findings are suggestive of pulmonary edema, with bilateral diffuse opacities and vascular congestion. However, the presence of linear or plate-like opacities in the lower lung zones is also consistent with linear (discoid) atelectasis. These two conditions can coexist, particularly in hospitalized patients with shallow breathing or hypoventilation.\n\nThe \"bat-wing\" pattern of opacities is often described in pulmonary edema, but it is not a definitive feature. The interstitial markings and fluid accumulation in the lower lung zones are more suggestive of pulmonary edema than linear (discoid) atelectasis.\n\nRecommendation:\n\nFurther evaluation with High Resolution Computed Tomography (HRCT) of the chest may be helpful to better characterize the lung findings and determine the extent of pulmonary edema. Physiotherapy and deep breathing exercises may be beneficial to improve lung function and reduce the risk of complications."
+  },
+  {
+    "image": "e_test4.jpg",
+    "disease": "Edema",
+    "confidence": 0.8591176867485046,
+    "interval": [
+      0.8309412240982056,
+      0.8872941493988037
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\nFindings:\n\n* Bilateral diffuse opacities, suggestive of pulmonary edema, are present in the lung fields.\n* The opacities are consistent with a \"bat-wing\" pattern.\n* Kerley B lines and vascular congestion are also noted.\n* The imaging findings are suggestive of fluid accumulation within the lung interstitium and alveolar spaces.\n\nInterpretation:\n\nThe imaging findings are suggestive of pulmonary edema. This condition is characterized by the accumulation of fluid within the lung interstitium and alveolar spaces. The diffuse opacities and \"bat-wing\" pattern are consistent with pulmonary edema. However, it is also possible that the findings could be suggestive of acute respiratory distress syndrome (ARDS) or pneumonia. A high-resolution computed tomography (HRCT) of the chest is the gold standard for diagnosing pulmonary edema, and it allows for the assessment of its complications.\n\nRecommendation:\n\nFurther evaluation with HRCT of the chest is recommended to confirm the diagnosis of pulmonary edema and to assess its complications."
+  },
+  {
+    "image": "p_test5.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.9827228784561157,
+    "interval": [
+      0.9792674541473388,
+      0.9861783027648926
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\nFindings:\n- Consolidation in dependent lung regions, suggestive of aspiration pneumonia\n- Patchy or confluent air-space opacities\n- Ill-defined segmental consolidation\n- Possible air bronchograms\n- No significant volume loss\n\nInterpretation:\nThe imaging findings are suggestive of aspiration pneumonia, particularly given the location of consolidation in dependent lung regions. This pattern is consistent with aspiration of gastric contents or oropharyngeal secretions, which is a common cause of pneumonia in patients with impaired swallowing or consciousness. The presence of patchy or confluent air-space opacities and ill-defined segmental consolidation supports this diagnosis. However, it is also possible that the findings could be consistent with lobar pneumonia, particularly if the consolidation is more homogeneous and involves a single lobe.\n\nRecommendation:\nFurther evaluation with CT imaging is recommended to better localize the consolidation and assess for any complications, such as cavitation or abscess formation. Clinical correlation with the patient's history and microbiological evaluation if severe is also essential to determine the underlying cause of the pneumonia."
+  },
+  {
+    "image": "p_test5.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.9827228784561157,
+    "interval": [
+      0.9792674541473388,
+      0.9861783027648926
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\n- Chest X-ray showing consolidation in dependent areas\n- CT for detailed localization and complications\n- Patchy or confluent air-space opacities\n- Ill-defined segmental consolidation\n- Possible air bronchograms\n- In severe cases: cavitation or abscess formation\n\nInterpretation:\nThe imaging findings are suggestive of aspiration pneumonia, with consolidation localized to the dependent lung regions. This is consistent with the patient's clinical history of aspiration risk. The presence of patchy or confluent air-space opacities and ill-defined segmental consolidation is also consistent with aspiration pneumonia. However, it is also possible that the consolidation is due to lobar pneumonia, particularly if the distribution is more lobar in nature. Atelectasis and pulmonary edema are less likely given the absence of significant volume loss and the presence of air bronchograms.\n\nRecommendation:\nFurther imaging with CT is recommended to assess for complications such as cavitation or abscess formation. Clinical correlation with the patient's history and microbiological evaluation is also necessary to determine the underlying cause of the consolidation. Antibiotics should be initiated based on the clinical suspicion of aspiration pneumonia, and aspiration prevention measures should be implemented to prevent further complications."
+  },
+  {
+    "image": "p_test5.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.9827228784561157,
+    "interval": [
+      0.9792674541473388,
+      0.9861783027648926
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\n- Bilateral lung opacities with consolidation in the right lung lower zone\n- Patchy or confluent air-space opacities\n- Ill-defined segmental consolidation\n- Possible air bronchograms\n- No evidence of cavitation or abscess formation\n\nInterpretation:\nThe imaging findings are suggestive of aspiration pneumonia, with consolidation in the dependent lung regions. This is consistent with the patient's history of aspiration risk. The location of consolidation in the right lung lower zone is a key diagnostic clue, as this is a common location for aspiration pneumonia. The differential diagnosis includes lobar pneumonia, pulmonary edema, and atelectasis, but the pattern of consolidation and the patient's history make aspiration pneumonia the most likely diagnosis.\n\nRecommendation:\nFurther evaluation with a CT scan is recommended to assess for complications and to better localize the consolidation. Microbiological evaluation may also be necessary if the patient's condition worsens. Antibiotics and aspiration prevention measures should be initiated as soon as possible."
+  },
+  {
+    "image": "p_test5.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.9827228784561157,
+    "interval": [
+      0.9792674541473388,
+      0.9861783027648926
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\nFindings:\n\n- Increased lung opacity (consolidation) in the right lung lower zone\n- Homogeneous air-space opacification with possible air bronchograms\n- Loss of normal lung markings in the affected area\n- Lobar distribution of consolidation\n\nInterpretation:\n\nThe imaging findings are suggestive of pneumonia, specifically consolidation in the right lung lower zone. This pattern is consistent with a bacterial infection, which is a common cause of pneumonia. However, it is also possible that the consolidation could be due to other causes, such as atelectasis or pulmonary edema. Further imaging and clinical correlation are necessary to determine the underlying cause.\n\nRecommendation:\n\nFurther imaging with CT may be necessary to confirm the diagnosis and assess for any complications. Clinical correlation, including microbiological evaluation, is essential to determine the underlying cause and guide treatment. Antibiotics should be considered if infection is present."
+  },
+  {
+    "image": "p_test5.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.9827228784561157,
+    "interval": [
+      0.9792674541473388,
+      0.9861783027648926
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\n**Case ID:** Not Provided\n\n**Findings:**\n\n- **Pulmonary Consolidation:** Increased lung opacity (consolidation) in the right lung lower zone, suggestive of pneumonia.\n- **Imaging Features:** Patchy or confluent air-space opacities, ill-defined segmental consolidation, and possible air bronchograms.\n- **Location:** Dependent lung regions, consistent with aspiration pneumonia.\n- **Distribution:** Lower lobes, typical for aspiration pneumonia in upright patients.\n\n**Interpretation:**\n\nThe imaging findings are suggestive of aspiration pneumonia, a common but often under-recognized cause of pneumonia. The consolidation in the dependent lung regions, particularly in the lower lobes, is a key diagnostic clue for aspiration pneumonia. This condition requires specific management, including antibiotics and aspiration prevention. The risk of complications like lung abscess if untreated necessitates further evaluation and follow-up.\n\n**Differential Diagnosis:**\n\n- **Lobar Pneumonia:** Typically presents with consolidation in a single lobe or segment, not limited to dependent regions.\n- **Pulmonary Edema:** Characterized by bilateral symmetric pattern and fluid-filled alveoli, not matching the described findings.\n\n**Recommendation:**\n\n1. **Antibiotics:** Initiate empirical antibiotic therapy to cover typical pathogens in aspiration pneumonia.\n2. **Aspiration Prevention:** Implement measures to prevent further aspiration, such as elevating the head of the bed and avoiding sedation.\n3. **Microbiological Evaluation:** Consider microbiological evaluation if symptoms worsen or complications arise.\n4. **Follow-up Imaging:** Schedule follow-up imaging to assess the response to treatment and monitor for potential complications."
+  },
+  {
+    "image": "p_test6.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.977411150932312,
+    "interval": [
+      0.9728933811187744,
+      0.9819289207458496
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\n**Aspiration Pneumonia Presenting as Dependent Lung Consolidation**\n\n**Findings:**\n\n- Consolidation in **dependent lung regions**:\n  - Lower lobes (upright patients)\n  - Posterior upper lobes or superior lower lobes (supine patients)\n- Patchy or confluent air-space opacities\n- Ill-defined segmental consolidation\n- Possible air bronchograms\n- In severe cases: cavitation or abscess formation\n\n**Interpretation:**\n\nThe imaging findings are suggestive of aspiration pneumonia, particularly given the location of consolidation in dependent lung regions. This pattern is consistent with aspiration of gastric contents or oropharyngeal secretions, which is a common cause of this condition. The presence of patchy or confluent air-space opacities and ill-defined segmental consolidation also supports this diagnosis. However, it is also possible that the findings could be consistent with lobar pneumonia, particularly if the consolidation is localized to a single lobe. Further evaluation with CT imaging and clinical correlation is recommended to determine the underlying cause.\n\n**Recommendation:**\n\nAntibiotics and aspiration prevention measures should be initiated to manage the aspiration pneumonia. Further imaging with CT may be necessary to evaluate for complications such as cavitation or abscess formation. Microbiological evaluation may also be warranted in severe cases."
+  },
+  {
+    "image": "p_test6.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.977411150932312,
+    "interval": [
+      0.9728933811187744,
+      0.9819289207458496
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\n- Consolidation in dependent lung regions, suggestive of aspiration pneumonia\n- Patchy or confluent air-space opacities\n- Ill-defined segmental consolidation\n- Possible air bronchograms\n- No evidence of lobar pneumonia or pulmonary edema\n\nInterpretation:\nThe imaging findings are suggestive of aspiration pneumonia, particularly given the location of consolidation in the dependent lung regions. This is consistent with the patient's clinical history of aspiration risk. However, it is also possible that the findings could be suggestive of lobar pneumonia, although the dependent distribution is less typical for this condition. The absence of bilateral symmetric pattern and volume loss makes pulmonary edema less likely.\n\nRecommendation:\nFurther imaging with CT scan is recommended for detailed localization and complications assessment. Clinical correlation with microbiological evaluation is also necessary to determine the underlying cause. Antibiotics and aspiration prevention measures should be initiated as soon as possible."
+  },
+  {
+    "image": "p_test6.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.977411150932312,
+    "interval": [
+      0.9728933811187744,
+      0.9819289207458496
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\n\n- Dense, homogeneous consolidation involving the left lung upper zone.\n- Presence of air bronchograms within the consolidated region.\n- Sharp anatomical boundaries (limited by fissures).\n- Silhouette sign (loss of heart/diaphragm borders depending on lobe).\n- No significant volume loss.\n\nInterpretation:\n\nThe imaging findings are suggestive of lobar pneumonia, specifically involving the left lung upper zone. The presence of air bronchograms and sharp anatomical boundaries are consistent with this diagnosis. The absence of significant volume loss helps to differentiate it from atelectasis. However, it is also possible that the findings could be suggestive of lobar atelectasis with obstruction, which would require further evaluation to rule out an obstructing lesion.\n\nRecommendation:\n\nFurther evaluation with a CT scan is recommended to better visualize the extent of the consolidation and to rule out any potential complications. Clinical correlation with the patient's symptoms and laboratory results is also essential for a definitive diagnosis and management plan."
+  },
+  {
+    "image": "p_test6.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.977411150932312,
+    "interval": [
+      0.9728933811187744,
+      0.9819289207458496
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "**Radiology Report**\n\n**Findings:**\n\n- Consolidation in **dependent lung regions**, suggestive of aspiration pneumonia.\n- Patchy or confluent air-space opacities.\n- Ill-defined segmental consolidation.\n- Possible air bronchograms.\n- No evidence of lobar pneumonia or pulmonary edema.\n\n**Interpretation:**\n\nThe imaging findings are suggestive of aspiration pneumonia, specifically affecting the left lung upper zone. This diagnosis is supported by the consolidation in dependent areas, which is a key diagnostic clue for aspiration pneumonia. The absence of lobar pneumonia or pulmonary edema makes these conditions less likely. The imaging features are consistent with aspiration of gastric contents or oropharyngeal secretions, which is a common cause of aspiration pneumonia.\n\n**Recommendation:**\n\nFurther evaluation with CT for detailed localization and complications is recommended. Clinical correlation, including microbiological evaluation if severe, is also necessary to determine the underlying cause and guide management. Specific management, including antibiotics and aspiration prevention, is required to prevent complications such as lung abscess."
+  },
+  {
+    "image": "p_test6.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.977411150932312,
+    "interval": [
+      0.9728933811187744,
+      0.9819289207458496
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\nFindings:\n\nChest X-ray shows consolidation in the dependent areas of the left lung upper zone, suggestive of pneumonia. CT imaging for detailed localization and complications is recommended. The clinical history of aspiration risk is also noted.\n\nInterpretation:\n\nThe imaging findings are suggestive of pneumonia, specifically localized in the left lung upper zone. The consolidation pattern is consistent with bacterial pneumonia, although alternative conditions such as atelectasis or pulmonary edema cannot be ruled out at this time. The location of the consolidation in the dependent areas is a key diagnostic clue for aspiration pneumonia. \n\nRecommendation:\n\nFurther evaluation with CT imaging is recommended to confirm the diagnosis and assess for complications. Microbiological evaluation may be necessary if the pneumonia is severe. Specific management with antibiotics and aspiration prevention is recommended.\n\nClinical Importance:\n\nPneumonia is a common but often under-recognized cause of respiratory illness. The location of consolidation is a key diagnostic clue, and treatment should be tailored accordingly. Complications such as lung abscess may arise if untreated. \n\nDifferential Diagnosis:\n\n- Lobar pneumonia (not dependent distribution)\n- Pulmonary edema (bilateral symmetric pattern)\n- Atelectasis (volume loss present)\n- Lung abscess (if cavitation dominates)"
+  },
+  {
+    "image": "pe_test1.jpg",
+    "disease": "Pleural Effusion",
+    "confidence": 0.9841912984848022,
+    "interval": [
+      0.9810295581817627,
+      0.9873530387878418
+    ],
+    "region": "pleural space (lung base)",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\nFindings:\n\n- Blunting of the costophrenic angle\n- Homogeneous lower zone opacity with meniscus sign\n- Variable size: small to massive effusion\n- Ultrasound: anechoic or complex fluid\n- CT findings: pleural thickening or nodularity (suggests malignancy), associated lung pathology (infection, mass, embolism), fluid characterization and extent\n\nInterpretation:\n\nThe imaging findings are suggestive of pleural effusion, a condition characterized by the accumulation of fluid in the pleural space surrounding the lungs. The presence of blunting of the costophrenic angle, homogeneous lower zone opacity, and meniscus sign on chest X-rays are indicative of fluid layering at the lung base. The variable size of the effusion, ranging from small to massive, is consistent with the clinical presentation. Ultrasound findings of anechoic or complex fluid further support the diagnosis of pleural effusion. CT findings of pleural thickening or nodularity suggest malignancy, while associated lung pathology such as infection, mass, or embolism may also be present.\n\nIn comparison to consolidation or pneumonia, the imaging findings are more suggestive of pleural effusion due to the presence of fluid layering and meniscus sign. However, it is essential to consider alternative conditions such as lung collapse or pleural tumor, which may also present with similar imaging findings.\n\nRecommendation:\n\nFurther evaluation with ultrasound and CT scans is recommended to characterize the fluid and assess for any underlying lung pathology. Treatment will depend on the cause of the effusion and may include drainage (thoracentesis), medications, or treating underlying conditions."
+  },
+  {
+    "image": "pe_test1.jpg",
+    "disease": "Pleural Effusion",
+    "confidence": 0.9841912984848022,
+    "interval": [
+      0.9810295581817627,
+      0.9873530387878418
+    ],
+    "region": "pleural space (lung base)",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\n- Large unilateral pleural effusion\n- Homogeneous opacity with meniscus sign\n- Possible mediastinal shift\n- Pleural thickening and nodularity on CT\n- Irregular pleural enhancement\n- Complex fluid with septations on ultrasound\n- Pleural or diaphragmatic nodules\n\nInterpretation:\nThe imaging findings are suggestive of a malignant pleural effusion, most likely due to metastatic spread to the pleura from a primary malignancy, with lung cancer being the most common cause. The presence of pleural thickening and nodularity on CT and irregular pleural enhancement is consistent with a malignant process. However, it is also possible that the effusion may be due to a complicated parapneumonic effusion or empyema, which would require further evaluation with ultrasound and CT to assess for septations and loculations.\n\nRecommendation:\nFurther evaluation with pleural fluid cytology and pleural biopsy is recommended to confirm the diagnosis of malignant pleural effusion. If the diagnosis is confirmed, treatment options should be discussed with the patient, which may include drainage (thoracentesis), medications, or treating the underlying malignancy."
+  },
+  {
+    "image": "pe_test1.jpg",
+    "disease": "Pleural Effusion",
+    "confidence": 0.9841912984848022,
+    "interval": [
+      0.9810295581817627,
+      0.9873530387878418
+    ],
+    "region": "pleural space (lung base)",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\n\n- Chest X-ray shows blunting of the costophrenic angle.\n- Homogeneous lower zone opacity with meniscus sign is present.\n- Ultrasound findings are suggestive of anechoic or complex fluid in the pleural space.\n- CT scan reveals pleural thickening or nodularity, suggestive of malignancy.\n\nInterpretation:\n\nThe imaging findings are suggestive of pleural effusion in the pleural space, consistent with a large effusion. The presence of pleural thickening or nodularity on CT is suggestive of malignancy as a possible cause. However, other conditions such as infection, pulmonary embolism, or heart failure should also be considered in the differential diagnosis.\n\nComparison with alternative conditions:\n\nThe imaging findings could also be consistent with consolidation or pneumonia, but the presence of a large effusion and pleural thickening or nodularity makes pleural effusion a more likely diagnosis. \n\nRecommendation:\n\nFurther diagnostic work-up, including pleural fluid analysis and additional imaging studies, is recommended to determine the underlying cause of the pleural effusion."
+  },
+  {
+    "image": "pe_test1.jpg",
+    "disease": "Pleural Effusion",
+    "confidence": 0.9841912984848022,
+    "interval": [
+      0.9810295581817627,
+      0.9873530387878418
+    ],
+    "region": "pleural space (lung base)",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "**Radiology Report**\n\n**Findings:**\n\n* **Chest X-ray:** Non-dependent, localized opacity along pleura with lenticular or biconvex shape, sharp margins against lung parenchyma, and no shift with patient position.\n* **Ultrasound:** Septations and loculations within the pleural effusion.\n* **CT findings:** Pleural thickening or nodularity suggestive of malignancy.\n\n**Interpretation:**\n\nThe imaging findings are suggestive of a **complicated pleural effusion**, likely due to **empyema or post-inflammatory adhesions**. The presence of septations and loculations on ultrasound and pleural thickening or nodularity on CT scan are key features of this condition. These findings are consistent with a **loculated pleural effusion** rather than a simple pleural effusion or a pleural mass.\n\n**Recommendation:**\n\nGiven the imaging findings, **drainage of the pleural effusion** is recommended to alleviate symptoms and prevent further complications. Further diagnostic work-up, including pleural fluid analysis and imaging studies, may be necessary to determine the underlying cause of the pleural effusion and guide treatment.\n\n**Differential Diagnosis:**\n\nThe differential diagnosis for a loculated pleural effusion includes:\n\n* Lung abscess\n* Pleural tumor\n* Consolidation (follows lung anatomy, not pleural shape)\n\n**Clinical Importance:**\n\nDelayed treatment of a complicated pleural effusion can lead to empyema, a potentially life-threatening condition. Prompt drainage and further diagnostic work-up are essential to prevent complications and ensure optimal patient outcomes."
+  },
+  {
+    "image": "pe_test1.jpg",
+    "disease": "Pleural Effusion",
+    "confidence": 0.9841912984848022,
+    "interval": [
+      0.9810295581817627,
+      0.9873530387878418
+    ],
+    "region": "pleural space (lung base)",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "**Radiology Report**\n\n**Findings:**\n\n* A large, non-dependent, localized opacity along the pleura with a lenticular or biconvex shape is observed.\n* The opacity does not shift with patient position, suggesting a fixed pleural lesion.\n* Sharp margins are noted against the lung parenchyma.\n* The opacity may mimic a mass or consolidation.\n\n**Interpretation:**\n\nThe imaging findings are suggestive of a pleural effusion, specifically a loculated pleural effusion. This is supported by the presence of a non-dependent, localized opacity along the pleura, which does not shift with patient position. The opacity's shape and sharp margins against the lung parenchyma are also consistent with a pleural effusion. However, the differential diagnosis includes lung abscess, pleural tumor, and consolidation. A more detailed evaluation with imaging studies such as ultrasound and CT is recommended to further characterize the pleural effusion and determine its cause.\n\n**Recommendation:**\n\nFurther imaging studies, including ultrasound and CT, are recommended to evaluate the pleural effusion and determine its cause. Additionally, thoracentesis may be necessary to obtain pleural fluid for analysis and to guide further management."
+  },
+  {
+    "image": "test3.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.8123983144760132,
+    "interval": [
+      0.7748779773712158,
+      0.8499186515808106
+    ],
+    "region": "left lung lower zone",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\nFindings:\n- Consolidation in dependent lung regions, suggestive of aspiration pneumonia\n- Patchy or confluent air-space opacities\n- Ill-defined segmental consolidation\n- Possible air bronchograms\n- No significant volume loss\n\nInterpretation:\nThe imaging findings are suggestive of aspiration pneumonia, particularly given the consolidation in dependent lung regions. This pattern is consistent with aspiration of gastric contents or oropharyngeal secretions, which is a common cause of pneumonia. The presence of patchy or confluent air-space opacities and ill-defined segmental consolidation supports this diagnosis. However, it is also possible that the findings could be consistent with lobar pneumonia, particularly if the consolidation is dense and homogeneous. Further evaluation with CT imaging and clinical correlation is recommended to determine the underlying cause.\n\nRecommendation:\n- Further evaluation with CT imaging to assess for complications and detailed localization of consolidation\n- Clinical correlation to determine the underlying cause of pneumonia\n- Consideration of microbiological evaluation if severe or complicated pneumonia is suspected\n- Management with antibiotics and aspiration prevention measures"
+  },
+  {
+    "image": "test3.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.8123983144760132,
+    "interval": [
+      0.7748779773712158,
+      0.8499186515808106
+    ],
+    "region": "left lung lower zone",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\n- Consolidation in dependent lung regions, suggestive of aspiration pneumonia\n- Patchy or confluent air-space opacities\n- Ill-defined segmental consolidation\n- Possible air bronchograms\n- No evidence of cavitation or abscess formation\n\nInterpretation:\nThe imaging findings are suggestive of aspiration pneumonia, particularly given the location of consolidation in the dependent lung regions. This pattern is consistent with aspiration of gastric contents or oropharyngeal secretions, which is a common cause of pneumonia in patients with impaired swallowing or consciousness. However, it is also possible that the consolidation could be due to lobar pneumonia, which typically presents with a more homogeneous distribution of opacities.\n\nRecommendation:\nFurther evaluation with CT scan is recommended to assess for complications such as cavitation or abscess formation. Clinical correlation with the patient's history and symptoms is also essential to determine the underlying cause of the consolidation."
+  },
+  {
+    "image": "test3.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.8123983144760132,
+    "interval": [
+      0.7748779773712158,
+      0.8499186515808106
+    ],
+    "region": "left lung lower zone",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\n\n- Consolidation in dependent lung regions, suggestive of aspiration pneumonia\n- Patchy or confluent air-space opacities\n- Ill-defined segmental consolidation\n- Possible air bronchograms\n- Lower lobe predominant opacities\n\nInterpretation:\n\nThe imaging findings are suggestive of aspiration pneumonia, particularly given the dependent lung distribution and lower lobe predominance. This pattern is more consistent with aspiration pneumonia than with community-acquired pneumonia or lobar pneumonia, which typically presents with localized lobar or segmental consolidation. However, it is also possible that the findings could be indicative of bronchopneumonia, which presents with patchy, poorly defined consolidations and a peribronchial distribution.\n\nRecommendation:\n\nFurther imaging with CT is recommended for better localization and assessment of potential complications. Clinical correlation with a history of aspiration risk and microbiological evaluation if severe is also advised.\n\nConfidence Interval: 0.7748779773712158 - 0.8499186515808106\n\nThis report is based on the provided information and is intended to be a clinically realistic radiology report."
+  },
+  {
+    "image": "test3.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.8123983144760132,
+    "interval": [
+      0.7748779773712158,
+      0.8499186515808106
+    ],
+    "region": "left lung lower zone",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\nFindings:\n- Consolidation in dependent lung regions: patchy or confluent air-space opacities\n- Ill-defined segmental consolidation\n- Possible air bronchograms\n- Lower lobes predominantly affected (upright patients)\n- Posterior upper lobes or superior lower lobes affected (supine patients)\n\nInterpretation:\nThe imaging findings are suggestive of aspiration pneumonia, characterized by consolidation in dependent lung regions, particularly in the lower lobes in upright patients and posterior upper lobes or superior lower lobes in supine patients. The presence of patchy or confluent air-space opacities and ill-defined segmental consolidation supports this diagnosis. However, it is also possible that the findings are consistent with lobar pneumonia, although the dependent distribution is less typical for this condition. Further imaging or clinical correlation is necessary to determine the underlying cause.\n\nRecommendation:\n- CT scan for detailed localization and complications\n- Clinical evaluation for aspiration risk and history of aspiration event\n- Microbiological evaluation if severe or complicated\n- Antibiotics and aspiration prevention measures"
+  },
+  {
+    "image": "test3.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.8123983144760132,
+    "interval": [
+      0.7748779773712158,
+      0.8499186515808106
+    ],
+    "region": "left lung lower zone",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\nFindings:\n\n- Chest X-ray shows consolidation in dependent areas, suggestive of pneumonia\n- CT imaging for detailed localization and complications is recommended\n- Radiological findings are consistent with patchy or homogeneous opacities in the left lung lower zone\n\nInterpretation:\n\nThe imaging findings are suggestive of pneumonia, specifically aspiration pneumonia given the dependent lung distribution. This is consistent with the clinical history of aspiration risk. The presence of consolidation in dependent areas, patchy or homogeneous opacities, and possible air bronchograms are key features of this condition. \n\nIn comparison, lobar pneumonia is less likely due to the dependent distribution, and pulmonary edema would typically show a bilateral symmetric pattern. Atelectasis may be present but would be accompanied by volume loss, and lung abscess would be characterized by cavitation.\n\nRecommendation:\n\n- Antibiotics and aspiration prevention measures are recommended\n- Further evaluation with microbiological tests if severe\n- Close monitoring for complications such as lung abscess or respiratory failure"
+  },
+  {
+    "image": "test5.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.703164279460907,
+    "interval": [
+      0.6437971353530884,
+      0.7625314235687256
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\nFindings:\n- Increased lung opacity (consolidation) in the right lung lower zone\n- Homogeneous air-space opacification\n- Air bronchograms may be visible within dense regions\n- Loss of normal lung markings in affected area\n- Lobar distribution of consolidation\n\nInterpretation:\nThe imaging findings are suggestive of consolidation in the right lung lower zone, which may be consistent with a diagnosis of pneumonia. However, it is also possible that the consolidation could be due to other causes such as pulmonary edema or hemorrhage. Atelectasis should also be considered in the differential diagnosis, particularly given the lobar distribution of the consolidation. Further imaging with a CT scan may be necessary to determine the underlying cause and extent of the consolidation.\n\nRecommendation:\n- Further imaging with a CT scan to determine the underlying cause and extent of the consolidation\n- Clinical correlation with the patient's symptoms and medical history to determine the underlying cause\n- Consideration of aspiration risk and microbiological evaluation if severe"
+  },
+  {
+    "image": "test5.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.703164279460907,
+    "interval": [
+      0.6437971353530884,
+      0.7625314235687256
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\n\n- Consolidation is present in the right lung lower zone, suggestive of aspiration pneumonia.\n- The consolidation pattern is patchy and confluent, with ill-defined segmental borders.\n- Air bronchograms are visible within the dense regions, consistent with alveolar opacification.\n- The consolidation is localized to the dependent lung regions, which is a key diagnostic clue for aspiration pneumonia.\n\nInterpretation:\n\nThe imaging findings are suggestive of aspiration pneumonia, which is a common but often under-recognized cause of pneumonia. The location of the consolidation in the dependent lung regions is a key diagnostic clue for aspiration pneumonia. The patient's clinical history of aspiration risk further supports this diagnosis. However, the differential diagnosis includes lobar pneumonia, pulmonary edema, and atelectasis, which should be considered in the clinical context.\n\nRecommendation:\n\nFurther evaluation with CT imaging is recommended to assess for complications such as lung abscess or cavitation. Microbiological evaluation may also be necessary to determine the causative organism. Antibiotics and aspiration prevention measures should be initiated based on the clinical suspicion of aspiration pneumonia."
+  },
+  {
+    "image": "test5.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.703164279460907,
+    "interval": [
+      0.6437971353530884,
+      0.7625314235687256
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "**Radiology Report**\n\n**Findings:**\n\n- **Increased lung opacity (consolidation)** in the right lung lower zone\n- **Homogeneous or patchy air-space opacification**\n- **Air bronchograms** may be visible within dense regions\n- Loss of normal lung markings in affected area\n- **Lobar, segmental, or multifocal distribution**\n- Blurring of adjacent structures (e.g., heart border, diaphragm)\n\n**Interpretation:**\n\nThe imaging findings are suggestive of pulmonary consolidation in the right lung lower zone. This is consistent with aspiration pneumonia, given the dependent lung region involvement. However, it is also possible that this could be lobar pneumonia, although the dependent distribution is a key diagnostic clue. Further imaging (CT) and clinical correlation are recommended to determine the underlying cause.\n\n**Recommendation:**\n\n- Further imaging (CT) to assess for complications and detailed localization\n- Clinical correlation to determine underlying cause\n- Microbiological evaluation if severe\n- Specific management (antibiotics + aspiration prevention)"
+  },
+  {
+    "image": "test5.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.703164279460907,
+    "interval": [
+      0.6437971353530884,
+      0.7625314235687256
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows a homogeneous area of increased opacity in the right lung lower zone, suggestive of consolidation. Air bronchograms are visible within the dense region.\n\nInterpretation:\nThe imaging findings are suggestive of consolidation, which is consistent with a diagnosis of pneumonia or lung infection. However, it is also possible that the consolidation could be related to inflammatory conditions or atelectasis. A comparison of the imaging findings with those of atelectasis reveals that the consolidation is more extensive and not accompanied by volume loss. Therefore, the consolidation is more suggestive of pneumonia or lung infection.\n\nRecommendation:\nFurther imaging studies, such as a CT scan, may be necessary to determine the extent and cause of the consolidation. Clinical correlation, including a review of the patient's symptoms and medical history, is also essential to determine the underlying cause of the consolidation."
+  },
+  {
+    "image": "test5.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.703164279460907,
+    "interval": [
+      0.6437971353530884,
+      0.7625314235687256
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\n**Findings:**\n\nA chest X-ray shows consolidation in the dependent lung region, specifically in the right lung lower zone. The consolidation appears as a homogeneous area of increased opacity, with possible air bronchograms visible. The affected area is ill-defined and segmental, with patchy or confluent air-space opacities.\n\n**Interpretation:**\n\nThe imaging findings are suggestive of consolidation, likely due to aspiration pneumonia, given the dependent lung distribution and clinical history of aspiration risk. This is consistent with the predicted disease of consolidation, with a confidence interval of 0.6437971353530884 - 0.7625314235687256. However, it is also possible that the consolidation could be confused with other conditions, such as atelectasis or pulmonary edema. Further evaluation with CT imaging and clinical correlation is necessary to determine the underlying cause.\n\n**Recommendation:**\n\nFurther imaging with CT is recommended to assess the extent and complications of the consolidation. Clinical correlation, including microbiological evaluation if severe, is also necessary to determine the underlying cause. Specific management, including antibiotics and aspiration prevention, should be initiated based on the diagnosis."
+  }
+]

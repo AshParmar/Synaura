@@ -1,0 +1,11 @@
+{
+  "image": "pe_test1.jpg",
+  "disease": "Pleural Effusion",
+  "confidence": 0.9841912984848022,
+  "interval": [
+    0.9810295581817627,
+    0.9873530387878418
+  ],
+  "region": "pleural space (lung base)",
+  "report": "Radiology Report\n\nFindings:\n\nA large pleural effusion is identified in the pleural space surrounding the lung base. The effusion appears as blunting of the costophrenic angle and homogeneous lower zone opacity with a meniscus sign on chest X-ray. Ultrasound findings are consistent with anechoic or complex fluid in the pleural space. CT imaging reveals pleural thickening or nodularity, suggestive of malignancy, and associated lung pathology.\n\nInterpretation:\n\nThe imaging findings are suggestive of a pleural effusion, which is a common feature of various diseases. The most likely causes include infection, malignancy, and heart failure. However, other conditions such as pulmonary embolism, systemic diseases, and chylothorax cannot be ruled out. The effusion may also be due to an unknown etiology. It is essential to consider these alternative conditions before concluding.\n\nRecommendation:\n\nFurther evaluation is recommended to determine the underlying cause of the pleural effusion. This may include fluid analysis, imaging studies, and clinical evaluation. A pleural biopsy under image guidance or thoracoscopy may be necessary if no diagnosis is forthcoming."
+}

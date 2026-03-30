@@ -1,0 +1,11 @@
+{
+  "image": "p_test6.jpg",
+  "disease": "Pneumonia",
+  "confidence": 0.977411150932312,
+  "interval": [
+    0.9728933811187744,
+    0.9819289207458496
+  ],
+  "region": "left lung upper zone",
+  "report": "Radiology Report\n\nFindings:\n- Consolidation in dependent lung regions, suggestive of aspiration pneumonia\n- Patchy or confluent air-space opacities\n- Ill-defined segmental consolidation\n- Possible air bronchograms\n- In severe cases, cavitation or abscess formation may be present\n\nInterpretation:\nThe imaging findings are suggestive of aspiration pneumonia, particularly given the location of consolidation in the dependent lung regions. This is consistent with the clinical history of aspiration risk. However, it is also possible that the findings could be consistent with lobar pneumonia, although the dependent distribution is less typical for this condition. Further evaluation with CT imaging and clinical correlation is recommended to determine the underlying cause and extent of disease.\n\nRecommendation:\n- Further evaluation with CT imaging to assess for complications and detailed localization of disease\n- Clinical correlation to determine the underlying cause and extent of disease\n- Microbiological evaluation if severe disease is suspected\n- Specific management (antibiotics + aspiration prevention) should be initiated based on clinical correlation and imaging findings."
+}

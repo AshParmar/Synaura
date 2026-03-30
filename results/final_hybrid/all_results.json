@@ -1,0 +1,752 @@
+[
+  {
+    "image": "card_test7.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.9514164328575134,
+    "interval": [
+      0.9416997194290161,
+      0.9611331462860108
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an enlarged cardiac silhouette with an increased cardiothoracic ratio. The cardiac borders appear globular and widened, with a loss of normal cardiac contour. No focal lesions or air bronchogram are noted, and lung volumes appear normal.\n\nInterpretation:\nFindings are strongly suggestive of cardiomegaly. The enlarged cardiac silhouette and increased cardiothoracic ratio support this diagnosis, with a diffuse pattern noted in the cardiac region. The features differ from pericardial effusion, which might show a more rapid increase in cardiac size and a \"water-bottle\" shaped cardiac silhouette.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of cardiomegaly. Further evaluation with echocardiography may be helpful for definitive assessment.\n\nDifferential Diagnosis:\n1. Pericardial effusion - Less likely due to lack of rapid increase in cardiac size and absence of a \"water-bottle\" shaped cardiac silhouette.\n2. Left ventricular enlargement - Less likely due to absence of leftward and inferior displacement of the left heart border.\n3. Mediastinal mass - Less likely due to smooth, symmetric enlargement of heart borders rather than a focal mass.",
+    "support_query": "Radiological features of cardiomegaly presenting as an enlarged cardiac silhouette with increased cardiothoracic ratio and possible signs of pulmonary venous hypertension on chest X-ray.",
+    "differential_query": "Differential diagnosis of an enlarged cardiac silhouette on chest X-ray including conditions such as pericardial effusion, left ventricular aneurysm, and mediastinal masses that can mimic cardiomegaly."
+  },
+  {
+    "image": "card_test7.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.9514164328575134,
+    "interval": [
+      0.9416997194290161,
+      0.9611331462860108
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an enlarged cardiac silhouette with an increased cardiothoracic ratio. The cardiac borders appear widened and the normal cardiac contour is lost. The distribution of the enlargement appears bilateral and the pattern is diffuse.\n\nInterpretation:\nFindings are strongly suggestive of cardiomegaly. The enlarged cardiac silhouette and increased cardiothoracic ratio support this diagnosis, given the bilateral and diffuse pattern of the enlargement. Pericardial effusion is less likely as it typically presents with a globular, “water-bottle” shaped cardiac silhouette and smooth, symmetric enlargement of heart borders, which are not mentioned here.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the cardiomegaly. Further evaluation with echocardiography may be helpful for confirmation and functional assessment.\n\nDifferential Diagnosis:\n1. Cardiomegaly (most likely) - Bilateral and diffuse enlargement of cardiac silhouette.\n2. Pericardial effusion - Typically presents with globular cardiac silhouette and smooth, symmetric enlargement.\n3. Left ventricular enlargement - Presents with left heart border displaced leftward and inferiorly, and rounded cardiac apex.\n4. Dilated cardiomyopathy - Presents with markedly enlarged cardiac silhouette and predominant left ventricular enlargement.",
+    "support_query": "Radiological features of cardiomegaly presenting as an enlarged cardiac silhouette with increased cardiothoracic ratio and possible signs of pulmonary venous hypertension on chest X-ray.",
+    "differential_query": "Differential diagnosis of an enlarged cardiac silhouette on chest X-ray including conditions such as pericardial effusion, left ventricular aneurysm, and mediastinal masses that can mimic cardiomegaly."
+  },
+  {
+    "image": "card_test7.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.9514164328575134,
+    "interval": [
+      0.9416997194290161,
+      0.9611331462860108
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an enlarged cardiac silhouette with a cardiothoracic ratio (CTR) that appears increased. The cardiac borders are widened, and there is a loss of normal cardiac contour. The distribution of the enlargement appears bilateral, and the pattern is diffuse.\n\nInterpretation:\nFindings are strongly suggestive of cardiomegaly. The increased CTR, widened cardiac borders, and loss of normal cardiac contour support this diagnosis. An alternative consideration is pericardial effusion, which could present with a similar globular cardiac silhouette; however, the lack of mention of a \"water-bottle\" shape and rapid increase in cardiac size makes cardiomegaly more likely.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the cardiomegaly. Further evaluation with echocardiography may be helpful for confirmation and functional assessment.\n\nDifferential Diagnosis:\n1. Pericardial effusion - Less likely due to the absence of a characteristic \"water-bottle\" shape and rapid increase in cardiac size.\n2. Left ventricular enlargement - Less likely as the primary finding, but could be a contributing factor to the cardiomegaly.\n3. Dilated cardiomyopathy - Less likely without specific mention of chamber enlargement or reduced cardiac function.",
+    "support_query": "Radiological features of cardiomegaly presenting as an enlarged cardiac silhouette with increased cardiothoracic ratio and possible signs of pulmonary venous hypertension on chest X-ray.",
+    "differential_query": "Differential diagnosis of an enlarged cardiac silhouette on chest X-ray including conditions such as pericardial effusion, left ventricular aneurysm, and mediastinal masses that can mimic cardiomegaly."
+  },
+  {
+    "image": "card_test7.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.9514164328575134,
+    "interval": [
+      0.9416997194290161,
+      0.9611331462860108
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an enlarged cardiac silhouette with an increased cardiothoracic ratio. The cardiac borders appear widened and globular, with a rounded cardiac apex. No focal lesions or air bronchogram are noted. The lung fields are clear, and there is no evidence of volume loss.\n\nInterpretation:\nFindings are strongly suggestive of cardiomegaly. The enlarged cardiac silhouette and increased cardiothoracic ratio support this diagnosis, with a pattern that is diffuse and bilateral. The widened and globular cardiac borders, along with the rounded cardiac apex, are characteristic of cardiomegaly. This is distinguished from pericardial effusion, which would likely present with a more uniform, \"water-bottle\" shaped cardiac silhouette.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of cardiomegaly. Further evaluation with echocardiography may be helpful for functional assessment.\n\nDifferential Diagnosis:\n1. Pericardial effusion - Less likely due to the absence of a uniform, \"water-bottle\" shaped cardiac silhouette.\n2. Left ventricular enlargement - Less likely as the primary finding, but could be a contributing factor to the cardiomegaly.\n3. Dilated cardiomyopathy - Less likely without additional findings such as pulmonary venous congestion or pleural effusions.",
+    "support_query": "Radiological features of cardiomegaly presenting as an enlarged cardiac silhouette with increased cardiothoracic ratio and possible signs of pulmonary venous hypertension on chest X-ray.",
+    "differential_query": "Differential diagnosis of an enlarged cardiac silhouette on chest X-ray including left ventricular hypertrophy, cardiac tamponade, and mediastinal masses that can mimic cardiomegaly."
+  },
+  {
+    "image": "card_test7.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.9514164328575134,
+    "interval": [
+      0.9416997194290161,
+      0.9611331462860108
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an enlarged cardiac silhouette with a cardiothoracic ratio (CTR) that appears increased. The cardiac borders are globular, and there is a loss of normal cardiac contour. No focal lesions or air bronchogram are noted. The distribution appears bilateral, and the pattern is diffuse.\n\nInterpretation:\nFindings are strongly suggestive of cardiomegaly. The enlarged cardiac silhouette and increased CTR support this diagnosis, given the bilateral and diffuse pattern. An alternative consideration is pericardial effusion, which could present with a similar globular cardiac silhouette; however, the lack of rapid increase in cardiac size and clear lung fields makes cardiomegaly more likely.\n\nRecommendation:\nClinical correlation with echocardiography is recommended to confirm the diagnosis and assess cardiac function. Further evaluation with CT may be considered if the diagnosis remains uncertain.\n\nDifferential Diagnosis:\n1. **Pericardial effusion**: Less likely due to the absence of a rapid increase in cardiac size and smooth, symmetric enlargement.\n2. **Left ventricular enlargement**: Less likely as the primary finding is a global enlargement rather than leftward and inferior displacement of the left heart border.\n3. **Dilated cardiomyopathy**: Less likely as the findings do not specify predominant left ventricular enlargement and rounded cardiac apex.",
+    "support_query": "Radiological features of cardiomegaly presenting as an enlarged cardiac silhouette with increased cardiothoracic ratio and possible signs of pulmonary venous hypertension on chest X-ray.",
+    "differential_query": "Differential diagnosis of an enlarged cardiac silhouette on chest X-ray including conditions such as pericardial effusion, left ventricular aneurysm, and mediastinal masses that can mimic cardiomegaly."
+  },
+  {
+    "image": "co_test.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.936678409576416,
+    "interval": [
+      0.9240140914916992,
+      0.9493427276611328
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows a homogeneous area of increased opacity in the left lung upper zone, suggestive of air-space opacification. The opacity appears to be focal and unilateral, with no clear evidence of air bronchograms or volume loss.\n\nInterpretation:\nFindings are suggestive of consolidation. The presence of a homogeneous area of increased opacity in the left lung upper zone supports this diagnosis, given the confidence interval of 0.924-0.949. The focal and unilateral distribution helps to differentiate consolidation from atelectasis, which typically presents with volume loss and displacement of fissures.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. Given the uncertainty in the diagnosis, a CT scan may be helpful for further evaluation.\n\nDifferential Diagnosis:\n1. **Atelectasis**: Less likely due to the absence of volume loss and displacement of fissures.\n2. **Pulmonary Edema**: Less likely due to the focal and unilateral distribution of the opacity.\n3. **Lung Mass**: Less likely due to the homogeneous and air-space opacification pattern.",
+    "support_query": "Radiological features of consolidation presenting as homogeneous opacity in the left lung upper zone with possible air bronchogram on chest X-ray.",
+    "differential_query": "Differential diagnosis of left lung upper zone opacity on chest X-ray, including pulmonary infarction, contusion, and rounded atelectasis, that may mimic consolidation."
+  },
+  {
+    "image": "co_test.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.936678409576416,
+    "interval": [
+      0.9240140914916992,
+      0.9493427276611328
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows a homogeneous area of increased opacity in the left lung upper zone, suggestive of air-space opacification. The distribution is unilateral, and the pattern is focal. Air bronchograms are not explicitly mentioned. There is no clear evidence of volume loss.\n\nInterpretation:\nFindings are suggestive of consolidation. The presence of a homogeneous area of increased opacity in the left lung upper zone supports this diagnosis. The unilateral and focal pattern helps differentiate it from atelectasis, which typically presents with volume loss and displacement of fissures.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. Further imaging with CT may be helpful if the diagnosis is uncertain or if complications are suspected.\n\nDifferential Diagnosis:\n1. **Pneumonia** - Most likely, given the focal consolidation in the left lung upper zone.\n2. **Atelectasis** - Less likely, due to the absence of volume loss and displacement of fissures.\n3. **Pulmonary Edema** - Less likely, as it typically presents with bilateral and diffuse opacities.\n4. **Lung Mass** - Least likely, as it would typically present as a more localized and possibly heterogeneous opacity.",
+    "support_query": "Radiological features of consolidation presenting as homogeneous opacity in the left lung upper zone with possible air bronchogram on chest X-ray.",
+    "differential_query": "Differential diagnosis of left lung upper zone opacity on chest X-ray, including pulmonary infarction, rounded atelectasis, and focal lung contusion, that may mimic consolidation."
+  },
+  {
+    "image": "co_test.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.936678409576416,
+    "interval": [
+      0.9240140914916992,
+      0.9493427276611328
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows a homogeneous area of increased opacity in the left lung upper zone, suggestive of air-space opacification. The opacity appears to be focal and unilateral, with no clear evidence of air bronchograms or volume loss.\n\nInterpretation:\nFindings are suggestive of consolidation. The presence of a homogeneous area of increased opacity in the left lung upper zone supports this diagnosis, given the confidence interval of 0.924-0.949. This pattern is distinct from atelectasis, which typically presents with volume loss and displacement of fissures.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. Further imaging with CT may be considered if the diagnosis is uncertain or if complications are suspected.\n\nDifferential Diagnosis:\n1. **Pneumonia** - Most likely, given the focal and unilateral pattern of consolidation.\n2. **Atelectasis** - Less likely, due to the absence of volume loss and displacement of fissures.\n3. **Pulmonary Edema** - Possible, but typically presents with bilateral and diffuse opacities.\n4. **Lung Mass** - Less likely, as it would typically present as a more localized and possibly heterogeneous opacity.",
+    "support_query": "Radiological features of consolidation presenting as homogeneous opacity in the left lung upper zone with possible air bronchogram on chest X-ray.",
+    "differential_query": "Differential diagnosis of left lung upper zone opacity on chest X-ray, including pulmonary infarction, contusion, and rounded atelectasis, that may mimic consolidation."
+  },
+  {
+    "image": "co_test.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.936678409576416,
+    "interval": [
+      0.9240140914916992,
+      0.9493427276611328
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows a homogeneous area of increased opacity in the left lung upper zone, suggestive of air-space opacification. The opacity appears to be focal and unilateral, with no clear evidence of air bronchograms or volume loss mentioned.\n\nInterpretation:\nFindings are suggestive of consolidation. The presence of a homogeneous area of increased opacity in the left lung upper zone, which is focal and unilateral, supports this diagnosis. In contrast, atelectasis is less likely due to the lack of mentioned volume loss and mediastinal shift.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. Further imaging with CT may be considered if the diagnosis is uncertain or if complications are suspected.\n\nDifferential Diagnosis:\n1. Pneumonia - likely, given the focal consolidation in the left lung upper zone.\n2. Atelectasis - less likely, due to the absence of volume loss and mediastinal shift.\n3. Pulmonary edema - less likely, as it typically presents with a bilateral symmetric pattern.\n4. Lung abscess - possible, if cavitation is considered, but no evidence of a cavity with air-fluid level is mentioned.",
+    "support_query": "Radiological features of consolidation presenting as homogeneous opacity in the left lung upper zone with possible air bronchogram on chest X-ray.",
+    "differential_query": "Differential diagnosis of left lung upper zone opacity on chest X-ray, including pulmonary infarction, atelectasis, and rounded pneumonia, that may mimic consolidation."
+  },
+  {
+    "image": "co_test.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.936678409576416,
+    "interval": [
+      0.9240140914916992,
+      0.9493427276611328
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows a homogeneous area of increased opacity in the left lung upper zone, suggestive of air-space opacification. No air bronchograms are visible within the dense region. There is no apparent volume loss or displacement of fissures. The distribution appears unilateral, and the pattern is focal.\n\nInterpretation:\nFindings are suggestive of consolidation. The presence of a homogeneous area of increased opacity in the left lung upper zone supports this diagnosis. The unilateral and focal distribution, along with the absence of volume loss, makes atelectasis less likely.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. A CT scan may be considered if the diagnosis is uncertain or if further characterization of the lung parenchyma is needed.\n\nDifferential Diagnosis:\n1. **Pneumonia** - Most likely, given the focal consolidation in the left lung upper zone.\n2. **Atelectasis** - Less likely, due to the absence of volume loss and displacement of fissures.\n3. **Pulmonary Edema** - Possible, but typically presents with bilateral and diffuse opacities.\n4. **Lung Mass** - Less likely, as consolidation tends to be more homogeneous and not typically a discrete mass.",
+    "support_query": "Radiological features of consolidation presenting as homogeneous opacity in the left lung upper zone with possible air bronchogram on chest X-ray.",
+    "differential_query": "Differential diagnosis of left lung upper zone opacity on chest X-ray, including pulmonary infarction, contusion, and rounded atelectasis, that may mimic consolidation."
+  },
+  {
+    "image": "e_c_test.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.981383740901947,
+    "interval": [
+      0.9776604890823364,
+      0.9851069927215577
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an enlarged cardiac silhouette with a cardiothoracic ratio (CTR) that appears increased. The cardiac borders are widened, and there is a loss of normal cardiac contour. The distribution of the enlargement is bilateral, and the pattern is diffuse.\n\nInterpretation:\nFindings are strongly suggestive of cardiomegaly. The increased CTR, widened cardiac borders, and loss of normal cardiac contour support this diagnosis. An alternative consideration is pericardial effusion, which could present with a similar globular cardiac silhouette; however, the lack of mention of a \"water-bottle\" shape and rapid increase in cardiac size makes cardiomegaly more likely.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the cardiomegaly. Further evaluation with echocardiography may be helpful for confirmation and functional assessment.\n\nDifferential Diagnosis:\n1. Pericardial effusion - Less likely due to the absence of a characteristic \"water-bottle\" shape and rapid increase in cardiac size.\n2. Left ventricular enlargement - Less likely as the primary finding is a diffuse enlargement rather than a leftward and inferior displacement of the left heart border.\n3. Dilated cardiomyopathy - Less likely as the findings are more suggestive of a general cardiomegaly rather than a predominantly left ventricular enlargement.",
+    "support_query": "Radiological features of cardiomegaly presenting as an enlarged cardiac silhouette with increased cardiothoracic ratio and possible signs of pulmonary venous hypertension on chest X-ray.",
+    "differential_query": "Differential diagnosis of an enlarged cardiac silhouette on chest X-ray including conditions such as pericardial effusion, left ventricular aneurysm, and mediastinal masses that can mimic cardiomegaly."
+  },
+  {
+    "image": "e_c_test.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.981383740901947,
+    "interval": [
+      0.9776604890823364,
+      0.9851069927215577
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an enlarged cardiac silhouette with a cardiothoracic ratio (CTR) that appears increased. The cardiac borders are widened, and there is a loss of the normal cardiac contour. The distribution of the enlargement is bilateral, and the pattern is diffuse. There is no mention of air bronchogram or volume loss.\n\nInterpretation:\nFindings are strongly suggestive of cardiomegaly. The increased CTR, widened cardiac borders, and loss of normal cardiac contour support this diagnosis. An alternative consideration is pericardial effusion, which could present with a similar globular cardiac silhouette; however, the lack of mention of a \"water-bottle\" shape and rapid increase in cardiac size makes cardiomegaly more likely.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the cardiomegaly. Further evaluation with echocardiography may be helpful for confirmation and functional assessment.\n\nDifferential Diagnosis:\n1. **Pericardial effusion**: A globular, \"water-bottle\" shaped cardiac silhouette and rapid increase in cardiac size would make this more likely.\n2. **Dilated cardiomyopathy**: This would present with predominant left ventricular enlargement and a rounded cardiac apex.\n3. **Left ventricular enlargement**: This would show a left heart border displaced leftward and inferiorly, with a rounded cardiac apex.",
+    "support_query": "Radiological features of cardiomegaly presenting as an enlarged cardiac silhouette with increased cardiothoracic ratio and possible signs of pulmonary venous hypertension on chest X-ray.",
+    "differential_query": "Differential diagnosis of an enlarged cardiac silhouette on chest X-ray including conditions such as pericardial effusion, left ventricular aneurysm, and mediastinal masses that can mimic cardiomegaly."
+  },
+  {
+    "image": "e_c_test.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.981383740901947,
+    "interval": [
+      0.9776604890823364,
+      0.9851069927215577
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an enlarged cardiac silhouette with a cardiothoracic ratio (CTR) that appears increased. The cardiac borders are widened, and there is a loss of the normal cardiac contour. The distribution of the enlargement is bilateral, and the pattern is diffuse. There is no mention of air bronchogram or volume loss.\n\nInterpretation:\nFindings are strongly suggestive of cardiomegaly. The increased CTR, widened cardiac borders, and loss of normal cardiac contour support this diagnosis. An alternative consideration is pericardial effusion, which could present with a similar globular cardiac silhouette; however, the lack of mention of a rapid increase in cardiac size and the presence of diffuse enlargement rather than smooth, symmetric enlargement make cardiomegaly more likely.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the cardiomegaly. Further evaluation with echocardiography may be helpful for confirmation and functional assessment.\n\nDifferential Diagnosis:\n1. **Pericardial effusion**: Less likely due to the absence of a rapid increase in cardiac size and a globular, symmetric cardiac silhouette.\n2. **Dilated cardiomyopathy**: Possible due to the markedly enlarged cardiac silhouette and predominant left ventricular enlargement.\n3. **Left ventricular enlargement**: Less likely as a standalone diagnosis, given the bilateral and diffuse nature of the cardiac enlargement.\n4. **Pulmonary hypertension**: A consideration if there are associated findings such as prominent right heart border and enlargement of pulmonary arteries, which were not explicitly mentioned.",
+    "support_query": "Radiological features of cardiomegaly presenting as an enlarged cardiac silhouette with increased cardiothoracic ratio and possible signs of pulmonary venous hypertension on chest X-ray.",
+    "differential_query": "Differential diagnosis of an enlarged cardiac silhouette on chest X-ray including conditions such as pericardial effusion, left ventricular aneurysm, and mediastinal masses that can mimic cardiomegaly."
+  },
+  {
+    "image": "e_c_test.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.981383740901947,
+    "interval": [
+      0.9776604890823364,
+      0.9851069927215577
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an enlarged cardiac silhouette with a cardiothoracic ratio (CTR) that appears increased. The cardiac borders are widened, and there is a loss of the normal cardiac contour. The distribution of the enlargement is bilateral, and the pattern is diffuse. There is no mention of air bronchogram or volume loss.\n\nInterpretation:\nFindings are strongly suggestive of cardiomegaly. The increased CTR, widened cardiac borders, and loss of normal cardiac contour support this diagnosis. An alternative consideration is pericardial effusion, which could present with a similar globular enlargement; however, the lack of mention of a \"water-bottle\" shaped cardiac silhouette and rapid increase in cardiac size makes cardiomegaly more likely.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the cardiomegaly. Further evaluation with echocardiography may be helpful for confirmation and functional assessment.\n\nDifferential Diagnosis:\n1. Pericardial effusion - Less likely due to the absence of a \"water-bottle\" shaped cardiac silhouette.\n2. Left ventricular enlargement - Less likely due to the bilateral and diffuse nature of the enlargement.\n3. Dilated cardiomyopathy - Less likely due to the lack of specific chamber enlargement signs.",
+    "support_query": "Radiological features of cardiomegaly presenting as an enlarged cardiac silhouette with increased cardiothoracic ratio and possible signs of pulmonary venous hypertension on chest X-ray.",
+    "differential_query": "Differential diagnosis of an enlarged cardiac silhouette on chest X-ray including conditions such as pericardial effusion, left ventricular aneurysm, and mediastinal masses that can mimic cardiomegaly."
+  },
+  {
+    "image": "e_c_test.jpg",
+    "disease": "Cardiomegaly",
+    "confidence": 0.981383740901947,
+    "interval": [
+      0.9776604890823364,
+      0.9851069927215577
+    ],
+    "region": "cardiac region (enlarged heart silhouette)",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an enlarged cardiac silhouette with an increased cardiothoracic ratio, indicating an enlarged heart relative to the chest. The cardiac borders appear widened and globular, with a loss of normal cardiac contour. No focal lesions or air bronchogram are noted.\n\nInterpretation:\nFindings are strongly suggestive of cardiomegaly. The enlarged cardiac silhouette and increased cardiothoracic ratio support this diagnosis, given the diffuse pattern of cardiac enlargement. Pericardial effusion is less likely due to the lack of a smooth, symmetric enlargement of heart borders.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of cardiomegaly. Further evaluation with echocardiography or CT may be necessary for definitive assessment.\n\nDifferential Diagnosis:\n1. Pericardial effusion - less likely due to absence of smooth, symmetric enlargement.\n2. Left ventricular enlargement - possible given the widened cardiac borders and globular cardiac silhouette.\n3. Dilated cardiomyopathy - possible given the markedly enlarged cardiac silhouette.",
+    "support_query": "Radiological features of cardiomegaly presenting as an enlarged cardiac silhouette with increased cardiothoracic ratio and possible signs of pulmonary venous hypertension on chest X-ray.",
+    "differential_query": "Differential diagnosis of an enlarged cardiac silhouette on chest X-ray including conditions such as pericardial effusion, left ventricular hypertrophy, and mediastinal masses that can mimic cardiomegaly."
+  },
+  {
+    "image": "e_test3.jpg",
+    "disease": "Edema",
+    "confidence": 0.9904308915138245,
+    "interval": [
+      0.9885170698165894,
+      0.9923447132110595
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows bilateral diffuse opacities in the lung fields, consistent with a \"bat-wing\" pattern. There is evidence of vascular congestion and interstitial markings, with fluid accumulation in the lower lung zones. No air bronchogram or volume loss is noted.\n\nInterpretation:\nFindings are strongly suggestive of pulmonary edema. The bilateral diffuse pattern and vascular congestion support this diagnosis. In contrast to pneumonia, which typically presents with focal consolidation and possibly an air bronchogram, the diffuse and bilateral nature of the opacities here is more characteristic of pulmonary edema.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the pulmonary edema, such as heart failure or fluid overload. A CT scan may be considered if the diagnosis is uncertain or if further characterization of the lung parenchyma is needed.\n\nDifferential Diagnosis:\n1. Pneumonia - Less likely due to the diffuse and bilateral nature of the opacities, rather than focal consolidation.\n2. Acute Respiratory Distress Syndrome (ARDS) - Less likely as it typically presents with a more heterogeneous pattern and often has a clearer history of risk factors such as sepsis or trauma.\n3. Interstitial Lung Disease - Less likely due to the acute presentation and absence of reticular patterns or fibrosis signs.\n4. Pulmonary Hemorrhage - Less likely as it usually presents with a more rapid change in opacities and often has a history of trauma or coagulopathy.",
+    "support_query": "Radiological features of pulmonary edema presenting as bilateral diffuse opacities with Kerley B lines and perihilar batwing pattern in lung fields on chest X-ray.",
+    "differential_query": "Differential diagnosis of bilateral diffuse lung opacities on chest X-ray including acute respiratory distress syndrome (ARDS), pneumonia, and interstitial lung disease that may mimic pulmonary edema."
+  },
+  {
+    "image": "e_test3.jpg",
+    "disease": "Edema",
+    "confidence": 0.9904308915138245,
+    "interval": [
+      0.9885170698165894,
+      0.9923447132110595
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows bilateral diffuse opacities in the lung fields, consistent with a \"bat-wing\" pattern. There is evidence of vascular congestion and interstitial markings, with fluid accumulation in the lower lung zones. No air bronchogram or volume loss is noted.\n\nInterpretation:\nFindings are strongly suggestive of pulmonary edema. The bilateral diffuse opacities and vascular congestion support this diagnosis. In contrast to pneumonia, which typically presents with focal consolidation and possibly an air bronchogram, the diffuse and bilateral nature of the opacities here is more characteristic of pulmonary edema.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the pulmonary edema. A CT scan may be considered if the diagnosis is uncertain or if further characterization of the lung parenchyma is needed.\n\nDifferential Diagnosis:\n1. Pneumonia - Less likely due to the diffuse and bilateral nature of the opacities, rather than focal consolidation.\n2. Acute Respiratory Distress Syndrome (ARDS) - Less likely as it typically presents with a more heterogeneous pattern and often has a clearer history of risk factors.\n3. Pulmonary Fibrosis - Less likely due to the acute presentation and absence of reticular patterns or honeycombing.",
+    "support_query": "Radiological features of pulmonary edema presenting as bilateral diffuse opacities with Kerley B lines and perihilar batwing pattern in lung fields on chest X-ray.",
+    "differential_query": "Differential diagnosis of bilateral diffuse lung opacities on chest X-ray including acute respiratory distress syndrome (ARDS), pneumonia, and interstitial lung disease that may mimic edema."
+  },
+  {
+    "image": "e_test3.jpg",
+    "disease": "Edema",
+    "confidence": 0.9904308915138245,
+    "interval": [
+      0.9885170698165894,
+      0.9923447132110595
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows bilateral diffuse opacities in the lung fields, consistent with a \"bat-wing\" pattern. There are no visible air bronchograms, and volume loss is not apparent.\n\nInterpretation:\nFindings are strongly suggestive of pulmonary edema, given the bilateral diffuse pattern and characteristic \"bat-wing\" opacities. This is distinguished from pneumonia, which typically presents with more focal or patchy opacities.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the pulmonary edema. A CT scan may be considered if the diagnosis is uncertain or if further characterization of the lung fields is needed.\n\nDifferential Diagnosis:\n1. Pneumonia - Less likely due to the diffuse rather than patchy or focal nature of the opacities.\n2. Acute Respiratory Distress Syndrome (ARDS) - Less likely as the primary presentation, though possible with similar bilateral opacities.\n3. Pulmonary Hemorrhage - Less likely given the absence of specific mention of alveolar filling defects or rapid changes on serial imaging.",
+    "support_query": "Radiological features of pulmonary edema presenting as bilateral diffuse opacities with perihilar batwing pattern and Kerley B lines in lung fields on chest X-ray.",
+    "differential_query": "Differential diagnosis of bilateral diffuse lung opacities on chest X-ray including acute respiratory distress syndrome (ARDS), pneumonia, and interstitial lung disease with similar radiographic patterns."
+  },
+  {
+    "image": "e_test3.jpg",
+    "disease": "Edema",
+    "confidence": 0.9904308915138245,
+    "interval": [
+      0.9885170698165894,
+      0.9923447132110595
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows bilateral diffuse opacities in the lung fields, consistent with a \"bat-wing\" pattern. There are no visible air bronchograms, and volume loss is not apparent.\n\nInterpretation:\nFindings are strongly suggestive of pulmonary edema. The bilateral diffuse pattern and the presence of opacities in the lung fields support this diagnosis. In contrast, pneumonia typically presents with more localized opacities, often in the lower lung zones, making it less likely.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the pulmonary edema. A CT scan may be considered if the diagnosis is uncertain or if further characterization of the lung fields is needed.\n\nDifferential Diagnosis:\n1. Pneumonia - Less likely due to localized opacities typically seen in pneumonia.\n2. Acute Respiratory Distress Syndrome (ARDS) - Possible given the bilateral opacities, but ARDS often has a more patchy and heterogeneous appearance.\n3. COVID-19 Pneumonia - Considered due to overlapping bilateral opacities, but COVID-19 typically shows more ground-glass opacities and a peripheral distribution.",
+    "support_query": "Radiological features of pulmonary edema presenting as bilateral diffuse opacities with perihilar batwing pattern and Kerley B lines on chest X-ray.",
+    "differential_query": "Differential diagnosis of bilateral diffuse lung opacities on chest X-ray including acute respiratory distress syndrome (ARDS), pneumonia, and interstitial lung disease with similar radiographic patterns."
+  },
+  {
+    "image": "e_test3.jpg",
+    "disease": "Edema",
+    "confidence": 0.9904308915138245,
+    "interval": [
+      0.9885170698165894,
+      0.9923447132110595
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows bilateral diffuse opacities in the lung fields, consistent with a \"bat-wing\" pattern. There are no visible air bronchograms, and volume loss is not apparent.\n\nInterpretation:\nFindings are strongly suggestive of pulmonary edema, given the bilateral diffuse pattern and the presence of opacities in the lung fields. This is distinguished from pneumonia, which typically presents with more focal consolidation and possibly air bronchograms.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the pulmonary edema. A CT scan may be considered if the diagnosis is uncertain or if further characterization of the lung fields is needed.\n\nDifferential Diagnosis:\n1. Pneumonia - Less likely due to the diffuse rather than focal pattern of opacities.\n2. Acute Respiratory Distress Syndrome (ARDS) - Possible given the bilateral diffuse opacities, but ARDS typically has a more rapid onset and progression.\n3. Pulmonary Hemorrhage - Less likely due to the absence of specific mention of blood-tinged sputum or hemoptysis.",
+    "support_query": "Radiological features of pulmonary edema presenting as bilateral diffuse opacities with perihilar batwing pattern and Kerley B lines in lung fields on chest X-ray.",
+    "differential_query": "Differential diagnosis of bilateral diffuse lung opacities on chest X-ray including acute respiratory distress syndrome (ARDS), pneumonia, and interstitial lung disease with similar radiographic patterns."
+  },
+  {
+    "image": "e_test4.jpg",
+    "disease": "Edema",
+    "confidence": 0.8591176867485046,
+    "interval": [
+      0.8309412240982056,
+      0.8872941493988037
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows bilateral diffuse opacities in the lung fields, consistent with a \"bat-wing\" pattern. There is evidence of vascular congestion and Kerley B lines, with fluid accumulation in the lower lung zones.\n\nInterpretation:\nFindings are suggestive of pulmonary edema. The bilateral diffuse pattern and presence of Kerley B lines and vascular congestion support this diagnosis. An alternative diagnosis could be bilateral pneumonia, which might present with similar diffuse opacities but typically includes more focal consolidation and possibly air bronchograms.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the pulmonary edema, such as heart failure or fluid overload. A CT scan may be considered if the diagnosis remains uncertain or to further evaluate the lung parenchyma.\n\nDifferential Diagnosis:\n1. **Bilateral pneumonia**: More likely to present with focal consolidation and air bronchograms.\n2. **Acute respiratory distress syndrome (ARDS)**: Presents with similar diffuse opacities but often with a more rapid onset and severe hypoxemia.\n3. **Interstitial lung disease**: Typically presents with more reticular or reticulonodular patterns rather than diffuse opacities.",
+    "support_query": "Radiological features of pulmonary edema presenting as bilateral diffuse opacities with perihilar batwing pattern and Kerley B lines on chest X-ray.",
+    "differential_query": "Differential diagnosis of bilateral diffuse lung opacities on chest X-ray, including acute respiratory distress syndrome (ARDS), pneumonia, interstitial lung disease, and cardiogenic pulmonary edema, that may mimic radiographic findings of pulmonary edema."
+  },
+  {
+    "image": "e_test4.jpg",
+    "disease": "Edema",
+    "confidence": 0.8591176867485046,
+    "interval": [
+      0.8309412240982056,
+      0.8872941493988037
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows bilateral diffuse opacities in the lung fields, consistent with a \"bat-wing\" pattern. There is evidence of vascular congestion and Kerley B lines, with fluid accumulation in the lower lung zones.\n\nInterpretation:\nFindings are suggestive of pulmonary edema. The bilateral diffuse pattern and presence of Kerley B lines and vascular congestion support this diagnosis. An alternative diagnosis could be bilateral pneumonia, which might present with similar diffuse opacities but typically includes more focal areas of consolidation and possibly air bronchograms.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the pulmonary edema, such as heart failure or fluid overload. A CT scan may be considered if the diagnosis remains uncertain or to further characterize the lung findings.\n\nDifferential Diagnosis:\n1. **Bilateral Pneumonia**: Similar bilateral opacities but often with more focal consolidation and air bronchograms.\n2. **Acute Respiratory Distress Syndrome (ARDS)**: Presents with bilateral diffuse opacities but typically in the context of a known inflammatory or injury cause.\n3. **Interstitial Lung Disease**: Might show bilateral opacities but often with a more reticular or nodular pattern rather than diffuse alveolar filling.",
+    "support_query": "Radiological features of pulmonary edema presenting as bilateral diffuse opacities with perihilar batwing pattern and Kerley B lines on chest X-ray.",
+    "differential_query": "Differential diagnosis of bilateral diffuse lung opacities on chest X-ray, including acute respiratory distress syndrome (ARDS), pneumonia, interstitial lung disease, and cardiogenic pulmonary edema, that mimic radiographic findings of pulmonary edema."
+  },
+  {
+    "image": "e_test4.jpg",
+    "disease": "Edema",
+    "confidence": 0.8591176867485046,
+    "interval": [
+      0.8309412240982056,
+      0.8872941493988037
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows bilateral diffuse opacities in the lung fields, consistent with a \"bat-wing\" pattern. There is evidence of vascular congestion and Kerley B lines, with fluid accumulation in the lower lung zones.\n\nInterpretation:\nFindings are suggestive of pulmonary edema. The bilateral diffuse pattern and presence of vascular congestion and Kerley B lines support this diagnosis. An alternative diagnosis could be bilateral pneumonia, which might present with similar diffuse opacities but typically includes air bronchograms and more focal consolidation, which are not mentioned here.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the pulmonary edema, such as heart failure or fluid overload. A CT scan may be considered if the diagnosis remains uncertain or to further evaluate the lung parenchyma.\n\nDifferential Diagnosis:\n1. **Bilateral Pneumonia**: Less likely due to lack of mentioned air bronchograms and focal consolidation.\n2. **Acute Respiratory Distress Syndrome (ARDS)**: Less likely due to the absence of mentioned severe hypoxemia and more heterogeneous pattern typically seen in ARDS.\n3. **Interstitial Lung Disease**: Less likely due to the acute presentation and absence of mentioned reticular patterns or fibrosis.",
+    "support_query": "Radiological features of pulmonary edema presenting as bilateral diffuse opacities with perihilar batwing pattern and Kerley B lines on chest X-ray.",
+    "differential_query": "Differential diagnosis of bilateral diffuse lung opacities on chest X-ray including acute respiratory distress syndrome (ARDS), pneumonia, interstitial lung disease, and cardiogenic pulmonary edema, with consideration of clinical correlation for definitive diagnosis."
+  },
+  {
+    "image": "e_test4.jpg",
+    "disease": "Edema",
+    "confidence": 0.8591176867485046,
+    "interval": [
+      0.8309412240982056,
+      0.8872941493988037
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows bilateral diffuse opacities in the lung fields, consistent with a \"bat-wing\" pattern. There is evidence of vascular congestion and interstitial markings, with fluid accumulation in the lower lung zones. No air bronchogram or volume loss is noted.\n\nInterpretation:\nFindings are suggestive of pulmonary edema. The bilateral diffuse opacities and vascular congestion support this diagnosis. An alternative diagnosis could be bilateral pneumonia, which might show more focal consolidation and possibly an air bronchogram, not seen in this case.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the pulmonary edema. A CT scan may be considered if the diagnosis remains uncertain or to further evaluate the lung parenchyma.\n\nDifferential Diagnosis:\n1. **Bilateral Pneumonia**: Less likely due to the absence of air bronchogram and focal consolidation.\n2. **Acute Respiratory Distress Syndrome (ARDS)**: Possible given the diffuse opacities, but typically presents with a more rapid onset and severe hypoxemia.\n3. **Interstitial Lung Disease**: Less likely due to the acute presentation and absence of reticular patterns or fibrosis.",
+    "support_query": "Radiological features of pulmonary edema presenting as bilateral diffuse opacities with Kerley B lines and perihilar batwing pattern in lung fields on chest X-ray.",
+    "differential_query": "Differential diagnosis of bilateral diffuse lung opacities on chest X-ray, including acute respiratory distress syndrome (ARDS), pneumonia, interstitial lung disease, and cardiogenic pulmonary edema, that mimic radiographic findings of pulmonary edema."
+  },
+  {
+    "image": "e_test4.jpg",
+    "disease": "Edema",
+    "confidence": 0.8591176867485046,
+    "interval": [
+      0.8309412240982056,
+      0.8872941493988037
+    ],
+    "region": "bilateral lung fields (diffuse opacities)",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows bilateral diffuse opacities in the lung fields, consistent with a \"bat-wing\" pattern. There is evidence of vascular congestion and interstitial markings, with fluid accumulation in the lower lung zones. No air bronchogram or volume loss is apparent.\n\nInterpretation:\nFindings are suggestive of pulmonary edema. The bilateral diffuse pattern and vascular congestion support this diagnosis. In contrast, pneumonia typically presents with a more focal pattern and possibly an air bronchogram, which is not seen here.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the pulmonary edema. Given the diffuse nature of the findings, a CT scan may be helpful if the diagnosis remains uncertain after clinical evaluation.\n\nDifferential Diagnosis:\n1. Pneumonia - Less likely due to the absence of focal consolidation and air bronchogram.\n2. Acute Respiratory Distress Syndrome (ARDS) - Less likely due to the lack of reported severe hypoxemia and the specific \"bat-wing\" pattern.\n3. Interstitial Lung Disease - Less likely due to the acute presentation and diffuse bilateral opacities without reported chronic changes.",
+    "support_query": "Radiological features of pulmonary edema presenting as bilateral diffuse opacities with perihilar batwing pattern and Kerley B lines in lung fields on chest X-ray.",
+    "differential_query": "Differential diagnosis of bilateral diffuse lung opacities on chest X-ray, including acute respiratory distress syndrome (ARDS), pneumonia, interstitial lung disease, and cardiogenic pulmonary edema, with consideration of clinical correlation for definitive diagnosis."
+  },
+  {
+    "image": "p_test5.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.9827228784561157,
+    "interval": [
+      0.9792674541473388,
+      0.9861783027648926
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows consolidation in the right lung lower zone, characterized by a homogeneous area of increased opacity. The pattern appears to be focal and unilateral, with no clear evidence of air bronchograms or volume loss.\n\nInterpretation:\nFindings are strongly suggestive of pneumonia, given the presence of consolidation in a localized area of the lung. The unilateral and focal distribution of the opacity supports this diagnosis. An alternative consideration is atelectasis, which is less likely given the absence of volume loss.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. A CT scan may be considered if the diagnosis is uncertain or to further evaluate for complications.\n\nDifferential Diagnosis:\n1. **Pneumonia** (most likely): Focal consolidation in right lung lower zone.\n2. **Atelectasis**: Less likely due to absence of volume loss.\n3. **Pulmonary edema**: Less likely due to unilateral rather than bilateral distribution.\n4. **Lung abscess**: Less likely due to lack of cavitation or air-fluid level.",
+    "support_query": "Radiological features of pneumonia presenting as consolidation in the right lung lower zone with possible air bronchogram on chest X-ray.",
+    "differential_query": "Differential diagnosis of right lung lower zone consolidation on chest X-ray including pulmonary infarction, lung abscess, and atypical pulmonary edema."
+  },
+  {
+    "image": "p_test5.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.9827228784561157,
+    "interval": [
+      0.9792674541473388,
+      0.9861783027648926
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an area of increased opacity in the right lung lower zone, consistent with air-space consolidation. The opacity appears patchy and homogeneous, with no clear evidence of air bronchograms or volume loss. The distribution is unilateral, and the pattern is focal.\n\nInterpretation:\nFindings are strongly suggestive of pneumonia, given the presence of consolidation in the right lung lower zone and a patchy, homogeneous pattern. This is distinguished from atelectasis by the lack of volume loss. \n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause and guide treatment. Given the diagnostic confidence, CT may not be immediately necessary but could be considered if the patient's condition warrants further evaluation.\n\nDifferential Diagnosis:\n1. **Pleural Effusion**: Less likely due to the absence of blunting of the costophrenic angle.\n2. **Pulmonary Edema**: Less likely given the unilateral and focal nature of the opacity.\n3. **Atelectasis**: Less likely due to the absence of volume loss.\n4. **Lung Abscess**: Less likely as there is no evidence of cavitation or air-fluid level.",
+    "support_query": "What are the characteristic radiological features of pneumonia presenting as consolidation in the right lung lower zone on chest X-ray?",
+    "differential_query": "What are the differential diagnoses of right lung lower zone consolidation on chest X-ray, including possible mimics such as pulmonary infarction, atelectasis, and lung abscess?\n\n Wait, I need to rephrase according to the format.\n\nQuery1: Characteristic radiological features of pneumonia presenting as consolidation in the right lung lower zone on chest X-ray."
+  },
+  {
+    "image": "p_test5.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.9827228784561157,
+    "interval": [
+      0.9792674541473388,
+      0.9861783027648926
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows consolidation in the right lung lower zone. The pattern appears to be focal and unilateral, with no clear evidence of bilateral involvement or diffuse pattern. The presence of air bronchograms is not explicitly mentioned. There is no obvious volume loss noted.\n\nInterpretation:\nFindings are strongly suggestive of pneumonia. The focal and unilateral distribution of consolidation in the right lung lower zone supports this diagnosis. An alternative consideration is atelectasis, which is less likely given the lack of mentioned volume loss.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. A CT scan may be considered if the diagnosis is uncertain or to further evaluate for complications.\n\nDifferential Diagnosis:\n1. **Pneumonia** (most likely): Focal, unilateral consolidation.\n2. **Atelectasis**: Less likely due to absent volume loss.\n3. **Pulmonary Edema**: Less likely due to unilateral rather than bilateral involvement.\n4. **Lung Abscess**: Less likely without evidence of cavitation.",
+    "support_query": "Radiological features of pneumonia presenting as consolidation in the right lung lower zone with possible air bronchogram on chest X-ray.",
+    "differential_query": "Differential diagnosis of right lung lower zone consolidation on chest X-ray including pulmonary infarction, lung abscess, and atypical pulmonary edema."
+  },
+  {
+    "image": "p_test5.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.9827228784561157,
+    "interval": [
+      0.9792674541473388,
+      0.9861783027648926
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows a focal area of consolidation in the right lung lower zone. The pattern appears to be homogeneous, and air bronchograms are not clearly visible. There is no obvious volume loss.\n\nInterpretation:\nFindings are strongly suggestive of pneumonia, given the presence of a focal area of consolidation in the right lung lower zone. This is supported by the homogeneous pattern, which is consistent with air-space consolidation. An alternative diagnosis to consider is atelectasis, which would typically present with volume loss, not seen in this case.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. A CT scan may be helpful if the diagnosis is uncertain or to further evaluate for complications.\n\nDifferential Diagnosis:\n1. **Pneumonia** (most likely): Focal consolidation in right lung lower zone.\n2. **Atelectasis**: Less likely due to absence of volume loss.\n3. **Pulmonary edema**: Less likely due to unilateral and focal nature of consolidation.\n4. **Lung abscess**: Less likely due to lack of visible cavitation.",
+    "support_query": "Radiological features of pneumonia presenting as consolidation in the right lung lower zone with possible air bronchogram on chest X-ray.",
+    "differential_query": "Differential diagnosis of right lung lower zone consolidation on chest X-ray including pulmonary infarction, lung abscess, and contusion."
+  },
+  {
+    "image": "p_test5.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.9827228784561157,
+    "interval": [
+      0.9792674541473388,
+      0.9861783027648926
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows consolidation in the right lung lower zone, characterized by a focal, unilateral pattern. An air bronchogram is not explicitly mentioned. There is no clear indication of volume loss.\n\nInterpretation:\nFindings are strongly suggestive of pneumonia, given the presence of consolidation in a focal, unilateral distribution in the right lung lower zone. This pattern is less likely to be atelectasis, as atelectasis typically presents with volume loss, which is not observed here.\n\nRecommendation:\nClinical correlation is recommended to determine the etiology of the pneumonia and to guide management. A CT scan may be considered if the diagnosis is uncertain or to evaluate for complications.\n\nDifferential Diagnosis:\n1. **Pneumonia** (most likely): Focal consolidation in right lung lower zone.\n2. **Atelectasis**: Less likely due to absence of volume loss.\n3. **Pulmonary Edema**: Less likely due to unilateral, focal distribution rather than bilateral symmetric pattern.\n4. **Lung Abscess**: Less likely as there is no mention of cavitation or air-fluid level.",
+    "support_query": "Radiological features of pneumonia presenting as consolidation in the right lung lower zone with possible air bronchogram on chest X-ray.",
+    "differential_query": "Differential diagnosis of right lung lower zone consolidation on chest X-ray including pulmonary infarction, lung abscess, and atypical interstitial pneumonia."
+  },
+  {
+    "image": "p_test6.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.977411150932312,
+    "interval": [
+      0.9728933811187744,
+      0.9819289207458496
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an area of opacity or consolidation in the left lung upper zone. The pattern appears to be focal and unilateral, with no clear evidence of bilateral involvement or diffuse pattern. The presence of air bronchograms is not explicitly mentioned. There is no obvious volume loss noted.\n\nInterpretation:\nFindings are strongly suggestive of pneumonia, given the focal area of consolidation in the left lung upper zone. The unilateral and focal distribution supports this diagnosis, as pneumonia often presents with localized opacities. In contrast, atelectasis is less likely due to the lack of mentioned volume loss, which is typically seen in atelectasis.\n\nRecommendation:\nClinical correlation is recommended to confirm the diagnosis and guide treatment. Given the confidence in the diagnosis, immediate CT scan may not be necessary but could be considered if clinical presentation is atypical or if complications are suspected.\n\nDifferential Diagnosis:\n1. **Atelectasis**: Less likely due to the absence of volume loss.\n2. **Pulmonary Edema**: Less likely due to the focal and unilateral pattern, whereas pulmonary edema tends to have a more bilateral and diffuse presentation.\n3. **Pleural Effusion**: Less likely as there is no mention of blunting of the costophrenic angle, which is typical for pleural effusion.",
+    "support_query": "Radiological features of pneumonia presenting as consolidation or infiltrates in the left lung upper zone on chest X-ray, including air bronchograms and possible pleural effusion.",
+    "differential_query": "Differential diagnosis of left lung upper zone consolidation or infiltrates on chest X-ray, including pulmonary infarction, tuberculosis, and lung abscess, that may mimic pneumonia."
+  },
+  {
+    "image": "p_test6.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.977411150932312,
+    "interval": [
+      0.9728933811187744,
+      0.9819289207458496
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\nA chest X-ray shows an area of increased opacity in the left lung upper zone, consistent with air-space consolidation. The opacity appears patchy and homogeneous, with possible air bronchograms within the dense region. There is no clear evidence of bilateral involvement, diffuse pattern, volume loss, or absence of air bronchograms.\n\nInterpretation:\nFindings are strongly suggestive of pneumonia, given the presence of a unilateral, focal opacity in the left lung upper zone. The patchy and homogeneous pattern of the opacity, along with possible air bronchograms, supports this diagnosis. An alternative consideration is atelectasis; however, atelectasis would more likely present with volume loss, which is not evident in this case.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the pneumonia and to guide treatment. Given the confidence in the diagnosis, a CT scan may not be immediately necessary but could be considered if the patient's clinical condition warrants further evaluation.\n\nDifferential Diagnosis:\n1. **Pleural Effusion**: Less likely due to the absence of blunting of the costophrenic angle.\n2. **Atelectasis**: Less likely due to the absence of volume loss.\n3. **Pulmonary Edema**: Less likely due to the unilateral and focal nature of the opacity.\n4. **Lung Abscess**: Less likely due to the absence of a clear cavity with air-fluid level.",
+    "support_query": "Radiological features of pneumonia presenting as consolidation or infiltrates in the left lung upper zone on chest X-ray, including air bronchograms and possible pleural effusion.",
+    "differential_query": "Differential diagnosis of left lung upper zone consolidation or infiltrates on chest X-ray, including pulmonary tuberculosis, lung abscess, and atypical pneumonia, to rule out alternative diagnoses."
+  },
+  {
+    "image": "p_test6.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.977411150932312,
+    "interval": [
+      0.9728933811187744,
+      0.9819289207458496
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows a focal area of opacity in the left lung upper zone, consistent with air-space consolidation. The distribution is unilateral, and the pattern is focal. An air bronchogram is not clearly visible in the provided image. There is no evident volume loss.\n\nInterpretation:\nFindings are strongly suggestive of pneumonia, given the unilateral, focal pattern of consolidation in the left lung upper zone. This presentation contrasts with pulmonary edema, which typically shows a bilateral, diffuse pattern.\n\nRecommendation:\nClinical correlation is recommended to confirm the diagnosis and guide treatment. Given the confidence in the diagnosis, immediate CT scan may not be necessary but could be considered if clinical suspicion for complications like lung abscess arises.\n\nDifferential Diagnosis:\n1. **Pleural Effusion**: Less likely due to the focal, unilateral consolidation without blunting of the costophrenic angle.\n2. **Atelectasis**: Less likely as there is no clear evidence of volume loss.\n3. **Pulmonary Edema**: Less likely given the focal, unilateral pattern rather than a bilateral, diffuse distribution.",
+    "support_query": "Radiological features of pneumonia presenting as consolidation or infiltrates in the left lung upper zone on chest X-ray, including air bronchograms and possible pleural effusion.",
+    "differential_query": "Differential diagnosis of left lung upper zone consolidation or infiltrates on chest X-ray, including pulmonary infarction, tuberculosis, and lung abscess, that may mimic pneumonia."
+  },
+  {
+    "image": "p_test6.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.977411150932312,
+    "interval": [
+      0.9728933811187744,
+      0.9819289207458496
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows a focal area of increased opacity in the left lung upper zone, consistent with air-space consolidation. The opacity appears homogeneous, and an air bronchogram is not clearly visible. There is no evident volume loss.\n\nInterpretation:\nFindings are strongly suggestive of pneumonia, given the presence of a focal area of consolidation in the left lung upper zone. The unilateral and focal distribution of the opacity supports this diagnosis. An alternative consideration is atelectasis, which would more likely present with volume loss.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. Given the clear X-ray findings, CT may not be immediately necessary but could be considered if the patient's clinical condition warrants further evaluation.\n\nDifferential Diagnosis:\n1. **Pleural Effusion**: Less likely due to the absence of blunting of the costophrenic angle.\n2. **Atelectasis**: Less likely due to the absence of volume loss.\n3. **Pulmonary Edema**: Less likely due to the focal, unilateral distribution of the opacity rather than a bilateral pattern.",
+    "support_query": "Radiological features of pneumonia presenting as consolidation or infiltrates in the left lung upper zone on chest X-ray, including air bronchograms and possible pleural effusion.",
+    "differential_query": "Differential diagnosis of left lung upper zone consolidation or infiltrates on chest X-ray, including pulmonary tuberculosis, lung abscess, and atypical pneumonia, to rule out alternative diagnoses that mimic pneumonia."
+  },
+  {
+    "image": "p_test6.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.977411150932312,
+    "interval": [
+      0.9728933811187744,
+      0.9819289207458496
+    ],
+    "region": "left lung upper zone",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an area of increased opacity in the left lung upper zone, consistent with air-space consolidation. The opacity appears patchy and homogeneous, with possible air bronchograms within the dense region. The distribution is unilateral, and the pattern is focal.\n\nInterpretation:\nFindings are strongly suggestive of pneumonia. The presence of unilateral, focal consolidation with possible air bronchograms supports this diagnosis. An alternative consideration is atelectasis, which would likely present with volume loss, not evident in this case.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. Given the diagnostic confidence, CT may not be immediately necessary but could be considered if the patient's clinical condition warrants further evaluation.\n\nDifferential Diagnosis:\n1. **Pleural Effusion**: Less likely due to the absence of blunting of the costophrenic angle.\n2. **Atelectasis**: Less likely due to the absence of volume loss.\n3. **Pulmonary Edema**: Less likely due to the unilateral and focal nature of the consolidation.",
+    "support_query": "Radiological features of pneumonia presenting as consolidation or infiltrates in the left lung upper zone on chest X-ray, including air bronchograms and possible pleural effusion.",
+    "differential_query": "Differential diagnosis of left lung upper zone consolidation or infiltrates on chest X-ray, including pulmonary tuberculosis, lung abscess, and atypical pulmonary infections."
+  },
+  {
+    "image": "pe_test1.jpg",
+    "disease": "Pleural Effusion",
+    "confidence": 0.9841912984848022,
+    "interval": [
+      0.9810295581817627,
+      0.9873530387878418
+    ],
+    "region": "pleural space (lung base)",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows blunting of the costophrenic angle with a homogeneous lower zone opacity and meniscus sign, indicating fluid accumulation in the pleural space, particularly at the lung base. The distribution appears unilateral, and the pattern is focal.\n\nInterpretation:\nFindings are strongly suggestive of pleural effusion. The presence of blunting of the costophrenic angle and a meniscus sign supports this diagnosis, given the unilateral and focal nature of the opacity. In contrast, pneumonia typically presents with a more patchy or homogeneous opacity that may not necessarily cause blunting of the costophrenic angle.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the pleural effusion. A CT scan may be considered if further characterization of the pleural space or lung pathology is needed.\n\nDifferential Diagnosis:\n1. **Pneumonia** - Less likely due to the absence of air bronchograms and the specific blunting of the costophrenic angle.\n2. **Atelectasis** - Less likely given the homogeneous opacity and meniscus sign, which are not typical for atelectasis.\n3. **Pulmonary Edema** - Less likely as it usually presents with bilateral and diffuse opacities rather than a unilateral focal pattern.",
+    "support_query": "Radiological features of pleural effusion presenting as homogenous opacity with meniscus sign at lung base on chest X-ray.",
+    "differential_query": "Differential diagnosis of basal lung homogenous opacity on chest X-ray including pneumonia, pulmonary infarction, and subdiaphragmatic fluid collection."
+  },
+  {
+    "image": "pe_test1.jpg",
+    "disease": "Pleural Effusion",
+    "confidence": 0.9841912984848022,
+    "interval": [
+      0.9810295581817627,
+      0.9873530387878418
+    ],
+    "region": "pleural space (lung base)",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows blunting of the costophrenic angle with a homogeneous lower zone opacity and meniscus sign, indicating fluid accumulation in the pleural space, particularly at the lung base. The distribution appears unilateral, and the pattern is focal.\n\nInterpretation:\nFindings are strongly suggestive of pleural effusion. The presence of blunting of the costophrenic angle and meniscus sign supports this diagnosis, given the focal and unilateral pattern. In contrast, pneumonia typically presents with a more patchy or homogeneous opacity that may not necessarily cause blunting of the costophrenic angle, and often includes air bronchograms, which are not mentioned here.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the pleural effusion. A CT scan may be considered if further characterization of the pleural space or lung pathology is needed.\n\nDifferential Diagnosis:\n1. **Pneumonia** - Less likely due to the absence of air bronchograms and the specific blunting of the costophrenic angle.\n2. **Atelectasis** - Less likely given the homogeneous opacity and meniscus sign, which are not typical for atelectasis.\n3. **Pulmonary Edema** - Less likely as it usually presents with a more diffuse pattern and not typically with meniscus sign.",
+    "support_query": "Radiological features of pleural effusion presenting as homogenous opacity with meniscus sign at lung base on chest X-ray.",
+    "differential_query": "Differential diagnosis of basal lung homogenous opacity on chest X-ray including pneumonia, pulmonary infarction, and subdiaphragmatic fluid collection."
+  },
+  {
+    "image": "pe_test1.jpg",
+    "disease": "Pleural Effusion",
+    "confidence": 0.9841912984848022,
+    "interval": [
+      0.9810295581817627,
+      0.9873530387878418
+    ],
+    "region": "pleural space (lung base)",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows blunting of the costophrenic angle with a homogeneous lower zone opacity and meniscus sign, indicating fluid accumulation in the pleural space, particularly at the lung base. The distribution appears unilateral, and the pattern is focal.\n\nInterpretation:\nFindings are strongly suggestive of pleural effusion. The presence of blunting of the costophrenic angle and meniscus sign supports this diagnosis. In contrast to pneumonia, which typically presents with air bronchograms and more patchy or homogeneous opacities, the meniscus sign and blunting of the costophrenic angle are more characteristic of pleural effusion.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the pleural effusion. A CT scan may be suggested if the diagnosis is uncertain or to further evaluate the extent of the effusion.\n\nDifferential Diagnosis:\n1. **Pneumonia** - Less likely due to the absence of air bronchograms and a more diffuse or patchy pattern.\n2. **Atelectasis** - Less likely due to the presence of a meniscus sign and blunting of the costophrenic angle, which are not typical features.\n3. **Pulmonary Edema** - Less likely due to the focal and unilateral distribution of the opacity, which is not typical for pulmonary edema.",
+    "support_query": "Radiological features of pleural effusion presenting as homogenous opacity with meniscus sign at lung base on chest X-ray.",
+    "differential_query": "Differential diagnosis of basal lung homogenous opacity on chest X-ray including pneumonia, pulmonary infarction, and subdiaphragmatic fluid collection."
+  },
+  {
+    "image": "pe_test1.jpg",
+    "disease": "Pleural Effusion",
+    "confidence": 0.9841912984848022,
+    "interval": [
+      0.9810295581817627,
+      0.9873530387878418
+    ],
+    "region": "pleural space (lung base)",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows blunting of the costophrenic angle with a homogeneous lower zone opacity and meniscus sign, indicating fluid accumulation in the pleural space, particularly at the lung base. The distribution appears unilateral, and the pattern is focal.\n\nInterpretation:\nFindings are strongly suggestive of pleural effusion. The presence of blunting of the costophrenic angle and meniscus sign supports this diagnosis. In contrast to pneumonia, which typically presents with air bronchograms and more patchy or homogeneous opacities, the meniscus sign and blunting of the costophrenic angle are more characteristic of pleural effusion.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the pleural effusion. A CT scan may be suggested if the diagnosis is uncertain or to further evaluate the extent of the effusion and associated lung pathology.\n\nDifferential Diagnosis:\n1. **Pneumonia** - Less likely due to the absence of air bronchograms and a more diffuse or patchy pattern.\n2. **Atelectasis** - Less likely due to the presence of a meniscus sign and blunting of the costophrenic angle, which are not typical features.\n3. **Pulmonary Edema** - Less likely due to the focal and unilateral distribution of the opacity, which is not typical for pulmonary edema.",
+    "support_query": "Radiological features of pleural effusion presenting as homogenous opacity with meniscus sign at lung base on chest X-ray.",
+    "differential_query": "Differential diagnosis of basal lung homogenous opacity on chest X-ray including pneumonia, pulmonary infarction, and subdiaphragmatic fluid collection."
+  },
+  {
+    "image": "pe_test1.jpg",
+    "disease": "Pleural Effusion",
+    "confidence": 0.9841912984848022,
+    "interval": [
+      0.9810295581817627,
+      0.9873530387878418
+    ],
+    "region": "pleural space (lung base)",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows blunting of the costophrenic angle with a homogeneous lower zone opacity and meniscus sign, indicating fluid accumulation in the pleural space, particularly at the lung base. The distribution appears unilateral, and the pattern is focal.\n\nInterpretation:\nFindings are strongly suggestive of pleural effusion. The presence of blunting of the costophrenic angle and meniscus sign supports this diagnosis, given the unilateral and focal nature of the opacity. In contrast, pneumonia typically presents with air bronchograms and a more patchy or diffuse pattern, making it less likely.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the pleural effusion. A CT scan may be considered if further characterization of the pleural fluid or surrounding structures is needed.\n\nDifferential Diagnosis:\n1. **Pneumonia** - Less likely due to the absence of air bronchograms and a more homogeneous opacity.\n2. **Atelectasis** - Less likely due to the presence of a meniscus sign and blunting of the costophrenic angle.\n3. **Pulmonary Edema** - Less likely due to the focal and unilateral nature of the opacity, rather than a more diffuse pattern typically seen in pulmonary edema.",
+    "support_query": "Radiological features of pleural effusion presenting as homogenous opacity with meniscus sign at lung base on chest X-ray.",
+    "differential_query": "Differential diagnosis of basal lung homogenous opacity on chest X-ray including pneumonia, pulmonary infarction, and subdiaphragmatic fluid collection."
+  },
+  {
+    "image": "test3.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.8123983144760132,
+    "interval": [
+      0.7748779773712158,
+      0.8499186515808106
+    ],
+    "region": "left lung lower zone",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an area of increased opacity in the left lung lower zone, consistent with airspace consolidation. The opacity appears patchy and homogeneous, with no visible air bronchograms. There is no evidence of volume loss or mediastinal shift. The distribution is unilateral, and the pattern is focal.\n\nInterpretation:\nFindings are suggestive of pneumonia. The presence of unilateral, focal consolidation in the left lung lower zone supports this diagnosis. An alternative diagnosis is atelectasis, which is less likely given the absence of volume loss and structural shifts.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. A CT scan may be considered if the diagnosis is uncertain or to evaluate for complications.\n\nDifferential Diagnosis:\n1. **Pleural Effusion**: Less likely due to the absence of blunting of the costophrenic angle.\n2. **Atelectasis**: Less likely due to the absence of volume loss and mediastinal shift.\n3. **Pulmonary Edema**: Less likely due to the unilateral and focal nature of the consolidation.\n4. **Lung Mass**: Less likely due to the homogeneous and patchy appearance of the opacity.",
+    "support_query": "Radiological features of pneumonia presenting as consolidation or ground-glass opacities in the left lung lower zone on chest X-ray.",
+    "differential_query": "Differential diagnosis of left lung lower zone consolidation or ground-glass opacities on chest X-ray including pulmonary infarction, atelectasis, and interstitial lung disease."
+  },
+  {
+    "image": "test3.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.8123983144760132,
+    "interval": [
+      0.7748779773712158,
+      0.8499186515808106
+    ],
+    "region": "left lung lower zone",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an area of increased opacity in the left lung lower zone, consistent with airspace consolidation. The opacity appears patchy and homogeneous, without clear evidence of air bronchograms or volume loss.\n\nInterpretation:\nFindings are suggestive of pneumonia, given the presence of a unilateral, focal opacity in the left lung lower zone. The patchy and homogeneous pattern of the opacity supports this diagnosis. An alternative consideration is atelectasis, which is less likely due to the absence of volume loss and displacement of fissures.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. Given the diagnostic uncertainty, a CT scan may be helpful for further evaluation.\n\nDifferential Diagnosis:\n1. **Pleural Effusion**: Less likely due to the absence of blunting of the costophrenic angle.\n2. **Atelectasis**: Less likely due to the absence of volume loss and displacement of fissures.\n3. **Pulmonary Edema**: Less likely due to the unilateral and focal nature of the opacity.",
+    "support_query": "Radiological features of pneumonia presenting as consolidation or ground-glass opacities in the left lung lower zone on chest X-ray.",
+    "differential_query": "Differential diagnosis of left lung lower zone consolidation or ground-glass opacities on chest X-ray, including pulmonary infarction, atelectasis, and interstitial lung disease."
+  },
+  {
+    "image": "test3.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.8123983144760132,
+    "interval": [
+      0.7748779773712158,
+      0.8499186515808106
+    ],
+    "region": "left lung lower zone",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an area of increased opacity in the left lung lower zone, suggestive of consolidation. The opacity appears patchy and homogeneous, with no clear evidence of air bronchograms or volume loss.\n\nInterpretation:\nFindings are suggestive of pneumonia. The unilateral distribution, focal pattern, and presence of consolidation in the left lung lower zone support this diagnosis. An alternative diagnosis could be atelectasis, which is less likely given the lack of volume loss and displacement of fissures.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. Given the uncertain nature of the diagnosis, a CT scan may be helpful for further evaluation and to rule out complications.\n\nDifferential Diagnosis:\n1. **Pleural Effusion**: Less likely due to the absence of blunting of the costophrenic angle.\n2. **Atelectasis**: Less likely due to the absence of volume loss and displacement of fissures.\n3. **Pulmonary Edema**: Less likely due to the unilateral distribution of the opacity.\n4. **Lung Abscess**: Less likely due to the absence of a clear cavity with air-fluid level.",
+    "support_query": "Radiological features of pneumonia presenting as consolidation or ground-glass opacities in the left lung lower zone on chest X-ray.",
+    "differential_query": "Differential diagnosis of left lung lower zone consolidation or ground-glass opacities on chest X-ray including pulmonary infarction, acute respiratory distress syndrome (ARDS), and left lower lobe collapse."
+  },
+  {
+    "image": "test3.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.8123983144760132,
+    "interval": [
+      0.7748779773712158,
+      0.8499186515808106
+    ],
+    "region": "left lung lower zone",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an area of increased opacity in the left lung lower zone, consistent with consolidation. The opacity appears patchy and homogeneous, with no clear evidence of air bronchogram. There is no visible volume loss or mediastinal shift. The distribution is unilateral, and the pattern is focal.\n\nInterpretation:\nFindings are suggestive of pneumonia. The presence of unilateral, focal consolidation in the left lung lower zone supports this diagnosis. An alternative diagnosis could be atelectasis, which is less likely given the absence of volume loss and structural shifts.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. Given the diagnostic uncertainty, a CT scan may be helpful for further evaluation.\n\nDifferential Diagnosis:\n1. **Pleural Effusion**: Less likely due to the absence of blunting of the costophrenic angle.\n2. **Atelectasis**: Less likely due to the absence of volume loss and mediastinal shift.\n3. **Pulmonary Edema**: Less likely due to the unilateral and focal nature of the consolidation.\n4. **Lung Mass**: Less likely due to the patchy and homogeneous appearance of the opacity.",
+    "support_query": "Radiological features of pneumonia presenting as consolidation or ground-glass opacities in the left lung lower zone on chest X-ray.",
+    "differential_query": "Differential diagnosis of left lung lower zone consolidation or ground-glass opacities on chest X-ray including pulmonary infarction, atelectasis, and interstitial lung disease."
+  },
+  {
+    "image": "test3.jpg",
+    "disease": "Pneumonia",
+    "confidence": 0.8123983144760132,
+    "interval": [
+      0.7748779773712158,
+      0.8499186515808106
+    ],
+    "region": "left lung lower zone",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows an area of increased opacity in the left lung lower zone, consistent with airspace consolidation. The pattern appears focal and unilateral, with no clear evidence of air bronchogram or volume loss mentioned.\n\nInterpretation:\nFindings are suggestive of pneumonia, given the focal unilateral opacity in the left lung lower zone. This is supported by the presence of consolidation in a typical location for pneumonia. An alternative diagnosis could be atelectasis, which would more likely present with volume loss, not mentioned in this case.\n\nRecommendation:\nClinical correlation is recommended to determine the patient's symptoms and history, which may support the diagnosis of pneumonia. A CT scan may be considered if the diagnosis is uncertain or to evaluate for complications.\n\nDifferential Diagnosis:\n1. **Pleural Effusion**: Less likely due to the absence of blunting of the costophrenic angle.\n2. **Atelectasis**: Less likely due to the absence of volume loss.\n3. **Pulmonary Edema**: Less likely due to the focal unilateral pattern rather than a bilateral symmetric pattern.",
+    "support_query": "Radiological features of pneumonia presenting as consolidation or ground-glass opacities in the left lung lower zone on chest X-ray.",
+    "differential_query": "Differential diagnosis of left lung lower zone consolidation or ground-glass opacities on chest X-ray including pulmonary infarction, atelectasis, and interstitial lung disease."
+  },
+  {
+    "image": "test5.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.703164279460907,
+    "interval": [
+      0.6437971353530884,
+      0.7625314235687256
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.2,
+    "run_id": 0,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows a homogeneous area of increased opacity in the right lung lower zone, suggestive of air-space opacification. The distribution is unilateral, and the pattern is focal. Air bronchograms are not explicitly mentioned. There is no clear evidence of volume loss.\n\nInterpretation:\nFindings are suggestive of consolidation. The presence of a homogeneous area of increased opacity in the right lung lower zone supports this diagnosis. In contrast, atelectasis is less likely due to the lack of volume loss and mediastinal shift.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. Further imaging with CT may be considered if the diagnosis is uncertain or if complications are suspected.\n\nDifferential Diagnosis:\n1. **Pneumonia** - Unilateral focal consolidation with possible air bronchograms, most likely due to infection.\n2. **Atelectasis** - Less likely due to absence of volume loss and mediastinal shift.\n3. **Pulmonary Edema** - Less likely due to unilateral and focal nature of the opacity.\n4. **Lung Malignancy** - Less likely due to acute presentation and lack of mass-like features.",
+    "support_query": "Radiological features of consolidation presenting as homogeneous opacity in the right lung lower zone with possible air bronchogram on chest X-ray.",
+    "differential_query": "Differential diagnosis of right lung lower zone homogeneous opacity on chest X-ray including possible mimics such as pulmonary edema, atelectasis, and pulmonary hemorrhage."
+  },
+  {
+    "image": "test5.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.703164279460907,
+    "interval": [
+      0.6437971353530884,
+      0.7625314235687256
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.3,
+    "run_id": 1,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows a homogeneous area of increased opacity in the right lung lower zone, suggestive of air-space opacification. The opacity appears to be focal and unilateral, with no clear evidence of air bronchograms or volume loss mentioned.\n\nInterpretation:\nFindings are suggestive of consolidation. The presence of a focal, unilateral area of increased opacity in the right lung lower zone supports this diagnosis. An alternative diagnosis could be atelectasis, which is less likely given the lack of mentioned volume loss and displacement of fissures.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. Further imaging with CT may be considered if the diagnosis remains uncertain or if complications are suspected.\n\nDifferential Diagnosis:\n1. **Atelectasis**: Less likely due to absence of volume loss and structural shifts.\n2. **Loculated Pleural Effusion**: Less likely due to its typical lenticular shape and failure to mention a pleural component.\n3. **Pulmonary Edema**: Less likely due to the focal and unilateral nature of the opacity.",
+    "support_query": "Radiological features of consolidation presenting as homogeneous opacity in the right lung lower zone with possible air bronchogram on chest X-ray.",
+    "differential_query": "Differential diagnosis of right lung lower zone opacity on chest X-ray, including possible mimics such as atelectasis, pulmonary edema, and pleural effusion, to rule out alternative conditions."
+  },
+  {
+    "image": "test5.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.703164279460907,
+    "interval": [
+      0.6437971353530884,
+      0.7625314235687256
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.4,
+    "run_id": 2,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows a homogeneous area of increased opacity in the right lung lower zone, suggestive of air-space opacification. The distribution is unilateral and focal, with no clear evidence of air bronchograms or volume loss mentioned.\n\nInterpretation:\nFindings are suggestive of consolidation. The presence of a homogeneous area of increased opacity in the right lung lower zone supports this diagnosis, given the unilateral and focal pattern. Atelectasis is less likely due to the lack of mentioned volume loss.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause. Further imaging with CT may be considered if the diagnosis is uncertain or if complications are suspected.\n\nDifferential Diagnosis:\n1. Pneumonia - Most likely, given the focal consolidation in the right lung lower zone.\n2. Atelectasis - Less likely, due to the absence of volume loss.\n3. Pulmonary edema - Less likely, given the unilateral and focal pattern rather than a bilateral diffuse pattern.\n4. Lung malignancy - Possible, but less likely, given the acute presentation and lack of mentioned mass-like features.",
+    "support_query": "Radiological features of consolidation presenting as homogeneous opacity in the right lung lower zone with possible air bronchogram on chest X-ray.",
+    "differential_query": "Differential diagnosis of right lung lower zone homogeneous opacity on chest X-ray including pneumonia, pulmonary infarction, and atelectasis."
+  },
+  {
+    "image": "test5.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.703164279460907,
+    "interval": [
+      0.6437971353530884,
+      0.7625314235687256
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.5,
+    "run_id": 3,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows a homogeneous area of increased opacity in the right lung lower zone, suggestive of air-space opacification. The opacity appears to be focal and unilateral, with no clear evidence of air bronchograms or volume loss mentioned.\n\nInterpretation:\nFindings are suggestive of consolidation. The presence of a homogeneous area of increased opacity in the right lung lower zone supports this diagnosis, given the features of increased lung opacity and focal distribution. In contrast, atelectasis is less likely due to the absence of mentioned volume loss.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause of the consolidation. Further imaging with CT may be considered if the diagnosis remains uncertain.\n\nDifferential Diagnosis:\n1. Pneumonia - Likely, given the focal consolidation in the right lung lower zone.\n2. Atelectasis - Less likely, due to the absence of volume loss.\n3. Pulmonary edema - Less likely, given the unilateral and focal nature of the opacity.\n4. Lung malignancy - Possible, but less likely without mention of a mass-like consolidation.",
+    "support_query": "Radiological features of consolidation presenting as homogeneous opacity in the right lung lower zone with possible air bronchogram on chest X-ray.",
+    "differential_query": "Differential diagnosis of right lung lower zone opacity on chest X-ray, including possible mimics such as atelectasis, pulmonary infarction, and pleural-based pneumonia, to rule out alternative conditions."
+  },
+  {
+    "image": "test5.jpg",
+    "disease": "Consolidation",
+    "confidence": 0.703164279460907,
+    "interval": [
+      0.6437971353530884,
+      0.7625314235687256
+    ],
+    "region": "right lung lower zone",
+    "temperature": 0.6,
+    "run_id": 4,
+    "report": "Radiology Report\n\nFindings:\nThe chest X-ray shows a homogeneous area of increased opacity in the right lung lower zone, suggestive of air-space opacification. The distribution is unilateral and focal, with no clear evidence of air bronchograms or volume loss.\n\nInterpretation:\nFindings are suggestive of consolidation. The presence of a unilateral, focal pattern of increased opacity in the right lung lower zone supports this diagnosis. Atelectasis is less likely given the absence of volume loss.\n\nRecommendation:\nClinical correlation is recommended to determine the underlying cause. Further imaging with CT may be helpful if the diagnosis is uncertain or if complications are suspected.\n\nDifferential Diagnosis:\n1. Pneumonia - likely, given the focal consolidation in the right lung lower zone.\n2. Atelectasis - less likely, due to the absence of volume loss.\n3. Pulmonary edema - less likely, given the unilateral and focal nature of the opacity.\n4. Lung malignancy - possible, but less likely, given the acute presentation and lack of mention of a mass-like lesion.",
+    "support_query": "Radiological features of consolidation presenting as homogeneous opacity in the right lung lower zone with possible air bronchogram on chest X-ray.",
+    "differential_query": "Differential diagnosis of right lung lower zone homogeneous opacity on chest X-ray including pneumonia, pulmonary infarction, and atelectasis."
+  }
+]

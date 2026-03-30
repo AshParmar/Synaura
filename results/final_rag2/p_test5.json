@@ -1,0 +1,11 @@
+{
+  "image": "p_test5.jpg",
+  "disease": "Pneumonia",
+  "confidence": 0.9827228784561157,
+  "interval": [
+    0.9792674541473388,
+    0.9861783027648926
+  ],
+  "region": "right lung lower zone",
+  "report": "Radiology Report\n\nFindings:\n- Consolidation in dependent lung regions, suggestive of aspiration pneumonia\n- Patchy or confluent air-space opacities\n- Ill-defined segmental consolidation\n- Possible air bronchograms\n- In severe cases: cavitation or abscess formation\n\nInterpretation:\nThe imaging findings are suggestive of aspiration pneumonia, particularly given the location of consolidation in dependent lung regions. This is consistent with aspiration of gastric contents or oropharyngeal secretions, which is a common cause of pneumonia. The presence of patchy or confluent air-space opacities and ill-defined segmental consolidation supports this diagnosis. However, it is also possible that the consolidation could be due to lobar pneumonia, pulmonary edema, or atelectasis, although the dependent distribution of the consolidation makes aspiration pneumonia a more likely diagnosis.\n\nRecommendation:\nFurther evaluation with CT imaging is recommended to assess for complications such as cavitation or abscess formation. Clinical correlation with the patient's history and symptoms is also essential to confirm the diagnosis and guide management. Antibiotics and aspiration prevention measures should be initiated promptly."
+}

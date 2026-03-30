@@ -12,7 +12,7 @@ import numpy as np
 
 EXPERIMENTS_ROOT = Path(__file__).resolve().parent
 PROJECT_ROOT = EXPERIMENTS_ROOT.parent
-TEST_IMAGES_DIR = PROJECT_ROOT / "data" / "test_images"
+TEST_IMAGES_DIR = PROJECT_ROOT / "data" / "test"
 RESULTS_ROOT = PROJECT_ROOT / "results"
 
 _IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".bmp", ".tif", ".tiff", ".webp"}

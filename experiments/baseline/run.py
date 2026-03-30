@@ -26,6 +26,9 @@ from backend.classify.clasification import classify_image
 def run_one(image_path: Path) -> dict:
     path = load_image(image_path)
     results = classify_image(path)
+    if not results:
+        print(f"[WARNING] No predictions for {image_path.name}, skipping.")
+        return None
     top = get_top_prediction(results)
     return {
         "image": Path(path).name,
@@ -41,6 +44,8 @@ def main() -> None:
         return
     for img in images:
         payload = run_one(img)
+        if payload is None:
+            continue
         out = save_result_json("baseline", img, payload)
         print(f"baseline: {img.name} -> {out}")
 
