@@ -513,7 +513,8 @@ def main():
     mimic_index = load_mimic(mimic_csv)
 
     systems = {
-        "Baseline": f"{results_dir}/baseline_rag/all_results.json",
+        "baseline_llm":      f"{results_dir}/baseline_llm/all_results.json",
+        "Rag0": f"{results_dir}/baseline_rag/all_results.json",
         "RAG":      f"{results_dir}/final/all_results.json",
         "RAG2":     f"{results_dir}/final_rag2/all_results.json",
         "DER":      f"{results_dir}/final_der/all_results.json",
@@ -547,20 +548,20 @@ def main():
         summary[sys_name] = m
 
     # Delta table vs Baseline
-    if "Baseline" in summary and len(summary) > 1:
+    if "baseline_llm" in summary and len(summary) > 1:
         scalar_keys = ["BLEU-1", "BLEU-4", "ROUGE-L", "BERTScore-F1",
                        "CheXBert-F1", "RadGraph-F1",
                        "Region-Local-F1", "Fuzzy-Calibration"]
         print(f"\n{'═'*65}")
         print("  Δ vs Baseline")
         print(f"{'─'*65}")
-        base = summary["Baseline"]
-        hdr  = f"  {'Metric':<24}" + "".join(f"{s:<14}" for s in summary if s != "Baseline")
+        base = summary["baseline_llm"]
+        hdr  = f"  {'Metric':<24}" + "".join(f"{s:<14}" for s in summary if s != "baseline_llm")
         print(hdr)
         for k in scalar_keys:
             row = f"  {k:<24}"
             for sn, m in summary.items():
-                if sn == "Baseline":
+                if sn == "baseline_llm":
                     continue
                 d    = m[k][0] - base[k][0]
                 sign = "▲" if d > 0.001 else ("▼" if d < -0.001 else " ")

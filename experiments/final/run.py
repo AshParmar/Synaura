@@ -67,6 +67,9 @@ def run_one(image_path: Path, temperature: float, run_id: int) -> dict:
     # Pass temperature to report generator if supported
     report = generate_report(disease, region, fuzzy_info, docs, [], temperature=temperature)
 
+    # Gather retrieved contexts as plain text
+    retrieved_contexts = [getattr(doc, "page_content", str(doc)) for doc in docs]
+
     return {
         "image": Path(path).name,
         "disease": disease,
@@ -76,6 +79,7 @@ def run_one(image_path: Path, temperature: float, run_id: int) -> dict:
         "temperature": temperature,
         "run_id": run_id,
         "report": report,
+        "retrieved_contexts": retrieved_contexts,
     }
 
 

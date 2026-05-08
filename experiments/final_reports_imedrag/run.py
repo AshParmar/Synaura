@@ -78,6 +78,12 @@ def run_one(image_path: Path, temperature: float, run_id: int) -> dict:
     diff_context = "\n".join([doc.page_content for doc in docs_q2[:5]])
     report = refine_report(report, support_context, diff_context, llm)
 
+    # Gather retrieved contexts as plain text for both queries
+    retrieved_contexts = {
+        "support": [getattr(doc, "page_content", str(doc)) for doc in docs_q1],
+        "differential": [getattr(doc, "page_content", str(doc)) for doc in docs_q2],
+    }
+
     return {
         "image": Path(path).name,
         "disease": disease,
@@ -89,6 +95,7 @@ def run_one(image_path: Path, temperature: float, run_id: int) -> dict:
         "report": report,
         "support_query": q1,
         "differential_query": q2,
+        "retrieved_contexts": retrieved_contexts,
     }
 
 

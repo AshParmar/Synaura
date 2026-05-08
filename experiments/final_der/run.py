@@ -72,6 +72,12 @@ def run_one(image_path: Path, temperature: float, run_id: int) -> dict:
     docs_q2 = retrieve_documents(q2)
     report = generate_report(disease, region, fuzzy_info, docs_q1, docs_q2)
 
+    # Gather retrieved contexts as plain text for both queries
+    retrieved_contexts = {
+        "support": [getattr(doc, "page_content", str(doc)) for doc in docs_q1],
+        "differential": [getattr(doc, "page_content", str(doc)) for doc in docs_q2],
+    }
+
     return {
         "image": Path(path).name,
         "disease": disease,
@@ -83,6 +89,7 @@ def run_one(image_path: Path, temperature: float, run_id: int) -> dict:
         "report": report,
         "support_query": q1,
         "differential_query": q2,
+        "retrieved_contexts": retrieved_contexts,
     }
 
 
