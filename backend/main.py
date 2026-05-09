@@ -4,6 +4,7 @@ from fastapi import FastAPI, UploadFile, File
 import shutil
 import os
 import cv2
+import base64
 from langchain_groq import ChatGroq
 
 # --- your modules ---
@@ -85,8 +86,6 @@ async def analyze_xray(file: UploadFile = File(...)):
     rag_query = generate_query(disease, region, fuzzy_info, llm)
     q1, q2 = generate_dual_queries(disease, region, fuzzy_info, llm)
 
-    print("Support Query:", q1)
-    print("Differential Query:", q2)
     docs_q1 = retrieve_hybrid(q1)
     docs_q2 = retrieve_hybrid(q2)
 
@@ -114,6 +113,14 @@ async def analyze_xray(file: UploadFile = File(...)):
     # -------------------------
     # 7. Final Response
     # -------------------------
+    
+    # Convert heatmap to base64
+    # heatmap is an RGB numpy array from show_cam_on_image (uint8, 0-255)
+    # Convert RGB to BGR for cv2.imencode
+    heatmap_bgr = cv2.cvtColor(heatmap, cv2.COLOR_RGB2BGR)
+    _, buffer = cv2.imencode('.png', heatmap_bgr)
+    heatmap_base64 = base64.b64encode(buffer).decode('utf-8')
+
     # numpy scalar types are not JSON-serializable by FastAPI
     return {
         "disease": disease,
@@ -121,4 +128,5 @@ async def analyze_xray(file: UploadFile = File(...)):
         "interval": [float(interval[0]), float(interval[1])],
         "region": region,
         "report": report,
+        "heatmap_base64": heatmap_base64
     }
