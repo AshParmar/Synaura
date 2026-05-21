@@ -57,10 +57,12 @@ def detect_region(cam, disease):
     # -------------------------
     # Default lung-based logic
     # -------------------------
-    left_score = cam[:, :w//2].mean()
-    right_score = cam[:, w//2:].mean()
+    # Radiological convention (PA/AP view): image is displayed as if facing
+    # the patient, so image-left = patient's RIGHT, image-right = patient's LEFT.
+    image_left_score = cam[:, :w//2].mean()   # patient's RIGHT lung
+    image_right_score = cam[:, w//2:].mean()  # patient's LEFT lung
 
-    side = "left lung" if left_score > right_score else "right lung"
+    side = "right lung" if image_left_score > image_right_score else "left lung"
 
     upper_score = cam[:h//2, :].mean()
     lower_score = cam[h//2:, :].mean()

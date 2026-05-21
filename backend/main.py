@@ -1,14 +1,22 @@
 # backend/main.py
 
-from fastapi import FastAPI, UploadFile, File
-import shutil
 import os
+import shutil
 import cv2
 import base64
+
+from dotenv import load_dotenv
+load_dotenv()  # Load .env before anything that reads env vars
+
+import sentry_sdk
+from sentry_sdk.integrations.fastapi import FastApiIntegration
+from sentry_sdk.integrations.starlette import StarletteIntegration
+
+from fastapi import FastAPI, UploadFile, File, Header, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from langchain_groq import ChatGroq
 
-# --- your modules ---
-
+# ── Internal modules ──────────────────────────────────────────────────────────
 from backend.classify.clasification import classify_image as predict_disease, model
 from backend.vision.gradcam import analyze_region, detect_region
 from backend.rag.retriever import retrieve_documents, retrieve_hybrid
@@ -17,7 +25,48 @@ from backend.utils.preprocess import preprocess_image
 from backend.rag.query_generator import generate_query
 from backend.rag.dual_retrieval import generate_dual_queries
 from backend.rag.imedrag import refine_report
-app = FastAPI()
+
+# ── Optional cloud integrations (gracefully disabled if keys are missing) ──────
+try:
+    from database.crud import save_scan_report, get_reports_for_user
+    from database.models import new_scan_report
+    _mongo_enabled = bool(os.getenv("MONGODB_URI"))
+except ImportError:
+    _mongo_enabled = False
+
+try:
+    from cloud.gcs_client import upload_scan as gcs_upload_scan
+    _gcs_enabled = bool(os.getenv("GCS_BUCKET_NAME"))
+except ImportError:
+    _gcs_enabled = False
+
+# ── Sentry ────────────────────────────────────────────────────────────────────
+_sentry_dsn = os.getenv("SENTRY_DSN")
+if _sentry_dsn:
+    sentry_sdk.init(
+        dsn=_sentry_dsn,
+        integrations=[StarletteIntegration(), FastApiIntegration()],
+        traces_sample_rate=0.2,
+        environment=os.getenv("ENVIRONMENT", "production"),
+    )
+
+# ── App ───────────────────────────────────────────────────────────────────────
+app = FastAPI(
+    title="Synaura AI Backend",
+    description="Radiology AI analysis — GradCAM · Dual-RAG · i-MedRAG",
+    version="1.0.0",
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:3000",
+        "https://synaura.vercel.app",  # update with your Vercel URL
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 llm = ChatGroq(
@@ -28,8 +77,18 @@ llm = ChatGroq(
 UPLOAD_PATH = "backend/temp_xray.png"
 
 
+@app.get("/health")
+async def health():
+    """Lightweight health-check endpoint for Cloud Run readiness probe."""
+    return {"status": "ok", "version": "1.0.0"}
+
+
+
 @app.post("/analyze_xray")
-async def analyze_xray(file: UploadFile = File(...)):
+async def analyze_xray(
+    file: UploadFile = File(...),
+    x_user_id: str | None = Header(default=None),  # Clerk user ID passed from frontend
+):
 
     # -------------------------
     # 1. Save uploaded image
@@ -121,6 +180,34 @@ async def analyze_xray(file: UploadFile = File(...)):
     _, buffer = cv2.imencode('.png', heatmap_bgr)
     heatmap_base64 = base64.b64encode(buffer).decode('utf-8')
 
+    # -------------------------
+    # 8. Persist to MongoDB (optional)
+    # -------------------------
+    gcs_url = None
+    if _gcs_enabled:
+        try:
+            gcs_url = gcs_upload_scan(UPLOAD_PATH)
+        except Exception as exc:
+            sentry_sdk.capture_exception(exc)
+
+    report_id = None
+    if _mongo_enabled and x_user_id:
+        try:
+            doc = new_scan_report(
+                user_id=x_user_id,
+                filename=file.filename or "upload.png",
+                disease=disease,
+                confidence=float(confidence),
+                interval=[float(interval[0]), float(interval[1])],
+                region=region,
+                report=report,
+                heatmap_base64=heatmap_base64,
+                gcs_url=gcs_url,
+            )
+            report_id = save_scan_report(doc)
+        except Exception as exc:
+            sentry_sdk.capture_exception(exc)
+
     # numpy scalar types are not JSON-serializable by FastAPI
     return {
         "disease": disease,
@@ -128,5 +215,22 @@ async def analyze_xray(file: UploadFile = File(...)):
         "interval": [float(interval[0]), float(interval[1])],
         "region": region,
         "report": report,
-        "heatmap_base64": heatmap_base64
+        "heatmap_base64": heatmap_base64,
+        "report_id": report_id,
+        "gcs_url": gcs_url,
     }
+
+
+@app.get("/reports/{user_id}")
+async def get_user_reports(user_id: str, limit: int = 20):
+    """
+    Fetch the most recent scan reports for a user.
+    Requires MongoDB to be configured (MONGODB_URI in .env).
+    """
+    if not _mongo_enabled:
+        raise HTTPException(
+            status_code=503,
+            detail="Database not configured. Set MONGODB_URI in your environment.",
+        )
+    reports = get_reports_for_user(user_id, limit=limit)
+    return {"user_id": user_id, "reports": reports, "count": len(reports)}

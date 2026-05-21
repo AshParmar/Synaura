@@ -1,31 +1,18 @@
 # backend/rag/retriever.py
 
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import FAISS
+from backend.rag.faiss_loader import load_faiss_db
 from backend.rag.hybrid_retriever import hybrid_retrieve, build_bm25_retriever
 
 # -------------------------
 # 1. Load vector DB
+# (production: downloads from GCS on cold start)
+# (local dev: loads from backend/data/faiss_index)
 # -------------------------
-def load_vector_db():
-
-    embeddings = HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2"
-    )
-
-    db = FAISS.load_local(
-        "backend/data/faiss_index",
-        embeddings,
-        allow_dangerous_deserialization=True,
-    )
-
-    return db
-
+db = load_faiss_db()
 
 # -------------------------
 # 2. Initialize retrievers (once)
 # -------------------------
-db = load_vector_db()
 
 # vector retriever
 vector_retriever = db.as_retriever(search_kwargs={"k": 5})

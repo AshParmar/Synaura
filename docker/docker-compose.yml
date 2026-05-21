@@ -1,0 +1,25 @@
+# docker/docker-compose.yml
+# Local development environment — spins up the FastAPI backend
+# Frontend is run separately with `npm run dev` in /frontend
+
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ..          # project root
+      dockerfile: docker/Dockerfile
+    container_name: synaura_backend
+    env_file:
+      - ../.env
+    ports:
+      - "8000:8000"
+    volumes:
+      # Hot-reload source changes without rebuild (development only)
+      - ..:/app
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/docs"]
+      interval: 30s
+      timeout: 10s
+      retries: 3

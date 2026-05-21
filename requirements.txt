@@ -1,19 +1,50 @@
-torch
-torchvision
-fastapi
-uvicorn
-opencv-python
-pillow
-langchain
-faiss-cpu
-sentence-transformers
-grad-cam
-opencv-python
-numpy
-scipy
-langchain_community
-langchain
-langchain-text-splitters
-langchain_groq
-python-dotenv
-ragas 
+# ── AI / ML ───────────────────────────────────────────────────────────────────
+# torch + torchvision installed separately in Dockerfile (CPU-only build)
+grad-cam==1.5.5
+transformers==4.41.2
+safetensors==0.6.2
+accelerate==1.10.1
+
+# ── Computer Vision ───────────────────────────────────────────────────────────
+opencv-python==4.11.0.86
+pillow==11.1.0
+numpy==1.26.4
+scipy==1.11.1
+
+# ── Web Framework ─────────────────────────────────────────────────────────────
+fastapi==0.115.11
+uvicorn[standard]==0.34.0
+python-multipart==0.0.22
+starlette==0.46.1
+
+# ── LangChain ─────────────────────────────────────────────────────────────────
+langchain==1.2.13
+langchain-community==0.3.31
+langchain-core==1.2.23
+langchain-text-splitters==1.1.1
+langchain-groq==1.1.2
+langchain-huggingface==1.2.1
+
+# ── Vector / Embeddings ───────────────────────────────────────────────────────
+sentence-transformers==2.7.0
+faiss-cpu==1.13.2
+rank-bm25==0.2.2
+
+# ── Database ──────────────────────────────────────────────────────────────────
+pymongo[srv]==4.13.2
+motor==3.7.1
+
+# ── Cloud Storage ─────────────────────────────────────────────────────────────
+google-cloud-storage==3.10.1
+
+# ── Monitoring ────────────────────────────────────────────────────────────────
+sentry-sdk[fastapi]==2.38.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+ragas==0.4.3
+groq==0.37.1
+pydantic==2.10.6
+httpx==0.28.1
+tenacity==9.0.0
+tqdm==4.67.1

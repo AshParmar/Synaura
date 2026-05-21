@@ -1,0 +1,52 @@
+# cloud/cloudbuild.yaml
+# Google Cloud Build configuration — triggered on push to main.
+# Builds the Docker image and deploys to Cloud Run.
+#
+# Required substitutions (set in GCP console or gcloud trigger):
+#   _REGION        e.g. us-central1
+#   _SERVICE_NAME  e.g. synaura-backend
+#   _IMAGE         e.g. gcr.io/$PROJECT_ID/synaura-backend
+
+steps:
+  # ── Step 1: Build the Docker image ─────────────────────────────────────────
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      - build
+      - "-t"
+      - "${_IMAGE}:$COMMIT_SHA"
+      - "-t"
+      - "${_IMAGE}:latest"
+      - "-f"
+      - "docker/Dockerfile"
+      - "."
+
+  # ── Step 2: Push to Container Registry ────────────────────────────────────
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      - push
+      - "--all-tags"
+      - "${_IMAGE}"
+
+  # ── Step 3: Deploy to Cloud Run ────────────────────────────────────────────
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - "${_SERVICE_NAME}"
+      - "--image=${_IMAGE}:$COMMIT_SHA"
+      - "--region=${_REGION}"
+      - "--platform=managed"
+      - "--allow-unauthenticated"
+      - "--port=8000"
+      - "--memory=2Gi"
+      - "--cpu=2"
+      - "--max-instances=10"
+      - "--set-env-vars=GROQ_API_KEY=$$GROQ_API_KEY,PINECONE_API_KEY=$$PINECONE_API_KEY,MONGODB_URI=$$MONGODB_URI"
+
+images:
+  - "${_IMAGE}:$COMMIT_SHA"
+  - "${_IMAGE}:latest"
+
+options:
+  logging: CLOUD_LOGGING_ONLY

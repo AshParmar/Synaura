@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback, useRef } from "react";
+import { useAuth } from "@clerk/nextjs";
 import { useDropzone } from "react-dropzone";
 import { useReactToPrint } from "react-to-print";
 import { motion, AnimatePresence } from "framer-motion";
@@ -18,6 +19,7 @@ type AnalysisResult = {
 };
 
 export default function Demo() {
+  const { userId } = useAuth(); // Clerk user ID — null if not signed in
   const [file, setFile] = useState<File | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
@@ -65,6 +67,8 @@ export default function Demo() {
       const res = await fetch("/api/analyze_xray", {
         method: "POST",
         body: formData,
+        // Pass Clerk user ID to backend so the report gets saved to MongoDB
+        headers: userId ? { "x-user-id": userId } : {},
       });
 
       if (!res.ok) {

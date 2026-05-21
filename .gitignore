@@ -37,3 +37,15 @@ Thumbs.db
 # Local / temp
 backend/temp_xray.png
 *.log
+
+# GCP service account keys (NEVER commit these)
+cloud/service-account-key.json
+*-service-account*.json
+*key*.json
+cloud/*.json
+
+# Pinecone / vector index artifacts
+*.pkl
+
+# Docker build context artifacts
+.dockerignore
