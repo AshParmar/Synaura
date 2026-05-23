@@ -28,7 +28,7 @@ from backend.rag.imedrag import refine_report
 
 # ── Optional cloud integrations (gracefully disabled if keys are missing) ──────
 try:
-    from database.crud import save_scan_report, get_reports_for_user
+    from database.crud import save_scan_report, get_reports_for_user, delete_report
     from database.models import new_scan_report
     _mongo_enabled = bool(os.getenv("MONGODB_URI"))
 except ImportError:
@@ -177,7 +177,7 @@ async def analyze_xray(
     # heatmap is an RGB numpy array from show_cam_on_image (uint8, 0-255)
     # Convert RGB to BGR for cv2.imencode
     heatmap_bgr = cv2.cvtColor(heatmap, cv2.COLOR_RGB2BGR)
-    _, buffer = cv2.imencode('.png', heatmap_bgr)
+    _, buffer = cv2.imencode('.jpg', heatmap_bgr, [int(cv2.IMWRITE_JPEG_QUALITY), 80])
     heatmap_base64 = base64.b64encode(buffer).decode('utf-8')
 
     # -------------------------
@@ -234,3 +234,20 @@ async def get_user_reports(user_id: str, limit: int = 20):
         )
     reports = get_reports_for_user(user_id, limit=limit)
     return {"user_id": user_id, "reports": reports, "count": len(reports)}
+
+
+@app.delete("/reports/{report_id}")
+async def delete_user_report(report_id: str):
+    """
+    Delete a specific scan report by its ID.
+    Requires MongoDB to be configured.
+    """
+    if not _mongo_enabled:
+        raise HTTPException(
+            status_code=503,
+            detail="Database not configured. Set MONGODB_URI in your environment.",
+        )
+    success = delete_report(report_id)
+    if not success:
+        raise HTTPException(status_code=404, detail="Report not found or already deleted")
+    return {"status": "success", "message": "Report deleted successfully"}

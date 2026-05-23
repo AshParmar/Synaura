@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useAuth } from "@clerk/nextjs";
 import { motion } from "framer-motion";
-import { Loader2, AlertCircle, FileText } from "lucide-react";
+import { Loader2, AlertCircle, FileText, Trash2 } from "lucide-react";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -40,7 +40,7 @@ export default function History() {
         setLoading(true);
         // Important: we just hit the public endpoint with the userId since Cloud Run handles it
         const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
-        const res = await fetch(`${backendUrl}/reports/${userId}?limit=50`);
+        const res = await fetch(`${backendUrl}/reports/${userId}?limit=10`);
         
         if (!res.ok) {
           throw new Error("Failed to fetch reports from the server.");
@@ -57,6 +57,24 @@ export default function History() {
 
     fetchHistory();
   }, [isLoaded, userId]);
+
+  const handleDelete = async (reportId: string) => {
+    if (!confirm("Are you sure you want to delete this report?")) return;
+    
+    try {
+      const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+      const res = await fetch(`${backendUrl}/reports/${reportId}`, {
+        method: 'DELETE',
+      });
+      
+      if (!res.ok) throw new Error("Failed to delete report");
+      
+      setReports((prev) => prev.filter((r) => ((r as any)._id || r.id) !== reportId));
+    } catch (err) {
+      alert("Error deleting report. Please try again.");
+    }
+  };
+
 
   if (!isLoaded || loading) {
     return (
@@ -188,6 +206,15 @@ export default function History() {
                         View Original X-Ray
                       </a>
                     )}
+                    <div className="flex-1" />
+                    <button
+                      onClick={() => handleDelete((report as any)._id || report.id)}
+                      className="text-xs text-red-500/70 hover:text-red-400 hover:bg-red-500/10 px-2 py-1.5 rounded transition-colors flex items-center gap-1.5 ml-auto"
+                      title="Delete report"
+                    >
+                      <Trash2 className="w-3.5 h-3.5" />
+                      Delete
+                    </button>
                   </div>
                 </div>
               </motion.div>
