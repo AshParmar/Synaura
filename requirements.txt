@@ -29,6 +29,7 @@ langchain-huggingface==1.2.1
 sentence-transformers==2.7.0
 faiss-cpu==1.13.2
 rank-bm25==0.2.2
+pinecone-client==5.0.1
 
 # ── Database ──────────────────────────────────────────────────────────────────
 pymongo[srv]==4.13.2
