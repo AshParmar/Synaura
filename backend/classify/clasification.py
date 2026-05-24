@@ -14,10 +14,13 @@ _checkpoint_dir = os.path.dirname(os.path.abspath(__file__))
 checkpoint_path = os.path.join(_checkpoint_dir, "densenet121_fuzzy_uselftrained_best.pth")
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
-state = torch.load(checkpoint_path, map_location=device)
-model.load_state_dict(state["model"] if isinstance(state, dict) and "model" in state else state)
-model.to(device)
-model.eval()
+try:
+    state = torch.load(checkpoint_path, map_location=device)
+    model.load_state_dict(state["model"] if isinstance(state, dict) and "model" in state else state)
+    model.to(device)
+    model.eval()
+except FileNotFoundError:
+    print(f"Warning: Model weights not found at {checkpoint_path}. Skipping model init.")
 
 def classify_image(image_path):
     image = preprocess_image(image_path)
