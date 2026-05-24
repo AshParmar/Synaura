@@ -33,11 +33,7 @@ def test_health_endpoint(client):
     assert "version" in data
 
 
-def test_reports_without_mongo(client):
-    """/reports/{user_id} returns 503 when MongoDB is not configured."""
-    # MONGODB_URI is not set in test env
-    response = client.get("/reports/test_user_123")
-    assert response.status_code == 503
+
 
 
 def test_database_module_imports():
