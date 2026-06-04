@@ -1,5 +1,4 @@
 # ── AI / ML ───────────────────────────────────────────────────────────────────
-# torch + torchvision installed separately in Dockerfile (CPU-only build)
 grad-cam==1.5.5
 transformers==4.41.2
 safetensors==0.6.2

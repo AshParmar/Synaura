@@ -10,20 +10,20 @@ export default function SignUpPage() {
       <SignUp
         appearance={{
           variables: {
-            colorBackground: "#0a0a0a",
-            colorText: "#ffffff",
-            colorPrimary: "#2563eb",
-            colorInputBackground: "#111111",
-            colorInputText: "#ffffff",
+            colorBackground: "#ffffff",
+            colorText: "#0f172a",
+            colorPrimary: "#000000",
+            colorInputBackground: "#ffffff",
+            colorInputText: "#0f172a",
             borderRadius: "0.5rem",
           },
           elements: {
-            card: "border border-white/10 shadow-2xl",
-            headerTitle: "text-white",
-            headerSubtitle: "text-gray-400",
-            socialButtonsBlockButton: "border border-white/10 text-white hover:bg-white/5",
-            formFieldInput: "border border-white/10 bg-[#111] text-white",
-            footerActionLink: "text-blue-400 hover:text-blue-300",
+            card: "border border-black/5 shadow-2xl",
+            headerTitle: "text-slate-900",
+            headerSubtitle: "text-slate-500",
+            socialButtonsBlockButton: "border border-slate-200 text-slate-900 hover:bg-slate-50",
+            formFieldInput: "border border-slate-200 bg-white text-slate-900",
+            footerActionLink: "text-blue-600 hover:text-blue-700",
           },
         }}
       />

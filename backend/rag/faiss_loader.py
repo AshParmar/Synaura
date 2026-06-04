@@ -81,5 +81,5 @@ def load_faiss_db() -> FAISS:
             allow_dangerous_deserialization=True,
         )
 
-    print("[faiss_loader] ✅ FAISS index loaded.")
+    print("[faiss_loader] [OK] FAISS index loaded.")
     return db

@@ -158,8 +158,8 @@ export default function Hero() {
             <div className="flex items-center gap-4">
               <svg className="w-8 h-8 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
               <div>
-                <div className="text-2xl md:text-3xl font-semibold text-white mb-1">95%+</div>
-                <div className="text-xs text-gray-500">Pipeline Accuracy</div>
+                <div className="text-2xl md:text-3xl font-semibold text-white mb-1">50.3%</div>
+                <div className="text-xs text-gray-500">CheXBert Label F1</div>
               </div>
             </div>
             

@@ -7,13 +7,29 @@ from pytorch_grad_cam.utils.image import show_cam_on_image
 
 
 
-def generate_gradcam(model, image_tensor, original_image):
+def generate_gradcam(model, image_tensor, original_image, disease=None):
+    from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget
+
+    # Map disease to class index
+    CLASSES = ["Cardiomegaly", "Edema", "Consolidation", "Pneumonia", "Pleural Effusion"]
+    targets = None
+    if disease:
+        disease_lower = disease.lower().strip()
+        for idx, cls in enumerate(CLASSES):
+            if cls.lower() == disease_lower:
+                targets = [ClassifierOutputTarget(idx)]
+                break
 
     # Use DenseNet's last normalization layer for GradCAM
     target_layers = [model.features.norm5]
 
     cam = GradCAM(model=model, target_layers=target_layers)
-    grayscale_cam = cam(input_tensor=image_tensor)[0]
+    
+    # Ensure image_tensor is on the same device as the model to prevent device mismatch errors
+    device = next(model.parameters()).device
+    image_tensor = image_tensor.to(device)
+
+    grayscale_cam = cam(input_tensor=image_tensor, targets=targets)[0]
 
     # Normalize original_image to [0,1] and convert to RGB
     if original_image.max() > 1.0:
@@ -78,7 +94,8 @@ def analyze_region(model, image_tensor, original_image, disease):
     heatmap, cam_mask = generate_gradcam(
         model,
         image_tensor,
-        original_image
+        original_image,
+        disease
     )
 
     # Detect region using disease-aware logic

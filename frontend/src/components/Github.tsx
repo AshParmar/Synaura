@@ -156,25 +156,25 @@ export default function Github() {
                <div className="flex items-center gap-4">
                  <svg className="w-8 h-8 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M4 7V4h16v3M4 12h16M4 17v3h16v-3"/></svg>
                  <div>
-                   <div className="text-2xl font-semibold text-white mb-1">10K+</div>
-                   <div className="text-xs text-gray-500">X-rays Analyzed</div>
+                   <div className="text-2xl font-semibold text-white mb-1">377K+</div>
+                   <div className="text-xs text-gray-500">MIMIC-CXR Images</div>
                  </div>
                </div>
                
                <div className="flex items-center gap-4">
                  <svg className="w-8 h-8 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
                  <div>
-                   <div className="text-2xl font-semibold text-white mb-1">95%+</div>
-                   <div className="text-xs text-gray-500">Test Set Accuracy</div>
-                   <div className="text-[10px] text-gray-600 mt-1">(NIH + MIMIC-CXR)</div>
+                   <div className="text-2xl font-semibold text-white mb-1">50.3%</div>
+                   <div className="text-xs text-gray-500">CheXBert Label F1</div>
+                   <div className="text-[10px] text-gray-600 mt-1">(MIMIC-CXR Test Set)</div>
                  </div>
                </div>
 
                <div className="flex items-center gap-4">
                  <svg className="w-8 h-8 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                  <div>
-                   <div className="text-2xl font-semibold text-white mb-1">20+</div>
-                   <div className="text-xs text-gray-500">Abnormalities Detected</div>
+                   <div className="text-2xl font-semibold text-white mb-1">5</div>
+                   <div className="text-xs text-gray-500">Pathologies Classified</div>
                  </div>
                </div>
 

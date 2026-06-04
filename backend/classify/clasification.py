@@ -14,13 +14,46 @@ _checkpoint_dir = os.path.dirname(os.path.abspath(__file__))
 checkpoint_path = os.path.join(_checkpoint_dir, "densenet121_fuzzy_uselftrained_best.pth")
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
+
+def _download_weights_from_gcs(dest_path: str) -> bool:
+    bucket_name = os.getenv("GCS_BUCKET_NAME")
+    if not bucket_name:
+        print("[classifier] Warning: GCS_BUCKET_NAME is not set. Cannot download model weights.")
+        return False
+
+    try:
+        from google.cloud import storage
+        print(f"[classifier] Downloading model weights from gs://{bucket_name}/weights/densenet121_fuzzy_uselftrained_best.pth…")
+        client = storage.Client()
+        bucket = client.bucket(bucket_name)
+        blob = bucket.blob("weights/densenet121_fuzzy_uselftrained_best.pth")
+
+        # Ensure destination directory exists
+        os.makedirs(os.path.dirname(dest_path), exist_ok=True)
+        blob.download_to_filename(dest_path)
+        print("[classifier] [OK] Model weights downloaded successfully.")
+        return True
+    except Exception as e:
+        print(f"[classifier] Error downloading weights from GCS: {e}")
+        return False
+
+
+# Attempt to load model weights
+if not os.path.exists(checkpoint_path):
+    print(f"[classifier] Model weights file not found at {checkpoint_path}. Attempting to download from GCS...")
+    _download_weights_from_gcs(checkpoint_path)
+
 try:
-    state = torch.load(checkpoint_path, map_location=device)
-    model.load_state_dict(state["model"] if isinstance(state, dict) and "model" in state else state)
-    model.to(device)
-    model.eval()
-except FileNotFoundError:
-    print(f"Warning: Model weights not found at {checkpoint_path}. Skipping model init.")
+    if os.path.exists(checkpoint_path):
+        state = torch.load(checkpoint_path, map_location=device)
+        model.load_state_dict(state["model"] if isinstance(state, dict) and "model" in state else state)
+        model.to(device)
+        model.eval()
+        print("[classifier] [OK] Model loaded successfully with trained weights.")
+    else:
+        print("[classifier] Warning: Model weights file is not present. Model initialized with random weights.")
+except Exception as e:
+    print(f"[classifier] Error loading model weights: {e}")
 
 def classify_image(image_path):
     image = preprocess_image(image_path)

@@ -19,31 +19,31 @@ export default function Research() {
 
           <div className="grid grid-cols-3 gap-8">
              <div className="flex flex-col gap-1 border-l border-border/50 pl-6">
-                <span className="text-2xl font-medium text-white">95.7%</span>
-                <span className="text-xs text-gray-500">Accuracy</span>
+                <span className="text-2xl font-medium text-white">50.3%</span>
+                <span className="text-xs text-gray-500">CheXBert Label F1</span>
              </div>
              <div className="flex flex-col gap-1 border-l border-border/50 pl-6">
-                <span className="text-2xl font-medium text-white">0.948</span>
-                <span className="text-xs text-gray-500">F1 Score</span>
+                <span className="text-2xl font-medium text-white">38.8%</span>
+                <span className="text-xs text-gray-500">RadGraph F1</span>
              </div>
              <div className="flex flex-col gap-1 border-l border-border/50 pl-6">
-                <span className="text-2xl font-medium text-white">0.977</span>
-                <span className="text-xs text-gray-500">AUC-ROC</span>
+                <span className="text-2xl font-medium text-white">71.0%</span>
+                <span className="text-xs text-gray-500">Region Local F1</span>
              </div>
              <div className="flex flex-col gap-1 border-l border-border/50 pl-6">
-                <span className="text-2xl font-medium text-white">3.12%</span>
-                <span className="text-xs text-gray-500">ECE Score ↓</span>
+                <span className="text-2xl font-medium text-white">73.5%</span>
+                <span className="text-xs text-gray-500">Fuzzy Calibration</span>
                 <span className="text-[10px] text-green-500 mt-1">Well Calibrated</span>
              </div>
              <div className="flex flex-col gap-1 border-l border-border/50 pl-6">
-                <span className="text-2xl font-medium text-white">112K+</span>
+                <span className="text-2xl font-medium text-white">377K+</span>
                 <span className="text-xs text-gray-500">X-Ray Images</span>
-                <span className="text-[10px] text-gray-600 mt-1">NIH + MIMIC-CXR</span>
+                <span className="text-[10px] text-gray-600 mt-1">MIMIC-CXR Dataset</span>
              </div>
              <div className="flex flex-col gap-1 border-l border-border/50 pl-6">
-                <span className="text-2xl font-medium text-white">20+</span>
-                <span className="text-xs text-gray-500">Abnormalities</span>
-                <span className="text-[10px] text-gray-600 mt-1">Detected</span>
+                <span className="text-2xl font-medium text-white">5</span>
+                <span className="text-xs text-gray-500">Pathologies</span>
+                <span className="text-[10px] text-gray-600 mt-1">Classified</span>
              </div>
           </div>
         </div>
