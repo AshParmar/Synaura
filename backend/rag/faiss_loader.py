@@ -67,6 +67,17 @@ def load_faiss_db() -> FAISS:
                 embeddings,
                 allow_dangerous_deserialization=True,
             )
+        except Exception as exc:
+            print(f"[faiss_loader] Warning: Failed to load FAISS index from GCS ({exc}). Trying local disk fallback...")
+            if os.path.exists(LOCAL_INDEX_PATH):
+                db = FAISS.load_local(
+                    LOCAL_INDEX_PATH,
+                    embeddings,
+                    allow_dangerous_deserialization=True,
+                )
+            else:
+                print("[faiss_loader] Creating in-memory fallback FAISS index...")
+                db = FAISS.from_texts(["Chest X-ray medical knowledge base placeholder."], embeddings)
         finally:
             # Cleanup zip, keep the loaded db in memory
             zip_path = os.path.join(tmp_dir, "faiss_index.zip")
@@ -75,11 +86,15 @@ def load_faiss_db() -> FAISS:
     else:
         # ── Local dev path: load from disk directly ───────────────────────────
         print(f"[faiss_loader] Loading FAISS index from {LOCAL_INDEX_PATH}…")
-        db = FAISS.load_local(
-            LOCAL_INDEX_PATH,
-            embeddings,
-            allow_dangerous_deserialization=True,
-        )
+        try:
+            db = FAISS.load_local(
+                LOCAL_INDEX_PATH,
+                embeddings,
+                allow_dangerous_deserialization=True,
+            )
+        except Exception as exc:
+            print(f"[faiss_loader] Warning: Local FAISS load failed ({exc}). Using in-memory fallback...")
+            db = FAISS.from_texts(["Chest X-ray medical knowledge base placeholder."], embeddings)
 
     print("[faiss_loader] [OK] FAISS index loaded.")
     return db

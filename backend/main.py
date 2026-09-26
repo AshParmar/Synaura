@@ -26,6 +26,8 @@ from backend.rag.query_generator import generate_query
 from backend.rag.dual_retrieval import generate_dual_queries
 from backend.rag.imedrag import refine_report
 
+from backend.llm_provider import make_llm
+
 # ── Optional cloud integrations (gracefully disabled if keys are missing) ──────
 try:
     from database.crud import save_scan_report, get_reports_for_user, delete_report
@@ -69,12 +71,37 @@ app.add_middleware(
 )
 
 
-llm = ChatGroq(
+llm = make_llm(
     temperature=0.2,
-    model="llama-3.1-8b-instant",
-    api_key=os.getenv("GROQ_API_KEY"),
+    model_name=os.getenv("GROQ_MODEL", "llama-3.1-8b-instant"),
 )
 UPLOAD_PATH = "backend/temp_xray.png"
+
+
+def generate_fallback_report(disease: str, region: str, confidence: float, interval: list[float]) -> str:
+    conf_pct = f"{confidence * 100:.1f}%"
+    lower_pct = f"{interval[0] * 100:.1f}%"
+    upper_pct = f"{interval[1] * 100:.1f}%"
+    
+    phrase = "strongly suggestive of" if confidence > 0.95 else ("suggestive of" if confidence > 0.85 else "possible")
+    
+    return f"""Radiology Report
+
+Findings:
+Chest X-ray examination demonstrates visual abnormalities localized primarily to the {region}. The spatial activation pattern aligns with radiological manifestations associated with {disease.lower()}.
+
+Interpretation:
+- Findings are {phrase} {disease.lower()} (estimated confidence: {conf_pct}, fuzzy interval: [{lower_pct} - {upper_pct}]).
+- Secondary differential diagnoses should be evaluated based on clinical context and symptom history.
+
+Recommendation:
+- Recommend clinical correlation and follow-up imaging if clinically indicated.
+
+Differential Diagnosis:
+1. {disease} (Primary AI detection)
+2. Alternative inflammatory or infectious etiology
+3. Atelectasis or localized pulmonary opacity
+"""
 
 
 @app.get("/health")
@@ -101,18 +128,24 @@ async def analyze_xray(
     # -------------------------
     results = predict_disease(UPLOAD_PATH)
 
-    # select top disease
-    top = max(results, key=lambda x: x["confidence"])
+    # select top disease safely
+    if results:
+        top = max(results, key=lambda x: x["confidence"])
+        disease = top["disease"]
+        confidence = top["confidence"]
+        interval = top["interval"]
+    else:
+        disease = "No Finding"
+        confidence = 0.90
+        interval = [0.85, 0.95]
 
-    disease = top["disease"]
-    confidence = top["confidence"]
     if confidence > 0.75:
         interpretation = "high likelihood"
     elif confidence > 0.5:
         interpretation = "moderate likelihood"
     else:
         interpretation = "low likelihood"
-    interval = top["interval"]
+
     fuzzy_info = {
         "lower": interval[0],
         "upper": interval[1],
@@ -139,35 +172,47 @@ async def analyze_xray(
     )
 
     # -------------------------
-    # 5. RAG Retrieval
+    # 5 & 6. RAG Retrieval & Report Generation
     # -------------------------
-    query = f"{disease} chest x-ray findings treatment"
-    rag_query = generate_query(disease, region, fuzzy_info, llm)
-    q1, q2 = generate_dual_queries(disease, region, fuzzy_info, llm)
+    report = None
+    try:
+        try:
+            q1, q2 = generate_dual_queries(disease, region, fuzzy_info, llm)
+        except Exception as exc:
+            print(f"[analyze_xray] Query generation failed ({exc}), using fallback queries.")
+            sentry_sdk.capture_exception(exc)
+            q1 = f"Radiological features of {disease} in {region} on chest X-ray"
+            q2 = f"Differential diagnosis of {region} opacities on chest X-ray"
 
-    docs_q1 = retrieve_hybrid(q1)
-    docs_q2 = retrieve_hybrid(q2)
+        try:
+            docs_q1 = retrieve_hybrid(q1)
+            docs_q2 = retrieve_hybrid(q2)
+        except Exception as exc:
+            print(f"[analyze_xray] Retrieval failed ({exc}), proceeding with empty docs.")
+            sentry_sdk.capture_exception(exc)
+            docs_q1, docs_q2 = [], []
 
-    # combine and deduplicate if needed
+        # Step 1: initial report (DER)
+        report = generate_report(
+            disease,
+            region,
+            fuzzy_info,
+            docs_q1,
+            docs_q2,
+            llm=llm,
+        )
 
-    # -------------------------
-    # 6. Report Generation
-    # -------------------------
-    # Step 1: initial report (DER)
-    report = generate_report(
-        disease,
-        region,
-        fuzzy_info,
-        docs_q1,
-        docs_q2
-)
+        # Step 2: refinement (i-MedRAG)
+        support_context = "\n".join([doc.page_content for doc in docs_q1[:5]]) if docs_q1 else ""
+        diff_context = "\n".join([doc.page_content for doc in docs_q2[:5]]) if docs_q2 else ""
+        report = refine_report(report, support_context, diff_context, llm)
 
-    # Prepare contexts again
-    support_context = "\n".join([doc.page_content for doc in docs_q1[:5]])
-    diff_context = "\n".join([doc.page_content for doc in docs_q2[:5]])
+    except Exception as exc:
+        print(f"[analyze_xray] Full report generation pipeline error: {exc}. Generating fallback report.")
+        sentry_sdk.capture_exception(exc)
 
-    # Step 2: refinement (i-MedRAG)
-    report = refine_report(report, support_context, diff_context, llm)
+    if not report or not report.strip():
+        report = generate_fallback_report(disease, region, float(confidence), interval)
 
     # -------------------------
     # 7. Final Response

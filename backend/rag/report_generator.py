@@ -5,19 +5,15 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 from langchain_core.messages import HumanMessage
-from langchain_groq import ChatGroq
+from backend.llm_provider import make_llm
 
 # Project root = parents[2] from backend/rag/this_file.py
 _env_path = Path(__file__).resolve().parents[2] / ".env"
 load_dotenv(_env_path)
 
-llm = ChatGroq(
-    temperature=0.2,
-    model="meta-llama/llama-4-scout-17b-16e-instruct",
-    api_key=os.getenv("GROQ_API_KEY"),
-)
-
-def generate_report(disease, region, fuzzy_info, docs1, docs2):
+def generate_report(disease, region, fuzzy_info, docs1, docs2, llm=None):
+    if llm is None:
+        llm = make_llm(temperature=0.2, model_name=os.getenv("GROQ_MODEL", "llama-3.1-8b-instant"))
 
     # -------------------------
     # 1. Prepare contexts (DER)

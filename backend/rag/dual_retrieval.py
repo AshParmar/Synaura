@@ -61,21 +61,30 @@ Now generate the queries.
     ])
     text = response.content.strip()
     import re
-    # Store regex patterns in variables
-    query1_pattern = r"Query1 ?\(Support Path\) ?:"
-    query2_pattern = r"Query2 ?\(Differential Path\) ?:"
-    # Normalize markers for easier parsing
-    text_norm = re.sub(query1_pattern, "Query1:", text, flags=re.IGNORECASE)
-    text_norm = re.sub(query2_pattern, "Query2:", text_norm, flags=re.IGNORECASE)
-    marker1 = "Query1:"
-    marker2 = "Query2:"
-    if marker1 not in text_norm or marker2 not in text_norm:
-        print("[generate_dual_queries] LLM output did not contain expected markers.\nFull output:\n", text)
-        raise ValueError("LLM output missing 'Query1:' or 'Query2:'. See printed output for details.")
-    try:
-        q1 = text_norm.split(marker1)[1].split(marker2)[0].strip()
-        q2 = text_norm.split(marker2)[1].strip()
-    except Exception as e:
-        print("[generate_dual_queries] Error parsing LLM output:\n", text)
-        raise ValueError(f"Failed to parse dual queries: {e}\nFull output:\n{text}")
+
+    # Accept multiple marker variants produced by different models:
+    # Query1:, Query 1:, Query 1 (Support Path):, Query2:, Query 2:, etc.
+    q1_match = re.search(
+        r"(?is)query\s*1\s*(?:\([^)]*\))?\s*:\s*(.*?)(?=\n\s*query\s*2\s*(?:\([^)]*\))?\s*:|$)",
+        text,
+    )
+    q2_match = re.search(
+        r"(?is)query\s*2\s*(?:\([^)]*\))?\s*:\s*(.*)$",
+        text,
+    )
+
+    if not q1_match or not q2_match:
+        print("[generate_dual_queries] LLM output did not contain expected markers, using fallback.\nFull output:\n", text)
+        q1 = f"Radiological features of {disease} in {region} on chest X-ray"
+        q2 = f"Differential diagnosis of {region} opacities on chest X-ray including mimics of {disease}"
+        return q1, q2
+
+    q1 = q1_match.group(1).strip().strip('*').strip()
+    q2 = q2_match.group(1).strip().strip('*').strip()
+
+    if not q1 or not q2:
+        print("[generate_dual_queries] Parsed empty query text, using fallback.\nFull output:\n", text)
+        q1 = f"Radiological features of {disease} in {region} on chest X-ray"
+        q2 = f"Differential diagnosis of {region} opacities on chest X-ray including mimics of {disease}"
+
     return q1, q2

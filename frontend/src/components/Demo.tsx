@@ -221,38 +221,38 @@ export default function Demo() {
   };
 
   return (
-    <section id="demo" className="py-32 bg-black min-h-screen relative overflow-hidden">
+    <section id="demo" className="py-16 sm:py-32 bg-black min-h-screen relative overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-accent/5 blur-[120px] rounded-full pointer-events-none" />
 
-      <div className="max-w-[1400px] mx-auto px-6 relative z-10">
-        <div className="mb-12 flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 relative z-10">
+        <div className="mb-10 sm:mb-12 flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
           <motion.div initial="hidden" animate="visible" variants={fadeUpVariant}>
             <div className="flex items-center gap-2 mb-3">
               <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
               <span className="text-[11px] text-gray-400 font-mono tracking-[0.2em] uppercase">LIVE DEMO</span>
             </div>
-            <h2 className="text-3xl md:text-[40px] font-semibold tracking-tight text-white mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-[40px] font-semibold tracking-tight text-white mb-4">
               Intelligence Workspace
             </h2>
-            <p className="text-gray-400 max-w-xl text-[15px] leading-relaxed">
+            <p className="text-gray-400 max-w-xl text-sm sm:text-[15px] leading-relaxed">
               Upload a chest X-Ray and get AI-powered insights with GradCAM visualization, confidence scores, and a comprehensive clinical report.
             </p>
           </motion.div>
           
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }} className="flex items-center gap-3 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-md text-xs text-gray-400 shadow-xl">
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }} className="flex items-center gap-3 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-md text-xs text-gray-400 shadow-xl shrink-0">
             <Shield className="w-3.5 h-3.5 text-accent" />
             HIPAA Compliant <span className="text-gray-600">•</span> Encrypted <span className="text-gray-600">•</span> Research Use Only
           </motion.div>
         </div>
 
         {/* 3-Column Layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:h-[650px]">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:h-[650px]">
           
           {/* LEFT: Upload */}
           <motion.div 
             initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.1 }}
-            className="lg:col-span-3 bg-[#0A0A0A] border border-white/10 rounded-2xl p-6 flex flex-col h-full shadow-2xl relative overflow-hidden group"
+            className="lg:col-span-3 bg-[#0A0A0A] border border-white/10 rounded-2xl p-5 sm:p-6 flex flex-col min-h-[340px] lg:h-full shadow-2xl relative overflow-hidden group"
           >
             <div className="absolute top-0 inset-x-0 h-[1px] bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             
@@ -341,7 +341,7 @@ export default function Demo() {
           {/* CENTER: Viewer */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}
-            className="lg:col-span-6 bg-[#0A0A0A] border border-white/10 rounded-2xl overflow-hidden relative flex flex-col h-full min-h-[400px] shadow-2xl"
+            className="lg:col-span-6 bg-[#0A0A0A] border border-white/10 rounded-2xl overflow-hidden relative flex flex-col h-full min-h-[320px] sm:min-h-[420px] shadow-2xl"
           >
             <div className="h-14 border-b border-white/5 flex items-center justify-between px-6 bg-[#050505] shrink-0 z-20">
               <div className="flex gap-6">
@@ -443,7 +443,7 @@ export default function Demo() {
           {/* RIGHT: Output */}
           <motion.div 
             initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.3 }}
-            className="lg:col-span-3 bg-[#0A0A0A] border border-white/10 rounded-2xl p-6 flex flex-col h-full overflow-hidden min-h-[400px] shadow-2xl"
+            className="lg:col-span-3 bg-[#0A0A0A] border border-white/10 rounded-2xl p-5 sm:p-6 flex flex-col h-full overflow-hidden min-h-[400px] shadow-2xl"
           >
              <h3 className="text-white text-sm font-medium mb-6 flex items-center gap-2 pb-4 border-b border-white/5">
               <Brain className="w-4 h-4 text-accent" /> Intelligence Output
@@ -537,7 +537,7 @@ export default function Demo() {
                            strong: ({node, ...props}) => <strong className="font-semibold text-white" {...props} />,
                          }}
                        >
-                         {result.report}
+                         {result.report || "No medical report generated."}
                        </ReactMarkdown>
                      </div>
                   </div>
